@@ -16,16 +16,31 @@
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.3.min.js" ></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <!---------------------------------------------------------------->
-   <!--<script >
-   
-                 
-    function Radio(){
-        document.getElementById("warning").style.display="none";
-    };
-   
-   
-   
-   </script>-->
+  <script >
+
+      $(document).ready(function(){
+          $('#yes').change(function(){
+              if(this.checked) {
+                  $('#companyForm').fadeOut('slow');
+              }
+              else {
+                  $('#companyForm').fadeIn('slow');
+              }
+          });
+
+          $('#no').change(function(){
+              if(this.checked) {
+                  $('#companyForm').fadeIn('slow');
+              }
+              else {
+                  $('#companyForm').fadeOut('slow');
+              }
+          });
+      });
+
+
+
+  </script>
 
    <script src="_scripts_Eggrafi.js"></script>   
 
@@ -46,8 +61,6 @@
         </br>
   
         <h3 align="center">Εγγραφή Χρήστη</h3>
-  
-  
 
          <div class="tab-pane" id="Prosthiki">
             <div class="container">
@@ -153,9 +166,7 @@
                     </div>
                 </div>
 
-                <br /><br /><br />	
-                
-                
+                <br /><br /><br />
 
                 <div class="col-sm-12">
                     <div class="col-sm-3"></div>
@@ -267,7 +278,29 @@
         
             <span id="Step3" style="display:none">
 
-                </br>
+                 <div class="col-sm-12">
+                     <div class="col-sm-3"></div>
+                     <div class="col-sm-3"><label>Τύπος Χρήστη</label></div>
+                     <div class="col-sm-2" >
+                         <input type="checkbox" name="promCheck" id="promCheck">Προμηθετής<br><br>
+
+                     </div>
+                     <div class="col-sm-2"><input type="checkbox" name="paraCheck" id="paraCheck">Παρασκευαστής</div>
+                 </div>
+
+                <div class="col-sm-12">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3"><label>Φυσικό Πρόσωπο</label></div>
+                    <div class="col-sm-1" >
+                        <input type="radio" name="person" id="yes">Ναι<br><br>
+
+                    </div>
+                    <div class="col-sm-1"><input type="radio" name="person" id="no">Όχι</div>
+                </div>
+                <hr>
+                </br></br></br></br>
+
+                <div id="companyForm" >
 
                 <div class="col-sm-12">
                     <div class="col-sm-3"></div>
@@ -707,10 +740,12 @@
                             <textarea id="description" name="description" rows="5" class="form-control input-lg" cols="20"></textarea>
                     </div>
                 </div>
-    
+
+                </div>
+
                 <br /><br /><br /><br /><br /><br /><br /><br />
 
-                <div class="row">
+                <div class="row" style="text-align: center">
                     <button type="submit" class="btn btn-primary">Εγγραφή</button>
                 </div>
             
