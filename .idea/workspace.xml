@@ -2,35 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="086a76e8-4405-4031-9029-b9b0c5448890" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User/GeneralForms/dda/uploads/3.cv.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User/GeneralForms/dda/uploads/6.EngishCertificate.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User/GeneralForms/dda/uploads/7.Passport.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User/GeneralForms/anazitisi_xristi.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User/GeneralForms/ousies/deleteChimikiOusiaData.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User/GeneralForms/promitheftiki/deletePromitheftriaEteriaData.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User/GeneralForms/dda/form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User/GeneralForms/dda/form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User/GeneralForms/ousies/getChimikaData.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User/GeneralForms/paraskevastiki/getParaskevastikiEteriaData.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User/GeneralForms/paraskevastiki/getParaskevastikiEteriaData11.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User/GeneralForms/promitheftiki/getPromitheftriaEteriaData.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User/GeneralForms/proion/getStixiaProiontosData.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User/GeneralForms/paraskevastiki/paraskevastikiEteriaForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User/GeneralForms/promitheftiki/promitheftriaEteriaForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User/GeneralForms/dda/prosthikiDDA.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User/GeneralForms/ousies/script_chimicon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User/GeneralForms/dda/script_dda.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User/GeneralForms/paraskevastiki/script_paraskevastikis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User/GeneralForms/proion/script_proion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User/GeneralForms/promitheftiki/script_promitheftria.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User/GeneralForms/dda/sqlQueries.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User/GeneralForms/ousies/stixiaChimikonOusion.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User/GeneralForms/proion/stixiaProiontosForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User/GeneralForms/stixia_eterias.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User/GeneralForms/stixia_xristi.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User/GeneralForms/dda/uploadDDA.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User/GeneralForms/dda/uploadIMG.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Deep_Edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/PDF_Logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/accept.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arrow-left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arrow-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/banner_gr_Laa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/delete-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/invalid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/valid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/html5shiv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-1.9.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.bootstrap.wizard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/less-1.3.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/prettify.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/scripts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tabs.js" />
     </list>
     <ignored path="FinalTEE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,23 +61,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/User/GeneralForms/dda/form">
+      <file leaf-file-name="_scripts_Eggrafi.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Register/_scripts_Eggrafi.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2941">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/User/GeneralForms/dda/form.php">
+      <file leaf-file-name="createUser.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Register/createUser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26184833" vertical-offset="0" max-vertical-offset="1088">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1887">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1427052214664" expanded="true" signature="980:1086" placeholder="INSERT INTO ..." />
+                <marker date="1428308460696" expanded="true" signature="1718:1913" placeholder="INSERT INTO ..." />
+                <marker date="1428308460696" expanded="true" signature="1942:2295" placeholder="INSERT INTO ..." />
+                <marker date="1428308460696" expanded="true" signature="2325:2416" placeholder="INSERT INTO ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Register/register.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.48341233" vertical-offset="0" max-vertical-offset="12546">
+              <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register_php.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Register/register_php.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="646">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1427880600317" expanded="true" signature="552:622" placeholder="SELECT Disti..." />
               </folding>
             </state>
           </provider>
@@ -143,65 +173,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="User" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Promitheftis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalTEE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalTEE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="User" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ParaskevastisPromitheftis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalTEE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalTEE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="User" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Paraskevastis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalTEE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalTEE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="User" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeneralForms" />
+              <option name="myItemId" value="Register" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -219,6 +191,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\FinalTEE" />
       <recent name="C:\xampp\htdocs\FinalTEE\User\GeneralForms" />
       <recent name="C:\xampp\htdocs\FinalTEE\User\Promitheftis" />
       <recent name="C:\xampp\htdocs\FinalTEE\User\ParaskevastisPromitheftis" />
@@ -373,21 +346,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/User/GeneralForms/dda/form">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/User/GeneralForms/dda/form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26184833" vertical-offset="0" max-vertical-offset="1088">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
-            <marker date="1427052214664" expanded="true" signature="980:1086" placeholder="INSERT INTO ..." />
+            <marker date="1427052214664" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/GeneralForms/dda/form">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1954023" vertical-offset="0" max-vertical-offset="870">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/_scripts_Eggrafi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2941">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/register_php.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1427880600317" expanded="true" signature="552:622" placeholder="SELECT Disti..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/createUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1887">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1428308460696" expanded="true" signature="1718:1913" placeholder="INSERT INTO ..." />
+            <marker date="1428308460696" expanded="true" signature="1942:2295" placeholder="INSERT INTO ..." />
+            <marker date="1428308460696" expanded="true" signature="2325:2416" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48341233" vertical-offset="0" max-vertical-offset="12546">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
