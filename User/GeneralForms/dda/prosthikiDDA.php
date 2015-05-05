@@ -103,15 +103,7 @@
                 </div>
             </div>
             <br><br>
-            <div class="row">
-                <div class="col-md-4 column"  style="text-align: left">
-                   <input id="ButtonPrevious5" class="btn btn-default" type="button" value="Previous"  name="Step4" onclick="handleWizardPreviousStep5to4()" />
-                </div>
-                <div class="col-sm-4"></div>
-                <div class="col-md-4 column" style="text-align: right">
-                    <input id="ButtonNext5" class="btn btn-default" type="button" value="Next" disabled="disabled" />
-                </div>
-            </div>
+
         </div>
 
 

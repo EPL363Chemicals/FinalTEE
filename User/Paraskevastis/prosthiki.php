@@ -23,7 +23,7 @@
 
         <div class="col-md-12 column">
             <div class="col-md-4 column"  style="text-align: left">
-                <input class="btn btn-default" type="button" value="Previous"  disabled="disabled" name=""! />
+                <input class="btn btn-default" type="button" value="Previous"  disabled="disabled" name="" />
             </div>
             <div class="col-sm-4"></div>
             <div class="col-md-4 column" style="text-align: right">
@@ -39,11 +39,11 @@
         <?php include '../GeneralForms/ousies/stixiaChimikonOusion.php';?>
         <div class="row">
             <div class="col-md-4 column"  style="text-align: left">
-                <input " class="btn btn-default" type="button" value="Previous"  onclick="handleWizardPreviousStep4to3()" />
+                <input  class="btn btn-default" type="button" value="Previous"  onclick="handleWizardPreviousStep2to1()" />
             </div>
             <div class="col-sm-4"></div>
             <div class="col-md-4 column" style="text-align: right">
-                <input class="btn btn-default" type="button" value="Next" onClick="handleWizardNextStep4To5()" />
+                <input class="btn btn-default" type="button" value="Next" onClick="handleWizardNextStep2To3()" />
             </div>
         </div>
         <br>
@@ -51,9 +51,34 @@
     </span>
 
     <span id="Step3" style="display:none">
-        <?php include '../GeneralForms/paraskevastiki/paraskevastikiEteriaForm.php';?>  </span>
+        <?php include '../GeneralForms/promitheftiki/promitheftriaEteriaForm.php';?>
 
-    <span id="Step4" style="display:none"><?php include '../GeneralForm/dda/prosthikiDDA.php';?></span>
+        <div class="row">
+            <div class="col-md-4 column"  style="text-align: left">
+                <input class="btn btn-default" type="button" value="Previous" onclick="handleWizardPreviousStep3to2()" />
+            </div>
+            <div class="col-sm-4"></div>
+            <div class="col-md-4 column" style="text-align: right">
+                <input  class="btn btn-default" type="button" value="Next" onClick="handleWizardNextStep3To4()" />
+            </div>
+
+        </div>
+
+    </span>
+
+    <span id="Step4" style="display:none">
+        <?php include '../GeneralForms/dda/prosthikiDDA.php';?>
+
+        <div class="row">
+            <div class="col-md-4 column"  style="text-align: left">
+                <input class="btn btn-default" type="button" value="Previous" onclick="handleWizardPreviousStep4to3()" />
+            </div>
+            <div class="col-sm-4"></div>
+            <div class="col-md-4 column" style="text-align: right">
+                <input  class="btn btn-default" type="button" value="Next" disabled="disabled" />
+            </div>
+        </div>
+    </span>
 
 
     <br><br>

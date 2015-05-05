@@ -47,6 +47,7 @@
                 document.getElementById("suplCompany_Phone").value= "";
                 document.getElementById("suplCompany_fax").value= "";
                 document.getElementById("suplCompany_email").value= "";
+                document.getElementById("suplCompany_storageAdd").value= "";
                 document.getElementById("suplCompany_info").value= "";
                 document.getElementById("suplEmpl_name").value= "";
                 document.getElementById("suplEmpl_Surname").value= "";
@@ -99,6 +100,7 @@
                 var suplCompany_Phone = document.getElementById("suplCompany_Phone").value;
                 var suplCompany_fax = document.getElementById("suplCompany_fax").value;
                 var suplCompany_email = document.getElementById("suplCompany_email").value;
+                var suplCompany_storageAdd = document.getElementById("suplCompany_storageAdd").value;
                 var suplCompany_info = document.getElementById("suplCompany_info").value;
                 var suplEmpl_name = document.getElementById("suplEmpl_name").value;
                 var suplEmpl_Surname = document.getElementById("suplEmpl_Surname").value;
@@ -111,12 +113,12 @@
 
                 console.log(suplCompany_CommercialName);
                 // 3. Specify your action, location and Send to the server - Start
-                xhrProm.open('POST', 'prosthiki/promitheftiki/getPromitheftriaEteriaData.php');
+                xhrProm.open('POST', '../GeneralForms/promitheftiki/getPromitheftriaEteriaData.php');
                 xhrProm.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
                 xhrProm.send("countSuplCompany=" + countSuplCompany + "&suplCompany_Name=" + suplCompany_Name + "&suplCompany_CommercialName=" + suplCompany_CommercialName + "&suplCompany_OtherName="
                 + suplCompany_OtherName + "&suplCompany_legalForm=" + suplCompany_legalForm + "&suplCompany_CEO=" + suplCompany_CEO + "&suplCompany_Address=" + suplCompany_Address
                 + "&suplCompany_PC=" + suplCompany_PC + "&suplCompany_City=" + suplCompany_City + "&suplCompany_Phone=" + suplCompany_Phone +
-                "&suplCompany_fax=" + suplCompany_fax + "&suplCompany_email=" + suplCompany_email + "&suplCompany_info=" + suplCompany_info + "&suplEmpl_name=" + suplEmpl_name
+                "&suplCompany_fax=" + suplCompany_fax + "&suplCompany_email=" + suplCompany_email+"&suplCompany_storageAdd=" +suplCompany_storageAdd+ "&suplCompany_info=" + suplCompany_info + "&suplEmpl_name=" + suplEmpl_name
                 + "&suplEmpl_Surname=" + suplEmpl_Surname + "&suplEmpl_address=" + suplEmpl_address + "&suplEmpl_pc=" + suplEmpl_pc + "&suplEmpl_city=" + suplEmpl_city + "&suplEmpl_phone=" + suplEmpl_phone +
                 "&suplEmpl_fax=" + suplEmpl_fax + "&suplEmpl_email=" + suplEmpl_email);
             }
@@ -150,7 +152,7 @@
 
             console.log(suplCompany_CommercialName);
             // 3. Specify your action, location and Send to the server - Start
-            xhrProm.open('POST', 'prosthiki/promitheftiki/deletePromitheftriaEteriaData.php');
+            xhrProm.open('POST', '../GeneralForms/promitheftiki/deletePromitheftriaEteriaData.php');
             xhrProm.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
             xhrProm.send("count="+count);
         }
@@ -179,6 +181,7 @@
             document.getElementById("suplCompany_Phone").value= "";
             document.getElementById("suplCompany_fax").value= "";
             document.getElementById("suplCompany_email").value= "";
+            document.getElementById("suplCompany_storageAdd").value= "";
             document.getElementById("suplCompany_info").value= "";
             document.getElementById("suplEmpl_name").value= "";
             document.getElementById("suplEmpl_Surname").value= "";

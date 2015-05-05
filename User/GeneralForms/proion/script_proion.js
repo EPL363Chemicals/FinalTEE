@@ -56,17 +56,16 @@
                 var chemicalProduct_use = document.getElementById("chemicalProduct_use").value;
                 var chemicalProduct_extraChar = document.getElementById("chemicalProduct_extraChar").value;
                 var chemicalProduct_state = document.getElementById("chemicalProduct_state").value;
-                var chemicalProduct_storageAdd = document.getElementById("chemicalProduct_storageAdd").value;
                 var chemicalProduct_SDS = document.getElementById("chemicalProduct_SDS").value;
                 var chemicalProduct_CPL = document.getElementById("chemicalProduct_CPL").value;
                 var chemicalProduct_V = document.getElementById("chemicalProduct_V").value;
 
-                console.log(constCompany_CommercialName);
+
                 // 3. Specify your action, location and Send to the server - Start
                 xhr.open('POST', '../GeneralForms/proion/getStixiaProiontosData.php');
                 xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
                 xhr.send("chemicalProduct_Name=" + chemicalProduct_Name +"&chemicalProduct_CommName="+chemicalProduct_CommName+"&chemicalProduct_use="
-                +chemicalProduct_use+"&chemicalProduct_extraChar="+chemicalProduct_extraChar+"&chemicalProduct_state="+chemicalProduct_state+"&chemicalProduct_storageAdd="+chemicalProduct_storageAdd
+                +chemicalProduct_use+"&chemicalProduct_extraChar="+chemicalProduct_extraChar+"&chemicalProduct_state="+chemicalProduct_state
                 +"&chemicalProduct_SDS="+chemicalProduct_SDS+"&chemicalProduct_CPL="+chemicalProduct_CPL+"&chemicalProduct_V="+chemicalProduct_V);
             }
 

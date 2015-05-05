@@ -31,7 +31,7 @@
                         var newTBDiv = document.createElement('tr');
                         var labelName = $('#chemical_Name').val();
                         newTBDiv.setAttribute('id','chemicaltexts'+intChemicals);
-                        newTBDiv.innerHTML ='<td><strong>'+intChemicals+'</strong></td><td>'+labelName+'</td><td><input type="image" src="../images/Deep_Edit.png" data-toggle="modal" data-target="#chemicalModal"></td><td><input type="image" src="../images/delete-icon.png" onclick= "removeElementID('+intChemicals+');"></td>';
+                        newTBDiv.innerHTML ='<td><strong>'+intChemicals+'</strong></td><td>'+labelName+'</td><td><input type="image" src="../../images/Deep_Edit.png" data-toggle="modal" data-target="#chemicalModal"></td><td><input type="image" src="../../images/delete-icon.png" onclick= "removeElementID('+intChemicals+');"></td>';
                         contentID.appendChild(newTBDiv);
                         document.getElementById("chemical_Name").value = "";
                         document.getElementById("chemical_CAS").value = "";
@@ -82,9 +82,9 @@
                     var chemical_enarmonismeni = document.getElementById("chemical_enarmonismeni").value;
 
 
-                    console.log(suplCompany_CommercialName);
+
                     // 3. Specify your action, location and Send to the server - Start
-                    xhrProm.open('POST', 'prosthiki/ousies/getChimikaData.php');
+                    xhrProm.open('POST', '../GeneralForms/ousies/getChimikaData.php');
                     xhrProm.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
                     xhrProm.send("countChemical="+countChemical+"&chemical_Name="+chemical_Name+"&chemical_CAS=" + chemical_CAS +"&chemical_EINECS="+chemical_EINECS+"&chemical_IUPAC="
                     +chemical_IUPAC+"&chemical_otherName="+chemical_otherName+"&chemical_weight="+chemical_weight+"&chemical_CLP="+chemical_CLP
@@ -126,9 +126,9 @@
                     }
                     // 2. Define what to do when xhrProm feed you the response from the server - Start
 
-                    console.log(suplCompany_CommercialName);
+
                     // 3. Specify your action, location and Send to the server - Start
-                    xhrProm.open('POST', 'prosthiki/ousies/deleteChimikiOusiaData.php');
+                    xhrProm.open('POST', '../GeneralForms/ousies/deleteChimikiOusiaData.php');
                     xhrProm.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
                     xhrProm.send("count="+count);
                 }

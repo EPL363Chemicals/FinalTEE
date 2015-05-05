@@ -18,7 +18,7 @@
                 <br><br>
                 
                 <div class="form-group">
-                    <label class="control-label col-sm-4" for="chemicalProduct_CommName">Εμπορική Ονομασία Προϊόντος:</label>
+                    <label class="control-label col-sm-4" for="chemicalProduct_CommName">Εμπορική Ονομασία Προϊόντος:<label style="color:red;">*</label></label>
                     <div class="col-sm-6">
                         <input type="text" class="form-control" required=true name="chemicalProduct_CommName" id="chemicalProduct_CommName" />
                     </div>
@@ -27,9 +27,9 @@
                 <br><br>
                 
                 <div class="form-group">
-                    <label class="control-label col-sm-4" for="chemicalProduct_use">Προβλεπόμενες Χρήσεις Προϊόντος:</label>
+                    <label class="control-label col-sm-4" for="chemicalProduct_use">Προβλεπόμενες Χρήσεις Προϊόντος:<label style="color:red;">*</label></label>
                     <div class="col-sm-6">
-                        <textarea type="text" class="form-control" rows="5" name="chemicalProduct_use" id="chemicalProduct_use" /></textarea>
+                        <textarea type="text" class="form-control" required=true rows="5" name="chemicalProduct_use" id="chemicalProduct_use" /></textarea>
                     </div>
                 </div>
                   
@@ -45,9 +45,9 @@
                 <br><br><br><br><br><br>
             
                 <div class="form-group">
-                    <label class="control-label col-sm-4" for="chemicalProduct_state">Κατάσταση Προϊόντος:</label>
+                    <label class="control-label col-sm-4" for="chemicalProduct_state">Κατάσταση Προϊόντος:<label style="color:red;">*</label></label>
                     <div class="col-sm-6">
-                        <select class="form-control" name="chemicalProduct_state" id="chemicalProduct_state">
+                        <select class="form-control" name="chemicalProduct_state" required=true id="chemicalProduct_state">
                           <option value="Αέριο">Αέριο</option>
                           <option value="Υγρό">Υγρό</option>
                           <option value="Στερεό">Στερεό</option>
@@ -60,29 +60,21 @@
                 </div>
                         
                 <br><br>
-                    
-                <div class="form-group">
-                    <label class="control-label col-sm-4" for="chemicalProduct_storageAdd">Διεύθυνση Αποθήκευσης Μείγματος:</label>
-                    <div class="col-sm-6">
-                        <input type="text" class="form-control" name="chemicalProduct_storageAdd" id="chemicalProduct_storageAdd" />
-                    </div>
-                </div>
-                 
-                <br><br>
+
                    
                 <div class="form-group">
-                    <label class="control-label col-sm-4" for="chemicalProduct_SDS">Στοιχεία Ταξινόμησης και Επισήμανσης σύμφωνα με το Δελτίο Δεδομένων Ασφαλείας (SDS)</label>
+                    <label class="control-label col-sm-4" for="chemicalProduct_SDS">Στοιχεία Ταξινόμησης και Επισήμανσης σύμφωνα με το Δελτίο Δεδομένων Ασφαλείας (SDS)<label style="color:red;">*</label></label>
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" name="chemicalProduct_SDS" id="chemicalProduct_SDS" />
+                        <input type="text" class="form-control" name="chemicalProduct_SDS" required=true id="chemicalProduct_SDS" />
                     </div>
                 </div>
         
                 <br><br><br>
         
                 <div class="form-group">
-                    <label class="control-label col-sm-4" for="chemicalProduct_CPL">Στοιχεία Ταξινόμησης και Επισήμανσης σύμφωνα με τον Κανονισμό 1272/2008 (Κανονισμός CLP)(αν είναι διαθέσιμα)</label>
+                    <label class="control-label col-sm-4" for="chemicalProduct_CPL">Στοιχεία Ταξινόμησης και Επισήμανσης σύμφωνα με τον Κανονισμό 1272/2008 (Κανονισμός CLP)(αν είναι διαθέσιμα)<label style="color:red;">*</label></label>
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" name="chemicalProduct_CPL" id="chemicalProduct_CPL" />
+                        <input type="text" class="form-control" name="chemicalProduct_CPL" required=true id="chemicalProduct_CPL" />
                     </div>
                 </div>
         
@@ -91,7 +83,7 @@
                 <div class="form-group">
                     <label class="control-label col-sm-4" for="chemicalProduct_V">Συσκευασία:</label>
                     <div class="col-sm-6">
-                        <input type="number" class="form-control" required=true name="chemicalProduct_V" id="chemicalProduct_V"/>
+                        <input type="number" class="form-control"  name="chemicalProduct_V" id="chemicalProduct_V"/>
                     </div>
                 </div>
             <br><br>

@@ -1,18 +1,10 @@
 
 
     <div class="container">
-        
-        <div class="form-group">
-            <label class="col-sm-4 control-label" for="c1">Εργάζεστε στην παρασκευαστική εταιρία;</label>
-                <div class="col-sm-4">
-                    <input type="checkbox" name="c1" id="c1">
-                </div>
-        </div>
-        
-        <form id="paraskevastiki_form">
+
         <div class="col-md-12 column" name="paraskevastiki_form"> 
             
-                <h3>Στοιχεία Παρασκευαστικής Εραιρίας</h3>
+                <h3>Στοιχεία Παρασκευάστριας Εραιρίας</h3>
                 <br>
          
             
@@ -23,16 +15,16 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label" for="constCompany_Name">Επωνυμία Επιχείρησης:</label>
                     <div class="col-sm-4">
-                        <input class="form-control" id="constCompany_Name" required="true" name="constCompany_Name" type="text">
+                        <input class="form-control" id="constCompany_Name"  name="constCompany_Name" type="text">
                     </div>
                 </div>
                 
                 <br><br>
                 
                 <div class="form-group">
-                    <label class="col-sm-3 control-label" for="constCompany_CommercialName">Εμπορική Επωνυμία Επιχείρησης:</label>
+                    <label class="col-sm-3 control-label" for="constCompany_CommercialName">Εμπορική Επωνυμία Επιχείρησης:<label style="color:red;">*</label></label>
                     <div class="col-sm-4">
-                        <input class="form-control" id="constCompany_CommercialName" name="constCompany_CommercialName"type="text">
+                        <input class="form-control" id="constCompany_CommercialName" required="true" name="constCompany_CommercialName"type="text">
                     </div>
                 </div>
 
@@ -50,7 +42,7 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label" for="constCompany_legalForm">Νομική Μορφή:</label>
                     <div class="col-sm-4">
-                        <input class="form-control" id="constCompany_legalForm" required="true"  name="constCompany_legalForm" type="text">
+                        <input class="form-control" id="constCompany_legalForm" name="constCompany_legalForm" type="text">
                     </div>
                 </div>
 
@@ -59,43 +51,43 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label" for="constCompany_CEO">Όνομα Διευθυντή:</label>
                     <div class="col-sm-4 ">
-                        <input class="form-control" id="constCompany_CEO" required="true" name="constCompany_CEO" type="text">
+                        <input class="form-control" id="constCompany_CEO" name="constCompany_CEO" type="text">
                     </div>
                 </div>
 
                 <br><br>
 
                 <div class="form-group">
-                    <label class="col-sm-3 control-label" for="constCompany_Address">Διεύθυνση:</label>
+                    <label class="col-sm-3 control-label" for="constCompany_Address">Διεύθυνση:<label style="color:red;">*</label></label>
                     <div class="col-sm-4">
-                        <input class="form-control" id="constCompany_Address" name="constCompany_Address" type="text">
+                        <input class="form-control" id="constCompany_Address" name="constCompany_Address" required="true" type="text">
                     </div>
                 </div>
 
                 <br><br>
 
                 <div class="form-group">
-                    <label class="col-sm-3 control-label" for="constCompany_PC">T.K. :</label>
+                    <label class="col-sm-3 control-label" for="constCompany_PC">T.K. :<label style="color:red;">*</label></label>
                     <div class="col-sm-2">
-                        <input class="form-control" id="constCompany_PC" name="constCompany_PC" type="number">
+                        <input class="form-control" id="constCompany_PC" name="constCompany_PC" required="true" type="number">
                     </div>
                 </div>
 
                 <br><br>
                 
                 <div class="form-group">
-                    <label class="col-sm-3 control-label" for="constCompany_City">Πόλη:</label>
+                    <label class="col-sm-3 control-label" for="constCompany_City">Πόλη:<label style="color:red;">*</label></label>
                     <div class="col-sm-4">
-                        <input class="form-control" id="constCompany_City" name="constCompany_City" type="text">
+                        <input class="form-control" id="constCompany_City" name="constCompany_City" required="true" type="text">
                     </div>
                 </div>
 
                 <br><br>
 
                 <div class="form-group">
-                    <label class="col-sm-3 control-label"  name="constCompany_country" for="constCompany_country">Χώρα:</label>
+                    <label class="col-sm-3 control-label"  name="constCompany_country" for="constCompany_country">Χώρα:<label style="color:red;">*</label></label>
                         <div class="col-sm-4">
-                            <select class="form-control" name="constCompany_country" id="constCompany_country">
+                            <select class="form-control" name="constCompany_country" required="true" id="constCompany_country">
                                 <option value="">--Choose your Country--</option>
                                 <option value="AF">Afghanistan</option>
                                 <option value="AX">Εland Islands</option>
@@ -348,7 +340,7 @@
                 <br><br>
               
                 <div class="form-group">
-                    <label class="col-sm-3 control-label" for="constCompany_Phone">Τηλέφωνο:</label>
+                    <label class="col-sm-3 control-label" for="constCompany_Phone">Τηλέφωνο:<label style="color:red;">*</label></label>
                     <div class="col-sm-4">
                         <input class="form-control" name="constCompany_Phone" required="true" id="constCompany_Phone" type="number">
                     </div>
@@ -357,9 +349,9 @@
                 <br><br>
 
                 <div class="form-group">
-                    <label class="col-sm-3 control-label" for="constCompany_fax">Φάξ:</label>
+                    <label class="col-sm-3 control-label" for="constCompany_fax">Φάξ:<label style="color:red;">*</label></label>
                     <div class="col-sm-4">
-                        <input class="form-control" name="constCompany_fax" id="constCompany_fax" type="number">
+                        <input class="form-control" name="constCompany_fax" id="constCompany_fax" required="true" type="number">
                     </div>
                 </div>
 
@@ -368,7 +360,7 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label" for="constCompany_email">Ηλεκτρονικό Ταχυδρομείο:</label>
                     <div class="col-sm-4">
-                        <input class="form-control" name="constCompany_email"  required="true" id="constCompany_email" type="email">
+                        <input class="form-control" name="constCompany_email"  id="constCompany_email" type="email">
                     </div>
                 </div>
 
@@ -393,7 +385,7 @@
                 <hr>
                 <br>
                 <div class="form-group">
-                    <label class="col-sm-3 control-label" for="constEmpl_name">Όνομα:</label>
+                    <label class="col-sm-3 control-label" for="constEmpl_name">Όνομα:<label style="color:red;">*</label></label>
                     <div class="col-sm-4">
                         <input class="form-control" name="constEmpl_name" required="true" id="constEmpl_name" type="text">
                     </div>
@@ -402,7 +394,7 @@
                 <br><br>
             
                 <div class="form-group">
-                    <label class="col-sm-3 control-label" for="constEmpl_Surname">Επίθετο:</label>
+                    <label class="col-sm-3 control-label" for="constEmpl_Surname">Επίθετο:<label style="color:red;">*</label></label>
                     <div class="col-sm-4">
                         <input class="form-control" name="constEmpl_Surname" required="true" id="constEmpl_Surname" type="text">
                     </div>
@@ -438,7 +430,7 @@
                 <br><br>
 
                 <div class="form-group">
-                    <label class="col-sm-3 control-label" for="constEmpl_phone">Τηλέφωνο:</label>
+                    <label class="col-sm-3 control-label" for="constEmpl_phone">Τηλέφωνο:<label style="color:red;">*</label></label>
                     <div class="col-sm-4">
                         <input class="form-control" name="constEmpl_phone" required="true" id="constEmpl_phone" type="number">
                     </div>
@@ -456,7 +448,7 @@
                 <br><br>
                 
                 <div class="form-group">
-                    <label class="col-sm-3 control-label" for="constEmpl_email">Ηλεκτρονικό Ταχυδρομείο:</label>
+                    <label class="col-sm-3 control-label" for="constEmpl_email">Ηλεκτρονικό Ταχυδρομείο:<label style="color:red;">*</label></label>
                     <div class="col-sm-4">
                         <input class="form-control" name="constEmpl_email" required="true" id="constEmpl_email" type="email">
                     </div>
@@ -466,20 +458,10 @@
                 <br><br>
          
         </div>
-            </div>
-             <br><br>
-            <div class="row">
-                <div class="col-md-4 column"  style="text-align: left">
-                   <input id="ButtonPrevious1" class="btn btn-default" type="button" value="Previous"  disabled="disabled" name=""! />
-                </div>
-                <div class="col-sm-4"></div>
-                <div class="col-md-4 column" style="text-align: right">
-                    <input id="ButtonNext1" class="btn btn-default" class="paraskevastiki_button" value="Next" name="Step2" onclick="checkInputParaskevastikis()" type="submit"/>
-                </div>
-            </div>
-        </form>
+
         <br><br>
 
         
     </div>
+        </div>
 

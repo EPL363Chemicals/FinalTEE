@@ -23,32 +23,20 @@ if(isset($_FILES["myfile"])){
             {
                 $fileName = addslashes($fileName);
             }
-            
-            
-            $servername = "localhost";
-            $db = 'teedb';
-            $username = 'root';
-            $password = '261994akk';
-
-            // Create connection
-            $conn = new mysqli($servername, $username, $password, $db);
 
 
-            // Check connection
-            if ($conn->connect_error) {
-                die("Connection failed: " . $conn->connect_error);
-            }
+            include "../../connectToDB.php";
 
             $query = "INSERT INTO upload (name, size, type, content ) ".
             "VALUES ('$fileName', '$fileSize', '$fileType', '$content')";
-            
+
             if ($conn->query($query) === TRUE) {
                 echo "OK DDA ";
             } else {
                 echo "Error: " . $query . "<br>" . $conn->error;
             }
             
-            $getID = "SELECT id FROM uploads WHARE name= $filename and size = $fileSize and type=$fileType;"
+            $getID = "SELECT id FROM uploads WHARE name= $filename and size = $fileSize and type=$fileType;";
                 
             $result = mysql_query($getID, $conn);
             $row = mysql_fetch_array($result);
