@@ -9,7 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../login/css_LogIn.css" rel="stylesheet">  
         <script type="text/javascript" src="../js/jquery.min.js"></script>
 	    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
         <script type="text/javascript" src="../js/scripts.js"></script>
@@ -18,25 +17,19 @@
     <!---------------------------------------------------------------->
   <script >
 
-      $(document).ready(function(){
-          $('#yes').change(function(){
-              if(this.checked) {
-                  $('#companyForm').fadeOut('slow');
-              }
-              else {
-                  $('#companyForm').fadeIn('slow');
-              }
-          });
+$(document).ready(function(){
+      $("#isPerson").change(function () {
+          var end = this.value;
+          if(end == 0){
+              $('#companyForm').fadeInt('slow');
+          }
+          if (end == 1){
+              $('#companyForm').fadeOut('slow');
+          }
 
-          $('#no').change(function(){
-              if(this.checked) {
-                  $('#companyForm').fadeIn('slow');
-              }
-              else {
-                  $('#companyForm').fadeOut('slow');
-              }
-          });
       });
+});
+
 
 
 
@@ -281,31 +274,37 @@
                  <div class="col-sm-12">
                      <div class="col-sm-3"></div>
                      <div class="col-sm-3"><label>Τύπος Χρήστη</label></div>
-                     <div class="col-sm-2" >
-                         <input type="checkbox" name="promCheck" id="promCheck">Προμηθετής<br><br>
-
+                     <div class="col-sm-3">
+                         <select class="form-control" name="typeOfUser" id="typeOfUser">
+                             <option value="0">Προμηθετής</option>
+                             <option value="1">Παρασκευαστής</option>
+                             <option value="2">Προμηθετής + Παρασκευαστής </option>
+                         </select>
                      </div>
-                     <div class="col-sm-2"><input type="checkbox" name="paraCheck" id="paraCheck">Παρασκευαστής</div>
                  </div>
+
+                <br /><br /><br />
 
                 <div class="col-sm-12">
                     <div class="col-sm-3"></div>
                     <div class="col-sm-3"><label>Φυσικό Πρόσωπο</label></div>
-                    <div class="col-sm-1" >
-                        <input type="radio" name="person" id="yes">Ναι<br><br>
-
+                    <div class="col-sm-3">
+                        <select class="form-control" name="isPerson" id="isPerson">
+                            <option value="0">Όχι</option>
+                            <option value="1">Ναι</option>
+                        </select>
                     </div>
-                    <div class="col-sm-1"><input type="radio" name="person" id="no">Όχι</div>
                 </div>
-                <hr>
-                </br></br></br></br>
+
+                <br /><br /><br />
+
 
                 <div id="companyForm" >
 
                 <div class="col-sm-12">
                     <div class="col-sm-3"></div>
                     <div class="col-sm-3">
-                        <label for="CompName">Εμπορική Επωνυμία Επιχείρησης:</label>
+                        <label for="CompName">Επωνυμία Επιχείρησης:</label>
                     </div>
                     <div class="col-sm-3">   
                         <input id ="CompName" name ="CompName" class="form-control input-lg" type="text"  >

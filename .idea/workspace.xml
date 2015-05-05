@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="086a76e8-4405-4031-9029-b9b0c5448890" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/connectToDB.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/connectToDBforRead.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Register/createUser.php" afterPath="$PROJECT_DIR$/Register/createUser.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Register/register.php" afterPath="$PROJECT_DIR$/Register/register.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Register/register_php.php" afterPath="$PROJECT_DIR$/Register/register_php.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FinalTEE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,22 +34,24 @@
       <file leaf-file-name="_scripts_Eggrafi.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Register/_scripts_Eggrafi.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2071" max-vertical-offset="2941">
-              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2941">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createUser.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="createUser.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Register/createUser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="1887">
-              <caret line="15" column="0" selection-start-line="2" selection-start-column="2" selection-end-line="15" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.4981595" vertical-offset="767" max-vertical-offset="2108">
+              <caret line="69" column="241" selection-start-line="69" selection-start-column="241" selection-end-line="69" selection-end-column="241" />
               <folding>
-                <marker date="1428308460696" expanded="true" signature="1718:1913" placeholder="INSERT INTO ..." />
-                <marker date="1428308460696" expanded="true" signature="1942:2295" placeholder="INSERT INTO ..." />
-                <marker date="1428308460696" expanded="true" signature="2325:2416" placeholder="INSERT INTO ..." />
+                <marker date="1430824206196" expanded="true" signature="1616:1852" placeholder="INSERT INTO ..." />
+                <marker date="1430824206196" expanded="true" signature="1878:2211" placeholder="INSERT INTO ..." />
+                <marker date="1430824206196" expanded="true" signature="2237:2328" placeholder="INSERT INTO ..." />
+                <marker date="1430824206196" expanded="true" signature="2750:2978" placeholder="INSERT INTO ..." />
+                <marker date="1430824206196" expanded="true" signature="3004:3095" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -55,11 +60,21 @@
       <file leaf-file-name="register_php.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Register/register_php.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="646">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="510">
+              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
               <folding>
-                <marker date="1427880600317" expanded="true" signature="552:622" placeholder="SELECT Disti..." />
+                <marker date="1430823290383" expanded="true" signature="229:299" placeholder="SELECT Disti..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="connectToDBforRead.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/connectToDBforRead.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="340">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -67,8 +82,8 @@
       <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Register/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.73077" vertical-offset="12297" max-vertical-offset="13141">
-              <caret line="752" column="20" selection-start-line="752" selection-start-column="20" selection-end-line="752" selection-end-column="20" />
+            <state vertical-scroll-proportion="28.26923" vertical-offset="2537" max-vertical-offset="13124">
+              <caret line="106" column="42" selection-start-line="106" selection-start-column="42" selection-end-line="106" selection-end-column="42" />
               <folding>
                 <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#span#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -90,10 +105,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="connectToDB.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="connectToDB.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/connectToDB.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3021327" vertical-offset="0" max-vertical-offset="844">
+            <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="357">
               <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
               <folding />
             </state>
@@ -108,8 +123,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Register/register.php" />
         <option value="$PROJECT_DIR$/connectToDB.php" />
+        <option value="$PROJECT_DIR$/connectToDB2.php" />
+        <option value="$PROJECT_DIR$/Register/register_php.php" />
+        <option value="$PROJECT_DIR$/connectToDBforRead.php" />
+        <option value="$PROJECT_DIR$/Register/_scripts_Eggrafi.js" />
+        <option value="$PROJECT_DIR$/Register/register.php" />
+        <option value="$PROJECT_DIR$/Register/createUser.php" />
       </list>
     </option>
   </component>
@@ -118,10 +138,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -161,6 +179,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="FinalTEE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FinalTEE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FinalTEE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Register" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -218,7 +250,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="0" width="960" height="1040" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -227,7 +259,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15245202" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22777778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -359,28 +391,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Register/register_php.php">
+    <entry file="file://$PROJECT_DIR$/connectToDB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1427880600317" expanded="true" signature="552:622" placeholder="SELECT Disti..." />
-          </folding>
+        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="357">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connectToDBforRead.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="340">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Register/_scripts_Eggrafi.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2071" max-vertical-offset="2941">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2941">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/register_php.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="510">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding>
+            <marker date="1430823290383" expanded="true" signature="229:299" placeholder="SELECT Disti..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Register/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.73077" vertical-offset="12297" max-vertical-offset="13141">
-          <caret line="752" column="20" selection-start-line="752" selection-start-column="20" selection-end-line="752" selection-end-column="20" />
+        <state vertical-scroll-proportion="28.26923" vertical-offset="2537" max-vertical-offset="13124">
+          <caret line="106" column="42" selection-start-line="106" selection-start-column="42" selection-end-line="106" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#span#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -403,21 +451,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Register/createUser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="1887">
-          <caret line="15" column="0" selection-start-line="2" selection-start-column="2" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4981595" vertical-offset="767" max-vertical-offset="2108">
+          <caret line="69" column="241" selection-start-line="69" selection-start-column="241" selection-end-line="69" selection-end-column="241" />
           <folding>
-            <marker date="1428308460696" expanded="true" signature="1718:1913" placeholder="INSERT INTO ..." />
-            <marker date="1428308460696" expanded="true" signature="1942:2295" placeholder="INSERT INTO ..." />
-            <marker date="1428308460696" expanded="true" signature="2325:2416" placeholder="INSERT INTO ..." />
+            <marker date="1430824206196" expanded="true" signature="1616:1852" placeholder="INSERT INTO ..." />
+            <marker date="1430824206196" expanded="true" signature="1878:2211" placeholder="INSERT INTO ..." />
+            <marker date="1430824206196" expanded="true" signature="2237:2328" placeholder="INSERT INTO ..." />
+            <marker date="1430824206196" expanded="true" signature="2750:2978" placeholder="INSERT INTO ..." />
+            <marker date="1430824206196" expanded="true" signature="3004:3095" placeholder="INSERT INTO ..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/connectToDB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3021327" vertical-offset="0" max-vertical-offset="844">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
