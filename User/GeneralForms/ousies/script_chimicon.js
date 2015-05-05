@@ -39,6 +39,7 @@
                         document.getElementById("chemical_IUPAC").value = "";
                         document.getElementById("chemical_otherName").value = "";
                         document.getElementById("chemical_weight").value = "";
+                        document.getElementById("chemical_weight_type").value = "%";
                         document.getElementById("chemical_CLP").value = "";
                         document.getElementById("chemical_enarmonismeni").value = 0;
                     } else {
@@ -78,6 +79,7 @@
                     var chemical_IUPAC = document.getElementById("chemical_IUPAC").value;
                     var chemical_otherName = document.getElementById("chemical_otherName").value;
                     var chemical_weight = document.getElementById("chemical_weight").value;
+                    var chemical_weight_type = document.getElementById("chemical_weight_type").value;
                     var chemical_CLP = document.getElementById("chemical_CLP").value;
                     var chemical_enarmonismeni = document.getElementById("chemical_enarmonismeni").value;
 
@@ -87,7 +89,7 @@
                     xhrProm.open('POST', '../GeneralForms/ousies/getChimikaData.php');
                     xhrProm.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
                     xhrProm.send("countChemical="+countChemical+"&chemical_Name="+chemical_Name+"&chemical_CAS=" + chemical_CAS +"&chemical_EINECS="+chemical_EINECS+"&chemical_IUPAC="
-                    +chemical_IUPAC+"&chemical_otherName="+chemical_otherName+"&chemical_weight="+chemical_weight+"&chemical_CLP="+chemical_CLP
+                    +chemical_IUPAC+"&chemical_otherName="+chemical_otherName+"&chemical_weight="+chemical_weight+"&chemical_weight_type"+chemical_weight_type+"&chemical_CLP="+chemical_CLP
                     +"&chemical_enarmonismeni="+chemical_enarmonismeni);
                 }
 
@@ -140,6 +142,7 @@
                     document.getElementById("chemical_IUPAC").value = "";
                     document.getElementById("chemical_otherName").value = "";
                     document.getElementById("chemical_weight").value = "";
+                    document.getElementById("chemical_weight_type").value = "%";
                     document.getElementById("chemical_CLP").value = "";
                     document.getElementById("chemical_enarmonismeni").value = 0;
                 }

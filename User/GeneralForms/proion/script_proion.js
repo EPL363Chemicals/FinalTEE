@@ -59,6 +59,7 @@
                 var chemicalProduct_SDS = document.getElementById("chemicalProduct_SDS").value;
                 var chemicalProduct_CPL = document.getElementById("chemicalProduct_CPL").value;
                 var chemicalProduct_V = document.getElementById("chemicalProduct_V").value;
+                var chemicalProduct_V_Type = document.getElementById("chemicalProduct_V_Type").value;
 
 
                 // 3. Specify your action, location and Send to the server - Start
@@ -66,7 +67,7 @@
                 xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
                 xhr.send("chemicalProduct_Name=" + chemicalProduct_Name +"&chemicalProduct_CommName="+chemicalProduct_CommName+"&chemicalProduct_use="
                 +chemicalProduct_use+"&chemicalProduct_extraChar="+chemicalProduct_extraChar+"&chemicalProduct_state="+chemicalProduct_state
-                +"&chemicalProduct_SDS="+chemicalProduct_SDS+"&chemicalProduct_CPL="+chemicalProduct_CPL+"&chemicalProduct_V="+chemicalProduct_V);
+                +"&chemicalProduct_SDS="+chemicalProduct_SDS+"&chemicalProduct_CPL="+chemicalProduct_CPL+"&chemicalProduct_V="+chemicalProduct_V+"&chemicalProduct_V_Type="+chemicalProduct_V_Type);
             }
 
 

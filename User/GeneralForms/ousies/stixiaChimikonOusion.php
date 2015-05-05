@@ -69,8 +69,15 @@
 
                                     <div class="form-group">
                                         <label class="control-label col-sm-3" for="chemical_weight">Ακριβής συγκέντρωση χημικής ουσίας στο μείγμα                                                                  (βάρος κατά βάρος)</label>
-                                        <div class="col-sm-4">
+                                        <div class="col-sm-2">
                                             <input type="number" class="form-control" required=true name="chemical_weight" id="chemical_weight" />
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <select class="form-control" name="chemical_weight_type" id="chemical_weight_type">
+                                                <option value="%">%</option>
+                                                <option value="w/w">w/w</option>
+                                                <option value="v/v">v/v</option>
+                                            </select>
                                         </div>
                                     </div>
 

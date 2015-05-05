@@ -81,9 +81,17 @@
                 <br><br><br>
                    
                 <div class="form-group">
-                    <label class="control-label col-sm-4" for="chemicalProduct_V">Συσκευασία:</label>
-                    <div class="col-sm-6">
-                        <input type="number" class="form-control"  name="chemicalProduct_V" id="chemicalProduct_V"/>
+                    <label class="control-label col-sm-4" for="chemicalProduct_V">Συσκευασία:<label style="color:red;">*</label></label>
+                    <div class="col-sm-4">
+                        <input type="number" class="form-control"  required=true name="chemicalProduct_V" id="chemicalProduct_V"/>
+                    </div>
+                    <div class="col-sm-2">
+                        <select class="form-control" name="chemicalProduct_V_Type" id="chemicalProduct_V_Type">
+                            <option value="Kg">Kg</option>
+                            <option value="L">L</option>
+                            <option value="gr">gr</option>
+                            <option value="ml">ml</option>
+                        </select>
                     </div>
                 </div>
             <br><br>
