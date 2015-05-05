@@ -105,13 +105,5 @@
             </div>
             </form>
             <br><br>
-            <div class="row">
-                <div class="col-md-4 column"  style="text-align: left">
-                   <input id="ButtonPrevious4" class="btn btn-default" type="button" value="Previous" name="Step3" onclick="handleWizardPreviousStep4to3()" />
-                </div>
-                <div class="col-sm-4"></div>
-                <div class="col-md-4 column" style="text-align: right">
-                    <input id="ButtonNext4" class="btn btn-default" type="button" value="Next" name="Step5" onClick="handleWizardNextStep4To5()" />
-                </div>
-            </div>
+
 </div>

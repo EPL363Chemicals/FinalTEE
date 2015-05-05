@@ -67,7 +67,7 @@
 
             $sql = "INSERT INTO ComPerson (Name,Company, Surname, Address, Telephone, Fax, Email, PostCode, City, type) VALUES (N'$comName',N'$CompName',  N'$comSName',N'$comAddress', '$comTel' ,'$comFax', '$comEmail' , '$comPC',N'$comPoli','$typeOfUser' );";
 
-            $sql2 = "INSERT INTO Company (Company_Name, Lequl_State, Address, PostCode, City, Telephone, Fax, Email, info, Commersial_Name, Other_Name, CEO, Country) VALUES (N'$CompName',  '$CompLF', N'$CompAddres' ,'$CompPC', N'$CompCity' ,'$CompFax', '$CompEmail', N'$description','$comTel', N'$CompCommer', N'$CompOtherN',N'$CompCEO', N'$CompCountry');";
+            $sql2 = "INSERT INTO Company (Company_Name, Lequl_State, Address, PostCode, City, Telephone, Fax, Email, info, Commersial_Name, Other_Name, CEO, Country) VALUES (N'$CompName',  '$CompLF', N'$CompAddres' ,'$CompPC', N'$CompCity', '$CompTel','$CompFax', '$CompEmail', N'$description', N'$CompCommer', N'$CompOtherN',N'$CompCEO', N'$CompCountry');";
 
             $sql3 = "INSERT INTO Users (Username, Password, Comperson) VALUES (N'$userName',N'$pass',N'$comTel');";
 
@@ -112,7 +112,7 @@
         $_SESSION["username"] = $userName;
  
 
-        header( "location: ../Profile_User/profile5.php");
+        header( "location: ../login/login.php");
     }
 
 ?>

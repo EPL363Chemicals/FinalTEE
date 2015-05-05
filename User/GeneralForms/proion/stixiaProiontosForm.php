@@ -3,31 +3,31 @@
         	<div class="row">
                 <form id="proionForm">
        	        <div class="panel-heading " >
-                    <h2 class="panel-title col-sm-offset-1"><strong>Στοιχεία Χιμικού  Προιόντος</strong></h2>
+                    <h2 class="panel-title col-sm-offset-1"><strong>Στοιχεία Χιμικού  Προϊόντος</strong></h2>
                 </div>  
                 <hr>              
                 <br>
                                      
                 <div class="form-group">
-                    <label class="control-label col-sm-4" for="chemicalProduct_Name">Χημική Ονομασία:</label>
+                    <label class="control-label col-sm-4" for="chemicalProduct_Name">Χημική Ονομασία Προϊόντος:</label>
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" required=true name="chemicalProduct_Name" id="chemicalProduct_Name" />
+                        <input type="text" class="form-control"  name="chemicalProduct_Name" id="chemicalProduct_Name" />
                     </div>
                 </div>
                   
                 <br><br>
                 
                 <div class="form-group">
-                    <label class="control-label col-sm-4" for="chemicalProduct_CommName">Εμπορική Ονομασία:</label>
+                    <label class="control-label col-sm-4" for="chemicalProduct_CommName">Εμπορική Ονομασία Προϊόντος:</label>
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" name="chemicalProduct_CommName" id="chemicalProduct_CommName" />
+                        <input type="text" class="form-control" required=true name="chemicalProduct_CommName" id="chemicalProduct_CommName" />
                     </div>
                 </div>
                    
                 <br><br>
                 
                 <div class="form-group">
-                    <label class="control-label col-sm-4" for="chemicalProduct_use">Προβλεπόμενες Χρήσεις:</label>
+                    <label class="control-label col-sm-4" for="chemicalProduct_use">Προβλεπόμενες Χρήσεις Προϊόντος:</label>
                     <div class="col-sm-6">
                         <textarea type="text" class="form-control" rows="5" name="chemicalProduct_use" id="chemicalProduct_use" /></textarea>
                     </div>
@@ -45,12 +45,16 @@
                 <br><br><br><br><br><br>
             
                 <div class="form-group">
-                    <label class="control-label col-sm-4" for="chemicalProduct_state">Κατάσταση:</label>
+                    <label class="control-label col-sm-4" for="chemicalProduct_state">Κατάσταση Προϊόντος:</label>
                     <div class="col-sm-6">
                         <select class="form-control" name="chemicalProduct_state" id="chemicalProduct_state">
-                          <option value="0">Αέριο</option>
-                          <option value="1">Υγρό</option>
-                          <option value="2">Στερεό</option>
+                          <option value="Αέριο">Αέριο</option>
+                          <option value="Υγρό">Υγρό</option>
+                          <option value="Στερεό">Στερεό</option>
+                          <option value="Τζελ">Τζελ</option>
+                          <option value="Pellets">Pellets</option>
+                          <option value="Capsules">Capsules</option>
+                          <option value="Άλλο">Άλλο</option>
                         </select>
                     </div>
                 </div>
@@ -85,21 +89,15 @@
                 <br><br><br>
                    
                 <div class="form-group">
-                    <label class="control-label col-sm-4" for="chemicalProduct_V">Όγκος Συσκευασίας:</label>
+                    <label class="control-label col-sm-4" for="chemicalProduct_V">Συσκευασία:</label>
                     <div class="col-sm-6">
                         <input type="number" class="form-control" required=true name="chemicalProduct_V" id="chemicalProduct_V"/>
                     </div>
                 </div>
             <br><br>
-            <div class="row">
-                <div class="col-md-4 column"  style="text-align: left">
-                   <input id="ButtonPrevious3" class="btn btn-default" type="button" value="Previous"  name="Step2" onclick="handleWizardPreviousStep3to2()" />
-                </div>
-                <div class="col-sm-4"></div>
-                <div class="col-md-4 column" style="text-align: right">
-                    <input id="ButtonNext3" class="btn btn-default" type="submit" value="Next" name="Step4" onClick="checkInputProion()" />
-                </div>
-                </div>
+
+                   <br><br>
+
             </form>
                  
             </div>  
