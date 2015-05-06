@@ -1,7 +1,7 @@
                 var intChemicals=0;
                 var choiceCount=0;
 
-                function checkInputOusias(){
+                function checkInputOusias(strPchem,strHchem){
                     var proceed = true;
                     $("#chemicalForm input[required=true]").each(function() {
                         $(this).css('border-color', '');
@@ -13,7 +13,7 @@
                         }
                     });
                     if(proceed) {
-                        addElement();
+                        addElement(strPchem,strHchem);
                         $('#chemicalModal').modal('hide');
                     }else{
                         return;
@@ -21,12 +21,12 @@
                     event.preventDefault();
                 }
                 //FUNCTION TO ADD TEXT BOX ELEMENT
-                function addElement()
+                function addElement(strPchem,strHchem)
                 {
                     if (choiceCount < 100 && intChemicals < 200) {
                         intChemicals = intChemicals + 1;
                         choiceCount = choiceCount+1;
-                        PostDataXimikonOusion();
+                        PostDataXimikonOusion(strPchem,strHchem);
                         var contentID = document.getElementById('chemicalTable');
                         var newTBDiv = document.createElement('tr');
                         var labelName = $('#chemical_Name').val();
@@ -40,14 +40,13 @@
                         document.getElementById("chemical_otherName").value = "";
                         document.getElementById("chemical_weight").value = "";
                         document.getElementById("chemical_weight_type").value = "%";
-                        document.getElementById("chemical_CLP").value = "";
                         document.getElementById("chemical_enarmonismeni").value = 0;
                     } else {
                         alert("Φτάσατε το μέγιστο όριο χημικών ουσιών που μπορείτε να προσθέσετε");
                     }
                 }
 
-                function PostDataXimikonOusion() {
+                function PostDataXimikonOusion(strPchem,strHchem) {
                     // 1. Create xhrProm instance - Start
                     var xhrProm;
                     if (window.XMLHttpRequest) {
@@ -80,17 +79,44 @@
                     var chemical_otherName = document.getElementById("chemical_otherName").value;
                     var chemical_weight = document.getElementById("chemical_weight").value;
                     var chemical_weight_type = document.getElementById("chemical_weight_type").value;
-                    var chemical_CLP = document.getElementById("chemical_CLP").value;
                     var chemical_enarmonismeni = document.getElementById("chemical_enarmonismeni").value;
 
 
+                    var iconsChem = ""
+                    if(document.getElementById("icon1chem").checked == true){
+                        iconsChem = iconsChem+"icon1chem,";
+                    }
+                    if(document.getElementById("icon2chem").checked == true){
+                        iconsChem = iconsChem+"icon2chem,";
+                    }
+                    if(document.getElementById("icon3chem").checked == true){
+                        iconsChem = iconsChem+"icon3chem,";
+                    }
+                    if(document.getElementById("icon4chem").checked == true){
+                        iconsChem = iconsChem+"icon4chem,";
+                    }
+                    if(document.getElementById("icon5chem").checked == true){
+                        iconsChem = iconsChem+"icon5chem,";
+                    }
+                    if(document.getElementById("icon6chem").checked == true){
+                        iconsChem = iconsChem+"icon6chem,";
+                    }
+                    if(document.getElementById("icon7chem").checked == true){
+                        iconsChem = iconsChem+"icon7chem,";
+                    }
+                    if(document.getElementById("icon8chem").checked == true){
+                        iconsChem = iconsChem+"icon8chem,";
+                    }
+                    if(document.getElementById("icon9chem").checked == true){
+                        iconsChem = iconsChem+"icon9chem,";
+                    }
 
                     // 3. Specify your action, location and Send to the server - Start
                     xhrProm.open('POST', '../GeneralForms/ousies/getChimikaData.php');
                     xhrProm.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
                     xhrProm.send("countChemical="+countChemical+"&chemical_Name="+chemical_Name+"&chemical_CAS=" + chemical_CAS +"&chemical_EINECS="+chemical_EINECS+"&chemical_IUPAC="
-                    +chemical_IUPAC+"&chemical_otherName="+chemical_otherName+"&chemical_weight="+chemical_weight+"&chemical_weight_type"+chemical_weight_type+"&chemical_CLP="+chemical_CLP
-                    +"&chemical_enarmonismeni="+chemical_enarmonismeni);
+                    +chemical_IUPAC+"&chemical_otherName="+chemical_otherName+"&chemical_weight="+chemical_weight+"&chemical_weight_type"+chemical_weight_type
+                    +"&chemical_enarmonismeni="+chemical_enarmonismeni+"&strPchem="+strPchem+"&strHchem="+"&iconsChem="+iconsChem);
                 }
 
 
@@ -142,7 +168,6 @@
                     document.getElementById("chemical_IUPAC").value = "";
                     document.getElementById("chemical_otherName").value = "";
                     document.getElementById("chemical_weight").value = "";
-                    document.getElementById("chemical_weight_type").value = "%";
-                    document.getElementById("chemical_CLP").value = "";
+                    document.getElementById("chemical_weight_type").value = "";
                     document.getElementById("chemical_enarmonismeni").value = 0;
                 }

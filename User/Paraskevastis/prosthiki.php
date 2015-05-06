@@ -27,7 +27,7 @@
             </div>
             <div class="col-sm-4"></div>
             <div class="col-md-4 column" style="text-align: right">
-                <input class="btn btn-default"  type="button" value="Next" name="Step2" onclick="checkInputProion()"/>
+                <input class="btn btn-default"  type="button" value="Next" name="Step2" onclick="checkInputProion(strP, strH)"/>
             </div>
 
         </div>

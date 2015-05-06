@@ -1,6 +1,8 @@
 <link rel="stylesheet" href="../../css/bootstrap-multiselect.css" />
 <script src="../../js/bootstrap-multiselect.js"></script>
 <script>
+    var strP = "";
+    var strH = "";
     $(document).ready(function() {
         $('#select-P').multiselect({
             maxHeight: 200
@@ -9,6 +11,20 @@
             maxHeight: 200
         });
 
+
+        $( "#select-P" ).change(function() {
+
+            $( "#select-P option:selected" ).each(function() {
+                strP += $( this ).text() + ",";
+            });
+        }).trigger( "change" );
+
+        $( "#select-H" ).change(function() {
+
+            $( "#select-H option:selected" ).each(function() {
+                strH += $( this ).text() + ",";
+            });
+        }).trigger( "change" );
     });
 </script>
 
@@ -112,20 +128,20 @@
                         <label class="control-label col-sm-3">GHS pictograms</label>
 
                         <div class="col-md-6">
-                            <img src="../../DangerIcons/acid_red.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon1">
-                            <img src="../../DangerIcons/Aquatic-pollut-red.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon2">
-                            <img src="../../DangerIcons/bottle.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon3">
-                            <img src="../../DangerIcons/exclam.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon4">
-                            <img src="../../DangerIcons/explos.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon5">
+                            <img src="../../DangerIcons/acid_red.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon1" id="icon1">
+                            <img src="../../DangerIcons/Aquatic-pollut-red.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon2" id="icon2">
+                            <img src="../../DangerIcons/bottle.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon3" id="icon3">
+                            <img src="../../DangerIcons/exclam.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon4" id="icon4">
+                            <img src="../../DangerIcons/explos.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon5" id="icon5">
                         </div>
                     </div>
                     <div class="col-md-12">
                         <div class="col-sm-3"></div>
                         <div class="col-md-6">
-                            <img src="../../DangerIcons/flamme.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon6">
-                            <img src="../../DangerIcons/rondflam.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon7">
-                            <img src="../../DangerIcons/silhouete.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon8">
-                            <img src="../../DangerIcons/skull.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon9">
+                            <img src="../../DangerIcons/flamme.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon6" id="icon6">
+                            <img src="../../DangerIcons/rondflam.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon7" id="icon7">
+                            <img src="../../DangerIcons/silhouete.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon8" id="icon8">
+                            <img src="../../DangerIcons/skull.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon9" id="icon9">
                         </div>
                     </div>
                 </div>

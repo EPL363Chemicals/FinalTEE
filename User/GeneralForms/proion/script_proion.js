@@ -1,5 +1,5 @@
 
-    function checkInputProion(){
+    function checkInputProion(strP, strH){
         var proceed = true;
         $("#proionForm input[required=true]").each(function() {
             $(this).css('border-color', '');
@@ -57,17 +57,45 @@
                 var chemicalProduct_extraChar = document.getElementById("chemicalProduct_extraChar").value;
                 var chemicalProduct_state = document.getElementById("chemicalProduct_state").value;
                 var chemicalProduct_SDS = document.getElementById("chemicalProduct_SDS").value;
-                //var chemicalProduct_CPL = document.getElementById("chemicalProduct_CPL").value;
                 var chemicalProduct_V = document.getElementById("chemicalProduct_V").value;
                 var chemicalProduct_V_Type = document.getElementById("chemicalProduct_V_Type").value;
 
+                var icons = ""
+               if(document.getElementById("icon1").checked == true){
+                   icons = icons+"icon1,";
+               }
+                if(document.getElementById("icon2").checked == true){
+                    icons = icons+"icon2,";
+                }
+                if(document.getElementById("icon3").checked == true){
+                    icons = icons+"icon3,";
+                }
+                if(document.getElementById("icon4").checked == true){
+                    icons = icons+"icon4,";
+                }
+                if(document.getElementById("icon5").checked == true){
+                    icons = icons+"icon5,";
+                }
+                if(document.getElementById("icon6").checked == true){
+                    icons = icons+"icon6,";
+                }
+                if(document.getElementById("icon7").checked == true){
+                    icons = icons+"icon7,";
+                }
+                if(document.getElementById("icon8").checked == true){
+                    icons = icons+"icon8,";
+                }
+                if(document.getElementById("icon9").checked == true){
+                    icons = icons+"icon9,";
+                }
 
                 // 3. Specify your action, location and Send to the server - Start
                 xhr.open('POST', '../GeneralForms/proion/getStixiaProiontosData.php');
                 xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
                 xhr.send("chemicalProduct_Name=" + chemicalProduct_Name +"&chemicalProduct_CommName="+chemicalProduct_CommName+"&chemicalProduct_use="
                 +chemicalProduct_use+"&chemicalProduct_extraChar="+chemicalProduct_extraChar+"&chemicalProduct_state="+chemicalProduct_state
-                +"&chemicalProduct_SDS="+chemicalProduct_SDS+/*"&chemicalProduct_CPL="+chemicalProduct_CPL+*/"&chemicalProduct_V="+chemicalProduct_V+"&chemicalProduct_V_Type="+chemicalProduct_V_Type);
+                +"&chemicalProduct_SDS="+chemicalProduct_SDS+"&chemicalProduct_V="+chemicalProduct_V+"&chemicalProduct_V_Type="+chemicalProduct_V_Type+"&strP="+strP
+                +"&strH="+strH+"&icons="+icons);
             }
 
 

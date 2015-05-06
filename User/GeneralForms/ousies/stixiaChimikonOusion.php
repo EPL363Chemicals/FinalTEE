@@ -1,6 +1,9 @@
 <link rel="stylesheet" href="../../css/bootstrap-multiselect.css" />
 <script src="../../js/bootstrap-multiselect.js"></script>
 <script>
+
+    var strPchem = "";
+    var strHchem = "";
     $(document).ready(function() {
         $('#select-P-chem').multiselect({
             maxHeight: 200
@@ -8,6 +11,20 @@
         $('#select-H-chem').multiselect({
             maxHeight: 200
         });
+
+        $( "#select-P-chem" ).change(function() {
+
+            $( "#select-P-chem option:selected" ).each(function() {
+                strPchem += $( this ).text() + ",";
+            });
+        }).trigger( "change" );
+
+        $( "#select-H-chem" ).change(function() {
+
+            $( "#select-H-chem option:selected" ).each(function() {
+                strHchem += $( this ).text() + ",";
+            });
+        }).trigger( "change" );
 
     });
 </script>
@@ -116,9 +133,9 @@
                                         <label class="control-label col-sm-2">GHS pictograms</label>
 
                                         <div class="col-md-5">
-                                            <img src="../../DangerIcons/acid_red.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon1">
-                                            <img src="../../DangerIcons/Aquatic-pollut-red.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon2">
-                                            <img src="../../DangerIcons/bottle.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon3">
+                                            <img src="../../DangerIcons/acid_red.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon1" id="icon1chem">
+                                            <img src="../../DangerIcons/Aquatic-pollut-red.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon2" id="icon2chem">
+                                            <img src="../../DangerIcons/bottle.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon3" id="icon3chem">
 
                                         </div>
                                     </div>
@@ -126,9 +143,9 @@
 
                                     <div class="col-sm-2"></div>
                                     <div class="col-md-5">
-                                        <img src="../../DangerIcons/exclam.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon4">
-                                        <img src="../../DangerIcons/explos.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon5">
-                                        <img src="../../DangerIcons/flamme.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon6">
+                                        <img src="../../DangerIcons/exclam.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon4" id="icon4chem">
+                                        <img src="../../DangerIcons/explos.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon5" id="icon5chem">
+                                        <img src="../../DangerIcons/flamme.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon6" id="icon6chem">
 
                                     </div>
                                 </div>
@@ -136,9 +153,9 @@
 
                                         <div class="col-sm-2"></div>
                                         <div class="col-md-5">
-                                            <img src="../../DangerIcons/rondflam.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon7">
-                                            <img src="../../DangerIcons/silhouete.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon8">
-                                            <img src="../../DangerIcons/skull.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon9">
+                                            <img src="../../DangerIcons/rondflam.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon7" id="icon7chem">
+                                            <img src="../../DangerIcons/silhouete.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon8" id="icon8chem">
+                                            <img src="../../DangerIcons/skull.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon9" id="icon9chem">
                                         </div>
 
                                 </div>
@@ -336,7 +353,7 @@
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal" onclick="clearInputsChimikon()">Close</button>
-                    <button type="button"  class="btn btn-primary" onclick="checkInputOusias();" name="addentry">Save changes</button>
+                    <button type="button"  class="btn btn-primary" onclick="checkInputOusias(strPchem,strHchem);" name="addentry">Save changes</button>
                   </div>
                 </div>
               </div>
