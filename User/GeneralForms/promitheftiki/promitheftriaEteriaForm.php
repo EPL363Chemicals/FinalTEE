@@ -48,13 +48,13 @@
                                         <br><br>
                                         
                                         <div class="form-group">
-                                            <label class="col-sm-3 control-label" for="suplCompany_CommercialName">Εμπορική Επωνυμία Επιχείρησης:<label style="color:red;">*</label></label>
+                                            <label class="col-sm-3 control-label" for="suplCompany_CommercialName">Εμπορική Επωνυμία Επιχείρηση (Σύμφωνα με τον έφορο εταιριών):<label style="color:red;">*</label></label>
                                             <div class="col-sm-4">
                                                 <input class="form-control" id="suplCompany_CommercialName" required="true" name="suplCompany_CommercialName"type="text">
                                             </div>
                                         </div>
 
-                                        <br><br>
+                                        <br><br><br>
 
                                         <div class="form-group">
                                             <label class="col-sm-3 control-label" for="suplCompany_OtherName">Άλλη Επωνυμία:</label>
