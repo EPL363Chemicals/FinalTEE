@@ -40,19 +40,20 @@ if($_POST){
 <script>
     $(document).ready(function() {
                
-               $('#select-P').multiselect({
-            maxHeight: 200
-        });
-   var str = "";
-  $( "#select-P" ).change(function() {
-        
-        $( "select option:selected" ).each(function() {
-          str += $( this ).text() + ",";
-        });
-      }).trigger( "change" );
-    $("#but").click(function(){
-        alert(str);
-    });
+      $('#select-P').multiselect({
+        selectAllValue: 'multiselect-all',
+        enableCaseInsensitiveFiltering: true,
+        enableFiltering: true,
+        onChange: function(element, checked) {
+            var brands = $('#select-P option:selected');
+            var selected = [];
+            $(brands).each(function(index, brand){
+                selected.push([$(this).val()]);
+            });
+
+            console.log(selected);
+        }
+    }); 
    
 }); 
       
