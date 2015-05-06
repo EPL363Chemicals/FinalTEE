@@ -5,57 +5,42 @@
     var strPchem = "";
     var strHchem = "";
     $(document).ready(function() {
-         $('#select-P-chem').multiselect({
-        selectAllValue: 'multiselect-all',
-        enableCaseInsensitiveFiltering: true,
-        enableFiltering: true,
-        maxHeight: '200',
-        buttonWidth: '200',
-        onChange: function(element, checked) {
-            var brands = $('#select-P-chem option:selected');
-            var selected = [];
-            $(brands).each(function(index, brand){
-                selected.push([$(this).val()]);
+            $('#addentry').click(function(){
+                checkInputOusias(strPchem,strHchem);
+                strPchem = "";
+                strHchem = "";
+
             });
-             strPchem=selected;   
-        }
-    }); 
-     $('#select-H-chem').multiselect({
-        selectAllValue: 'multiselect-all',
-        enableCaseInsensitiveFiltering: true,
-        enableFiltering: true,
-        maxHeight: '200',
-        buttonWidth: '200',
-        onChange: function(element, checked) {
-            var brands = $('#select-H-chem option:selected');
-            var selected = [];
-            $(brands).each(function(index, brand){
-                selected.push([$(this).val()]);
-            });
-             strHchem=selected;   
-        }
-    }); 
-       /* $('#select-P-chem').multiselect({
-            maxHeight: 200
-        });
-        $('#select-H-chem').multiselect({
-            maxHeight: 200
-        });
-
-        $( "#select-P-chem" ).change(function() {
-
-            $( "#select-P-chem option:selected" ).each(function() {
-                strPchem += $( this ).text() + ",";
-            });
-        }).trigger( "change" );
-
-        $( "#select-H-chem" ).change(function() {
-
-            $( "#select-H-chem option:selected" ).each(function() {
-                strHchem += $( this ).text() + ",";
-            });
-        }).trigger( "change" );*/
-
+             $('#select-P-chem').multiselect({
+            selectAllValue: 'multiselect-all',
+            enableCaseInsensitiveFiltering: true,
+            enableFiltering: true,
+            maxHeight: '200',
+            buttonWidth: '200',
+            onChange: function(element, checked) {
+                var brands = $('#select-P-chem option:selected');
+                var selected = [];
+                $(brands).each(function(index, brand){
+                    selected.push([$(this).val()]);
+                });
+                 strPchem=selected;   
+            }
+        }); 
+         $('#select-H-chem').multiselect({
+            selectAllValue: 'multiselect-all',
+            enableCaseInsensitiveFiltering: true,
+            enableFiltering: true,
+            maxHeight: '200',
+            buttonWidth: '200',
+            onChange: function(element, checked) {
+                var brands = $('#select-H-chem option:selected');
+                var selected = [];
+                $(brands).each(function(index, brand){
+                    selected.push([$(this).val()]);
+                });
+                 strHchem=selected;   
+            }  
+        }); 
     });
 </script>
 
@@ -383,7 +368,7 @@
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal" onclick="clearInputsChimikon()">Close</button>
-                    <button type="button"  class="btn btn-primary" onclick="checkInputOusias(strPchem,strHchem);" name="addentry">Save changes</button>
+                    <button type="button"  class="btn btn-primary" id="addentry" name="addentry">Save changes</button>
                   </div>
                 </div>
               </div>

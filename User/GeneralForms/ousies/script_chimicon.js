@@ -127,10 +127,10 @@
                     var convertH="";
                     var i=0;
                     for(i=0;i<strPchem.length;i++){
-                        convertP=convertP+strPchem[i]+",";
+                        convertP=convertP+","+strPchem[i];
                     }
                      for(i=0;i<strHchem.length;i++){
-                        convertH=convertH+strHchem[i]+",";
+                        convertH=convertH+","+strHchem[i];
                     }
                     // 3. Specify your action, location and Send to the server - Start
                     xhrProm.open('POST', '../GeneralForms/ousies/getChimikaData.php');
