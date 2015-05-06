@@ -18,7 +18,6 @@
                     }else{
                         return;
                     }
-                    event.preventDefault();
                 }
                 //FUNCTION TO ADD TEXT BOX ELEMENT
                 function addElement(strPchem,strHchem)
@@ -33,25 +32,7 @@
                         newTBDiv.setAttribute('id','chemicaltexts'+intChemicals);
                         newTBDiv.innerHTML ='<td><strong>'+intChemicals+'</strong></td><td>'+labelName+'</td><td><input type="image" src="../../images/Deep_Edit.png" data-toggle="modal" data-target="#chemicalModal"></td><td><input type="image" src="../../images/delete-icon.png" onclick= "removeElementID('+intChemicals+');"></td>';
                         contentID.appendChild(newTBDiv);
-
-                        document.getElementById("chemical_Name").value = "";
-                        document.getElementById("chemical_CAS").value = "";
-                        document.getElementById("chemical_EINECS").value ="";
-                        document.getElementById("chemical_IUPAC").value = "";
-                        document.getElementById("chemical_otherName").value = "";
-                        document.getElementById("chemical_weight").value = "";
-                        document.getElementById("chemical_weight_type").value = "%";
-                        document.getElementById("chemical_enarmonismeni").value = 0;
-
-                        $('option', $('#select-P-chem')).each(function(element) {
-                            $(this).removeAttr('selected').prop('selected', false);
-                        });
-                        $('#select-P-chem').multiselect('refresh');
-                        $('option', $('#select-H-chem')).each(function(element) {
-                            $(this).removeAttr('selected').prop('selected', false);
-                        });
-
-                        $('#select-H-chem').multiselect('refresh');
+                        clearInputsChimikon();
 
                     } else {
                         alert("Φτάσατε το μέγιστο όριο χημικών ουσιών που μπορείτε να προσθέσετε");
@@ -204,6 +185,16 @@
                     });
 
                     $('#select-H-chem').multiselect('refresh');
+
+                    document.getElementById("icon1chem").checked = false;
+                    document.getElementById("icon2chem").checked = false;
+                    document.getElementById("icon3chem").checked = false;
+                    document.getElementById("icon4chem").checked = false;
+                    document.getElementById("icon5chem").checked = false;
+                    document.getElementById("icon6chem").checked = false;
+                    document.getElementById("icon7chem").checked = false;
+                    document.getElementById("icon8chem").checked = false;
+                    document.getElementById("icon9chem").checked = false;
 
                     console.log("clear");
                 }
