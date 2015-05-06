@@ -11,13 +11,28 @@
             maxHeight: 200
         });
 
+        $('#select-P').multiselect({
+            selectAllValue: 'multiselect-all',
+            enableCaseInsensitiveFiltering: true,
+            enableFiltering: true,
+            onChange: function(element, checked) {
+                var brands = $('#select-P option:selected');
+                var selected = [];
+                $(brands).each(function(index, brand){
+                    selected.push([$(this).val()]);
+                });
+                strP = selected;
+                console.log(strP);
+//                var a =strP.toJSON();
+//                console.log(a);
+            }});
 
-        $( "#select-P" ).change(function() {
-
-            $( "#select-P option:selected" ).each(function() {
-                strP += $( this ).text() + ",";
-            });
-        }).trigger( "change" );
+//        $( "#select-P" ).change(function() {
+//
+//            $( "#select-P option:selected" ).each(function() {
+//                strP += $( this ).text() + ",";
+//            });
+//        }).trigger( "change" );
 
         $( "#select-H" ).change(function() {
 

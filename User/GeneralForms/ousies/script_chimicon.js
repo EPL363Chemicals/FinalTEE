@@ -33,6 +33,7 @@
                         newTBDiv.setAttribute('id','chemicaltexts'+intChemicals);
                         newTBDiv.innerHTML ='<td><strong>'+intChemicals+'</strong></td><td>'+labelName+'</td><td><input type="image" src="../../images/Deep_Edit.png" data-toggle="modal" data-target="#chemicalModal"></td><td><input type="image" src="../../images/delete-icon.png" onclick= "removeElementID('+intChemicals+');"></td>';
                         contentID.appendChild(newTBDiv);
+
                         document.getElementById("chemical_Name").value = "";
                         document.getElementById("chemical_CAS").value = "";
                         document.getElementById("chemical_EINECS").value ="";
@@ -41,6 +42,13 @@
                         document.getElementById("chemical_weight").value = "";
                         document.getElementById("chemical_weight_type").value = "%";
                         document.getElementById("chemical_enarmonismeni").value = 0;
+
+                        $('option', $('#select-P-chem')).each(function(element) {
+                            $(this).removeAttr('selected').prop('selected', false);
+                        });
+
+                        $('#select-P-chem').multiselect('refresh');
+
                     } else {
                         alert("Φτάσατε το μέγιστο όριο χημικών ουσιών που μπορείτε να προσθέσετε");
                     }
@@ -170,4 +178,19 @@
                     document.getElementById("chemical_weight").value = "";
                     document.getElementById("chemical_weight_type").value = "";
                     document.getElementById("chemical_enarmonismeni").value = 0;
+
+
+                    $('option', $('#select-P-chem')).each(function(element) {
+                        $(this).removeAttr('selected').prop('selected', false);
+                    });
+
+                    $('#select-P-chem').multiselect('refresh');
+
+                    $('option', $('#select-P-chem')).each(function(element) {
+                        $(this).removeAttr('selected').prop('selected', false);
+                    });
+
+                    $('#select-P-chem').multiselect('refresh');
+
+                    console.log("clear");
                 }
