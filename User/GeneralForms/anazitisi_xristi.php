@@ -1,28 +1,25 @@
 <?php 
-$con =mysql_connect("localhost", "root", "261994akk");
-            mysql_select_db("teedb");
-            mysql_query ("set character_set_results='utf8'");
+include "../../connectToDBforRead.php";
 
-            if (!$con)
-                echo "Cannot connect: ".mysql_error();
-            else{
-                mysql_select_db("root", $con);
-                mysql_query ("set character_set_results='utf8'");
-            
-            }
-        //$user=htmlspecialchars($_GET["user"]);
-        $sql1 = mysql_query("SELECT DISTINCT product.*  FROM `product`,`Users` Where Users.Username='".$user."' and Users.Company=Constructor",$con);
-        $row1 = mysql_fetch_array($sql1);
-            
+switch($_SESSION["Company-Type"]){
+    case "0":$sql = mysql_query("SELECT Distinct * FROM `supply`,`product` WHERE supply.Supplier='".$_SESSION['Telephone']."' and product.Commercial_Name=supply.Product && product.Savingdate=supply.Saving_Date ",$con);
+        break;
+    case "1":$sql = mysql_query( "SELECT Distinct * FROM `product` WHERE product.Constructor='".$_SESSION['Telephone']."'"  ,$con);
+        break;
+    case "2":$sql = mysql_query("SELECT Distinct * FROM `supply`,`product` WHERE supply.Supplier='".$_SESSION['Telephone']."' and product.Commercial_Name=supply.Product && product.Savingdate=supply.Saving_Date ",$con);
+        break;
+}
+$row1 = mysql_fetch_array($sql);
+
 ?>
-
-        
+<br><br>
+     
         <table id="example" class="display" cellspacing="0" width="100%">
     <thead>
         <tr class="no">
             <th>Ημερομηνία Καταχώρησης</th>
             <th>Χειμικό Προιόν</th>
-            <th>Προμηθευτής</th>
+            <th>ΔΔΑ</th>
                     
         </tr>
     </thead>
@@ -37,7 +34,7 @@ $con =mysql_connect("localhost", "root", "261994akk");
         <tr class="yes" id="row<?php echo $i?>" >
             <td id="c1" class="c1"><?php echo $row1["SavingDate"]?></td>
             <td id="c2"  class="c2"><?php echo $row1["Chemical_Name"]?></td>
-            <td id="c3"  class="c3"><?php echo $row1["Constructor"]?></td>
+            <td id="c3"  class="c3"><?php echo $row1["Pdf_ID"]?></td>
                     <script>
                       tr = $('.display').find('tr.yes');
 
@@ -52,7 +49,7 @@ $con =mysql_connect("localhost", "root", "261994akk");
         </tr>
         <?php 
                $i=$i+1; 
-            $row1 = mysql_fetch_array($sql1);    
+            $row1 = mysql_fetch_array($sql);    
                
             }
               

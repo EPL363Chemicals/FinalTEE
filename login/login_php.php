@@ -35,6 +35,7 @@ if($_POST){
         $typeOfCompany=$row3['type'];
         $_SESSION['Telephone']=$row['Comperson'];
         $_SESSION['Company-Name']=$row3['Company_Name'];
+        $_SESSION['Company-Type']= $typeOfCompany;
         $type=1;
        
     }else $message=false;
