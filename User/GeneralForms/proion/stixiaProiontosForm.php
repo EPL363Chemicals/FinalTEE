@@ -5,41 +5,35 @@
     var strH = "";
     $(document).ready(function() {
         $('#select-P').multiselect({
-            maxHeight: 200
-        });
-        $('#select-H').multiselect({
-            maxHeight: 200
-        });
-
-        $('#select-P').multiselect({
-            selectAllValue: 'multiselect-all',
-            enableCaseInsensitiveFiltering: true,
-            enableFiltering: true,
-            onChange: function(element, checked) {
-                var brands = $('#select-P option:selected');
-                var selected = [];
-                $(brands).each(function(index, brand){
-                    selected.push([$(this).val()]);
-                });
-                strP = selected;
-                console.log(strP);
-//                var a =strP.toJSON();
-//                console.log(a);
-            }});
-
-//        $( "#select-P" ).change(function() {
-//
-//            $( "#select-P option:selected" ).each(function() {
-//                strP += $( this ).text() + ",";
-//            });
-//        }).trigger( "change" );
-
-        $( "#select-H" ).change(function() {
-
-            $( "#select-H option:selected" ).each(function() {
-                strH += $( this ).text() + ",";
+        selectAllValue: 'multiselect-all',
+        enableCaseInsensitiveFiltering: true,
+        enableFiltering: true,
+        maxHeight: '200',
+        buttonWidth: '200',
+        onChange: function(element, checked) {
+            var brands = $('#select-P option:selected');
+            var selected = [];
+            $(brands).each(function(index, brand){
+                selected.push([$(this).val()]);
             });
-        }).trigger( "change" );
+             strP=selected;   
+        }
+    }); 
+     $('#select-H').multiselect({
+        selectAllValue: 'multiselect-all',
+        enableCaseInsensitiveFiltering: true,
+        enableFiltering: true,
+        maxHeight: '200',
+        buttonWidth: '200',
+        onChange: function(element, checked) {
+            var brands = $('#select-H option:selected');
+            var selected = [];
+            $(brands).each(function(index, brand){
+                selected.push([$(this).val()]);
+            });
+             strH=selected;   
+        }
+    }); 
     });
 </script>
 

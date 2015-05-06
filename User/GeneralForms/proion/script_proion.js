@@ -88,14 +88,21 @@
                 if(document.getElementById("icon9").checked == true){
                     icons = icons+"icon9,";
                 }
-
+                var changeP="";
+                var changeH="";
+                    var i=0;
+                    for(i=0;i<strP.length;i++){
+                        changeP=changeP+strP[i]+",";
+                    }
+                     for(i=0;i<strH.length;i++){
+                        changeH=changeH+strH[i]+",";
+                    }
                 // 3. Specify your action, location and Send to the server - Start
                 xhr.open('POST', '../GeneralForms/proion/getStixiaProiontosData.php');
                 xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
                 xhr.send("chemicalProduct_Name=" + chemicalProduct_Name +"&chemicalProduct_CommName="+chemicalProduct_CommName+"&chemicalProduct_use="
                 +chemicalProduct_use+"&chemicalProduct_extraChar="+chemicalProduct_extraChar+"&chemicalProduct_state="+chemicalProduct_state
-                +"&chemicalProduct_SDS="+chemicalProduct_SDS+"&chemicalProduct_V="+chemicalProduct_V+"&chemicalProduct_V_Type="+chemicalProduct_V_Type+"&strP="+strP
-                +"&strH="+strH+"&icons="+icons);
+                +"&chemicalProduct_SDS="+chemicalProduct_SDS+"&chemicalProduct_V="+chemicalProduct_V+"&chemicalProduct_V_Type="+chemicalProduct_V_Type+"&strP="+changeP+"&strH="+changeH+"&icons="+icons);
             }
 
 

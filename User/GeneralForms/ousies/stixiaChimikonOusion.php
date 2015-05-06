@@ -5,7 +5,37 @@
     var strPchem = "";
     var strHchem = "";
     $(document).ready(function() {
-        $('#select-P-chem').multiselect({
+         $('#select-P-chem').multiselect({
+        selectAllValue: 'multiselect-all',
+        enableCaseInsensitiveFiltering: true,
+        enableFiltering: true,
+        maxHeight: '200',
+        buttonWidth: '200',
+        onChange: function(element, checked) {
+            var brands = $('#select-P-chem option:selected');
+            var selected = [];
+            $(brands).each(function(index, brand){
+                selected.push([$(this).val()]);
+            });
+             strPchem=selected;   
+        }
+    }); 
+     $('#select-H-chem').multiselect({
+        selectAllValue: 'multiselect-all',
+        enableCaseInsensitiveFiltering: true,
+        enableFiltering: true,
+        maxHeight: '200',
+        buttonWidth: '200',
+        onChange: function(element, checked) {
+            var brands = $('#select-H-chem option:selected');
+            var selected = [];
+            $(brands).each(function(index, brand){
+                selected.push([$(this).val()]);
+            });
+             strHchem=selected;   
+        }
+    }); 
+       /* $('#select-P-chem').multiselect({
             maxHeight: 200
         });
         $('#select-H-chem').multiselect({
@@ -24,7 +54,7 @@
             $( "#select-H-chem option:selected" ).each(function() {
                 strHchem += $( this ).text() + ",";
             });
-        }).trigger( "change" );
+        }).trigger( "change" );*/
 
     });
 </script>

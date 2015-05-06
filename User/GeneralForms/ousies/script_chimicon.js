@@ -46,8 +46,12 @@
                         $('option', $('#select-P-chem')).each(function(element) {
                             $(this).removeAttr('selected').prop('selected', false);
                         });
-
                         $('#select-P-chem').multiselect('refresh');
+                        $('option', $('#select-H-chem')).each(function(element) {
+                            $(this).removeAttr('selected').prop('selected', false);
+                        });
+
+                        $('#select-H-chem').multiselect('refresh');
 
                     } else {
                         alert("Φτάσατε το μέγιστο όριο χημικών ουσιών που μπορείτε να προσθέσετε");
@@ -118,13 +122,22 @@
                     if(document.getElementById("icon9chem").checked == true){
                         iconsChem = iconsChem+"icon9chem,";
                     }
-
+                    console.log(strHchem);
+                    var convertP="";
+                    var convertH="";
+                    var i=0;
+                    for(i=0;i<strPchem.length;i++){
+                        convertP=convertP+strPchem[i]+",";
+                    }
+                     for(i=0;i<strHchem.length;i++){
+                        convertH=convertH+strHchem[i]+",";
+                    }
                     // 3. Specify your action, location and Send to the server - Start
                     xhrProm.open('POST', '../GeneralForms/ousies/getChimikaData.php');
                     xhrProm.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
                     xhrProm.send("countChemical="+countChemical+"&chemical_Name="+chemical_Name+"&chemical_CAS=" + chemical_CAS +"&chemical_EINECS="+chemical_EINECS+"&chemical_IUPAC="
                     +chemical_IUPAC+"&chemical_otherName="+chemical_otherName+"&chemical_weight="+chemical_weight+"&chemical_weight_type"+chemical_weight_type
-                    +"&chemical_enarmonismeni="+chemical_enarmonismeni+"&strPchem="+strPchem+"&strHchem="+"&iconsChem="+iconsChem);
+                    +"&chemical_enarmonismeni="+chemical_enarmonismeni+"&convertP="+convertP+"&convertH="+convertH+"&iconsChem="+iconsChem);
                 }
 
 
@@ -186,11 +199,11 @@
 
                     $('#select-P-chem').multiselect('refresh');
 
-                    $('option', $('#select-P-chem')).each(function(element) {
+                    $('option', $('#select-H-chem')).each(function(element) {
                         $(this).removeAttr('selected').prop('selected', false);
                     });
 
-                    $('#select-P-chem').multiselect('refresh');
+                    $('#select-H-chem').multiselect('refresh');
 
                     console.log("clear");
                 }
