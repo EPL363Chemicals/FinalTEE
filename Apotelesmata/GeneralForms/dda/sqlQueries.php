@@ -94,7 +94,7 @@
     $strH = $_SESSION["strH"];
     $icons=$_SESSION["icons"];
 
-
+  
     $date = date('Y-m-d H:i:s');
 
     $dda = -1;
