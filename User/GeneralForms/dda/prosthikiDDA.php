@@ -34,11 +34,10 @@
                        
                         <script>
 
-                            $(document).ready(function()
-                            {
+                            $(document).ready(function(){
 
                             var settings = {
-                                url: "prosthiki/dda/uploadDDA.php",
+                                url: "../GeneralForms/dda/uploadDDA.php",
                                 method: "POST",
                                 allowedTypes:"pdf",
                                 fileName: "myfile",
@@ -46,7 +45,7 @@
                                 onSuccess:function(files,data,xhr)
                                 {
                                     $("#statusDDA").html("<font color='green'>Upload is success</font>");
-
+                                    console.log(xhr.responseText);
                                 },
                                 onError: function(files,status,errMsg)
                                 {		
@@ -73,7 +72,7 @@
                             $(document).ready(function(){
 
                             var settings = {
-                                url: "prosthiki/dda/uploadIMG.php",
+                                url: "../GeneralForms/dda/uploadIMG.php",
                                 method: "POST",
                                 allowedTypes:"pdf",
                                 fileName: "myfile",

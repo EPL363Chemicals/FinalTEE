@@ -19,7 +19,6 @@
             }else{
                 return;
             }
-            event.preventDefault();
         }
 
         //FUNCTION TO ADD Company TEXT BOX 

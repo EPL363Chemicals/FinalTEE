@@ -3,6 +3,8 @@
 session_start();
 session_unset();
 $_SESSION["username"] = "akkous01";
+$_SESSION["Telephone"] = 96583334;
+$_SESSION["Company_Type"] = 1;
 $_SESSION["suplCount"]=0;
 $_SESSION["chemicalsCount"]=0;
 

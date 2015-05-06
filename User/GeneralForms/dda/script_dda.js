@@ -43,7 +43,7 @@
             }
 
             // 3. Specify your action, location and Send to the server - Start
-            xhrProm.open('POST', 'prosthiki/dda/sqlQueries.php');
+            xhrProm.open('POST', '../GeneralForms/dda/sqlQueries.php');
             xhrProm.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
             xhrProm.send("save_mode="+save);
         }

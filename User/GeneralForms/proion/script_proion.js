@@ -15,7 +15,6 @@
         }else{
             return;
         }
-        event.preventDefault();
     }
             function PostDataProion() {
                 // 1. Create XHR instance - Start

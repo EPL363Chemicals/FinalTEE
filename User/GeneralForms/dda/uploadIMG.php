@@ -25,25 +25,19 @@ if(isset($_FILES["myfile"])){
             }
 
 
-            include "../../connectToDB.php";
+            include "../../../connectToDB.php";
 
             $query = "INSERT INTO upload (name, size, type, content ) ".
-            "VALUES ('$fileName', '$fileSize', '$fileType', '$content')";
+            "VALUES (N'$fileName', '$fileSize', '$fileType', '$content')";
 
             if ($conn->query($query) === TRUE) {
                 echo "OK DDA ";
+                session_start();
+                $_SESSION["IMG_id"] = $conn->insert_id;
+
             } else {
                 echo "Error: " . $query . "<br>" . $conn->error;
             }
-            
-            $getID = "SELECT id FROM uploads WHARE name= $filename and size = $fileSize and type=$fileType;";
-                
-            $result = mysql_query($getID, $conn);
-            $row = mysql_fetch_array($result);
-            $id = $row["id"];
-            
-            session_start();
-            $_SESSION["IMG_id"] = $id;
 
             $conn->close();
             

@@ -117,7 +117,7 @@
                     xhrProm.open('POST', '../GeneralForms/ousies/getChimikaData.php');
                     xhrProm.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
                     xhrProm.send("countChemical="+countChemical+"&chemical_Name="+chemical_Name+"&chemical_CAS=" + chemical_CAS +"&chemical_EINECS="+chemical_EINECS+"&chemical_IUPAC="
-                    +chemical_IUPAC+"&chemical_otherName="+chemical_otherName+"&chemical_weight="+chemical_weight+"&chemical_weight_type"+chemical_weight_type
+                    +chemical_IUPAC+"&chemical_otherName="+chemical_otherName+"&chemical_weight="+chemical_weight+"&chemical_weight_type="+chemical_weight_type
                     +"&chemical_enarmonismeni="+chemical_enarmonismeni+"&convertP="+convertP+"&convertH="+convertH+"&iconsChem="+iconsChem);
                 }
 
