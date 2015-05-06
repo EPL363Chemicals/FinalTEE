@@ -43,14 +43,25 @@ if($_POST){
                $('#select-P').multiselect({
             maxHeight: 200
         });
-                
+   var str = "";
+  $( "#select-P" ).change(function() {
+        
+        $( "select option:selected" ).each(function() {
+          str += $( this ).text() + ",";
+        });
+      }).trigger( "change" );
+    $("#but").click(function(){
+        alert(str);
+    });
+   
 }); 
+      
 </script>
   </head>
   <body> 
     
 
-<select id="select-P" multiple="multiple" class="form-control" size=5; >
+<select id="select-P" multiple="multiple"  name="multiselect[]" class="form-control" size=5; >
          <option value="P284">P284</option>
         <option value="P285">P285</option>
         <option value="P231+P232">P231+P232</option>
@@ -151,7 +162,7 @@ if($_POST){
         <option value="P411+P235">P411+P235</option>
         <option value="P501">P501</option>
 </select>
-
+<input type="button"  id="but" value="Button">
 
   </body>
 </html>
