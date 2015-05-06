@@ -32,8 +32,15 @@
                                     window.location="../Profile_Leitourgou2/Profile_LeitourgouKentriko.php";
                                 }
                                 if(response.user==1){
-
-                                    window.location="../Profile_User/profile5.php";
+                                    alert(response.Company);
+                                    switch(response.Company){
+                                            case "0":window.location="../User/Promitheftis/profile.php";
+                                                break;
+                                            case "1":window.location="../User/Paraskevastis/profile.php";
+                                                break;
+                                            case "2":window.location="../User/ParaskevastisPromitheftis/profile.php";
+                                                break;
+                                    }
                                 }
                             }
                         else{
@@ -87,13 +94,15 @@
 </div>
         <div class="form-group">
             <div id="Right" class="col-sm-7" ><a href="fpassword.html">Έχεται ξεχάσει τον κωδικό σας?</a></div>
-            <div id="Left" class="col-sm-5">
+            
+        </div>
+       <br>
+          <div  class="center"><a href="../Register/register.php">Εγγραφή Χρήστη</a></div>
+        <br>
+      
+        <div id="button" class="col-sm-12" style="text-align:center;">
                 <button    id="submit" type="button" class="btn btn-primary btn-default" >Σύνδεση</button>
             </div>
-        </div>
-        <br>
-    
-          <div  class="center"><a href="../Register/register.php">Εγγραφή Χρήστη</a></div>   
     
     
       </div>
