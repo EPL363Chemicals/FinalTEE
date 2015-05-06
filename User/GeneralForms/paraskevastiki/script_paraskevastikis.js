@@ -14,7 +14,7 @@
             });
 
             if(proceed) {
-                event.preventDefault();                
+
                 console.log("eftase22");
                 PostDataPaeaskevastiki();
                 console.log("eftase23");

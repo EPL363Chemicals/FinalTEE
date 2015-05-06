@@ -30,9 +30,9 @@
                 PostDataPromitheftiki();
                 var contentID = document.getElementById('entrycol');
                 var newTr = document.createElement('tr');
-                var name = $('#suplCompany_Name').val();
+                var name = $('#suplCompany_CommercialName').val();
                 newTr.setAttribute('id','entry'+intSupll);
-                newTr.innerHTML ='<td><strong>'+intSupll+'</strong></td><td>'+name+'</td><td><input type="image" src="../images/Deep_Edit.png" data-toggle="modal" data-target="#suplCompanyModal"></td><td><input type="image" src="../images/delete-icon.png" onclick= "removeCompanyID('+intSupll+');"></td>';
+                newTr.innerHTML ='<td><strong>'+intSupll+'</strong></td><td>'+name+'</td><td><input type="image" src="../../images/Deep_Edit.png" data-toggle="modal" data-target="#suplCompanyModal"></td><td><input type="image" src="../../images/delete-icon.png" onclick= "removeCompanyID('+intSupll+');"></td>';
 
                 contentID.appendChild(newTr);
 
