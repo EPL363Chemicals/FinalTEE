@@ -34,7 +34,7 @@ $row1 = mysql_fetch_array($sql);
         <tr class="yes" id="row<?php echo $i?>" >
             <td id="c1" class="c1"><?php echo $row1["SavingDate"]?></td>
             <td id="c2"  class="c2"><?php echo $row1["Commercial_Name"]?></td>
-            <td id="c3"  class="c3"><a href="../../DownloadDDA.php"><img src="../../images/PDF_Logo.jpg"></a></td>
+            <td id="c3"  class="c3"><a href="../../DownloadDDA.php"><img src="../../images/pdf-icon.png"></a></td>
                     <script>
                       tr = $('.display').find('tr.yes');
                         var type='<?php echo $_SESSION["Company-Type"];?>'
@@ -43,11 +43,11 @@ $row1 = mysql_fetch_array($sql);
                             product=$(this).find("td.c2").html();
                             company=$(this).find("td.c3").html();
                             switch(type){
-                                case "0":window.location="../apotelesmata/Promitheftis/profile.php?date="+date+"&product="+product;
+                                case "0":window.location="../../Apotelesmata/Promitheftis/apotelesma.php?date="+date+"&product="+product;
                                     break;
-                                case "1":window.location="../apotelesmata/Paraskevastis/profile.php?date="+date+"&product="+product;
+                                case "1":window.location="../../Apotelesmata/Paraskevastis/apotelesma.php?date="+date+"&product="+product;
                                     break;
-                                case "2":window.location="../apotelesmata/ParaskevastisPromitheftis/profile.php?date="+date+"&product="+product;
+                                case "2":window.location="../../Apotelesmata/ParaskevastisPromitheftis/apotelesma.php?date="+date+"&product="+product;
                                     break;
                             }
                             

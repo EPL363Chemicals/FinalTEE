@@ -1,4 +1,6 @@
-<?php include "ddaQuery.php"; ?>
+<?php
+include "ddaQuery.php";
+?>
     <style>
         .btn-file {
           position: relative;
@@ -57,7 +59,22 @@
             $('#tropopoiisi').hide();
             $('#epikeropoiisi').show();
         }
+
+        $('#tropopoiisi').click(function(){
+            var type='<?php echo $_SESSION["Company-Type"];?>';
+
+                switch(type){
+                    case "0":window.location="../../AcceptChanges/Promitheftis/prosthiki.php?date="+"<?php echo $date;?>"+"&product="+"<?php echo $product;?>";
+                        break;
+                    case "1":window.location="../../AcceptChanges/Paraskevastis/prosthiki.php?date="+"<?php echo $date;?>"+"&product="+"<?php echo $product;?>";
+                        break;
+                    case "2":window.location="../../AcceptChanges/ParaskevastisPromitheftis/prosthiki.php?date="+"<?php echo $date;?>"+"&product="+"<?php echo $product;?>";
+                        break;
+                }
+        })
     });
+
+
 
 
 </script>
@@ -93,8 +110,8 @@
             <br>
             <div class="row">
                 <div class="col-sm-4">
-                <button type="button" class="btn btn-info" id="tropopoiisi" onclick="addToDB(1);">Τροποποίηση</button>
-                <button type="button" class="btn btn-info" id="epikeropoiisi" onclick="addToDB(2);">Επικαιροποίηση</button>
+                <button type="button" class="btn btn-info" id="tropopoiisi"  );">Τροποποίηση</button>
+                <button type="button" class="btn btn-info" id="epikeropoiisi" );">Επικαιροποίηση</button>
                 </div>
             </div>
             <br><br>

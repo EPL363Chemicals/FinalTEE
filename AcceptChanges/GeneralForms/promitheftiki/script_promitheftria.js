@@ -23,7 +23,7 @@
             alert(num);
                         if(proceed) {
                             post_data = {
-                                'num'		: num,
+                                'num'		: num
                                 };
                            
                           

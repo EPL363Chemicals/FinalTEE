@@ -1,6 +1,6 @@
 
     function checkInputProion(strP, strH){
-        alert(strP);
+
         var proceed = true;
         $("#proionForm input[required=true]").each(function() {
             $(this).css('border-color', '');

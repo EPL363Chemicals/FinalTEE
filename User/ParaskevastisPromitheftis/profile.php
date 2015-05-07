@@ -1,12 +1,7 @@
 <?php
 // Start the session
 session_start();
-session_unset();
-$_SESSION["username"] = "akkous01";
-$_SESSION["Telephone"] = 96583334;
-$_SESSION["Company_Type"] =2;
-$_SESSION["suplCount"]=0;
-$_SESSION["chemicalsCount"]=0;
+
 
 include "../GeneralForms/findUser.php";
 
@@ -41,9 +36,9 @@ include "../GeneralForms/findUser.php";
     <link href="../../css/custom.css" rel="stylesheet" media="screen">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
     <link href="../../css/prettify.css" rel="stylesheet">
-    <!--    <link href="../Profile_Leitourgou2/media/css/jquery.dataTables.css" rel="stylesheet">-->
-    <!--    <script src="../Profile_Leitourgou2/media/js/jquery.js"></script>-->
-    <!--    <script src="../Profile_Leitourgou2/media/js/jquery.dataTables.js"></script>-->
+    <link href="../../Profile_Leitourgou/media/css/jquery.dataTables.css" rel="stylesheet">
+    <script src="../../Profile_Leitourgou/media/js/jquery.js"></script>
+    <script src="../../Profile_Leitourgou/media/js/jquery.dataTables.js"></script>
 
     <link href="https://rawgithub.com/hayageek/jquery-upload-file/master/css/uploadfile.css" rel="stylesheet">
 
@@ -63,19 +58,19 @@ include "../GeneralForms/findUser.php";
     <script>
 
         $(document).ready(function(){
-//            var t = $('#example').DataTable();
-//            var counter = 1;
-//            $('#addRow').on( 'click', function () {
-//                t.row.add( [
-//                    counter +'.1',
-//                    counter +'.2',
-//                    counter +'.3',
-//                    counter +'.4',
-//                    counter +'.5'
-//                ] ).draw();
-//
-//                counter++;
-//            } );
+            var t = $('#example').DataTable();
+            var counter = 1;
+            $('#addRow').on( 'click', function () {
+                t.row.add( [
+                    counter +'.1',
+                    counter +'.2',
+                    counter +'.3',
+                    counter +'.4',
+                    counter +'.5'
+                ] ).draw();
+
+                counter++;
+            } );
 
             // Automatically add a first row of data
             $('#addRow').click();

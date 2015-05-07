@@ -1,13 +1,5 @@
 <?php
 
-        //$date=htmlspecialchars($_GET["date"]);
-       // $product=htmlspecialchars($_GET["name"]);
-       // $company=htmlspecialchars($_GET["company"]);
-        
-       $date="2015-05-06";
-       $product="Gif";
-       $company="";
-   
 $sql2 = mysql_query("SELECT Distinct Comperson.* FROM `Comperson`,`Supply` WHERE Supply.Product=N'".$product."' and Comperson.Telephone=Supply.Supplier ", $con);
     $row2 = mysql_fetch_array($sql2);
 

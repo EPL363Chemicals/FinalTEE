@@ -2,14 +2,6 @@
 
 include "../../connectToDBforRead.php";
 
-
-        //$date=htmlspecialchars($_GET["date"]);
-       // $product=htmlspecialchars($_GET["name"]);
-       // $company=htmlspecialchars($_GET["company"]);
-        
-       $date="2015-05-06";
-       $product="Gif";
-       $company="";
         $sql1 = mysql_query("SELECT DISTINCT product.*,supply.Address  FROM `product`,`supply` Where product.Commercial_Name='".$product."'and product.SavingDate='".$date."'and supply.Product='".$product."'and supply.Saving_Date='".$date."'",$con);
         $row1 = mysql_fetch_array($sql1);
 

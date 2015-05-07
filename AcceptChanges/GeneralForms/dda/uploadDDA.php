@@ -39,22 +39,6 @@ if(isset($_FILES["myfile"])){
 
             $conn->close();
 
-
-            //include "../../../connectToDBforRead.php";
-
-//            $getID = "SELECT id FROM uploads WHARE name= $fileName and size = $fileSize and type=$fileType;";
-//
-//            $result = mysql_query($getID,$con);
-//            $row = mysql_fetch_array($result);
-//
-//            $id=-1;
-//            if ($row){
-//                $id = $row["id"];
-//                //$row = mysql_fetch_array($result);
-//            }
-
-
-       	 
     	}
     
     }

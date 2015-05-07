@@ -2,14 +2,6 @@
     
    include "../../connectToDBforRead.php";
 
-
-        //$date=htmlspecialchars($_GET["date"]);
-       // $product=htmlspecialchars($_GET["name"]);
-       // $company=htmlspecialchars($_GET["company"]);
-        
-       $date="2015-05-06";
-       $product="Gif";
-       $company="";
    $sql3 = mysql_query("SELECT Distinct substance.*,containschemical.Quantity,containschemical.QuantityType FROM `substance`,`containschemical`,`Product` WHERE Product.Commercial_Name='".$product."' and Product.Commercial_Name=containschemical.Name and Product.SavingDate=containschemical.Saving_Date and containschemical.Cas=Substance.Cas", $con);
    $row3 = mysql_fetch_array($sql3);
 /*SELECT Distinct substance.* FROM `substance`,`containschemical`,`Product` WHERE Product.Chemical_Name='Gif' and Product.Commercial_Name=containschemical.Name and Product.SavingDate=containschemical.Saving_Date and containschemical.Cas=Substance.Cas

@@ -24,16 +24,16 @@
                 var pass = $('#pass').val();
                     post_data = {
                         'user'		: user,
-                        'pass'      :pass,
+                        'pass'      :pass
                         };
                 $.post('login_php.php', post_data, function(response){
-                    alert(response.message);
+
                             if(response.message ==true){
                                 if(response.user==0){
-                                    window.location="../Profile_Leitourgou2/Profile_LeitourgouKentriko.php";
+                                    window.location="../Profile_Leitourgou/Profile_LeitourgouKentriko.php";
                                 }
                                 if(response.user==1){
-                                    alert(response.Company);
+
                                     switch(response.Company){
                                             case "0":window.location="../User/Promitheftis/profile.php";
                                                 break;

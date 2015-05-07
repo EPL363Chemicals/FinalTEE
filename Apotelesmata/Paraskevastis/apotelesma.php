@@ -1,14 +1,10 @@
 <?php
 // Start the session
 session_start();
-session_unset();
-$_SESSION["username"] = "akkous01";
-$_SESSION["Telephone"] = 96583334;
-$_SESSION["Company_Type"] = 1;
 
-$product = "Couanto Masalias";
-$date = "2015-05-06";
 
+$product=$_GET["product"];
+$date=$_GET["date"];
 
 
 ?>
@@ -32,7 +28,6 @@ $date = "2015-05-06";
 
     <script src="../GeneralForms/promitheftiki/script_promitheftria.js"></script>
     <script src="../GeneralForms/ousies/script_chimicon.js"></script>
-    <script src="../GeneralForms/dda/script_dda.js"></script>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 
