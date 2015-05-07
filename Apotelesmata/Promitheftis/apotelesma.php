@@ -1,3 +1,18 @@
+<?php
+// Start the session
+session_start();
+session_unset();
+$_SESSION["username"] = "akkous01";
+$_SESSION["Telephone"] = 96583334;
+$_SESSION["Company_Type"] = 0;
+$_SESSION["suplCount"]=0;
+$_SESSION["chemicalsCount"]=0;
+
+$product = "Couanto Masalias";
+$date = "2015-05-06";
+?>
+
+
 <!DOCTYPE html>
 <html>
 
@@ -16,8 +31,6 @@
     <script src="script_Prosthiki.js"></script>
 
     <script src="../GeneralForms/promitheftiki/script_promitheftria.js"></script>
-    <script src="../GeneralForms/paraskevastiki/script_paraskevastikis.js"></script>
-    <script src="../GeneralForms/proion/script_proion.js"></script>
     <script src="../GeneralForms/ousies/script_chimicon.js"></script>
     <script src="../GeneralForms/dda/script_dda.js"></script>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -44,45 +57,6 @@
             box-sizing: border-box;
         }
     </style>
-
-
-
-    <script>
-
-        $(document).ready(function(){
-//            var t = $('#example').DataTable();
-//            var counter = 1;
-//            $('#addRow').on( 'click', function () {
-//                t.row.add( [
-//                    counter +'.1',
-//                    counter +'.2',
-//                    counter +'.3',
-//                    counter +'.4',
-//                    counter +'.5'
-//                ] ).draw();
-//
-//                counter++;
-//            } );
-
-            // Automatically add a first row of data
-            $('#addRow').click();
-
-
-
-            var a = "<?php echo $_SESSION["UserCompany"]?>";
-            console.log(a);
-            if(a == ""){
-                document.getElementById("stixiaEteriasLi").style.display ="none";
-                document.getElementById("stixiaEterias").style.display ="none";
-            }
-        });
-
-
-
-
-    </script>
-
-
 
 
 </head>
@@ -136,7 +110,7 @@
             </div>
             <div class="col-sm-4"></div>
             <div class="col-md-4 column" style="text-align: right">
-                <input class="btn btn-default"  type="button" value="Next" name="Step2" onclick="checkInputProion(strP, strH)"/>
+                <input class="btn btn-default"  type="button" value="Next" name="Step2" onclick="handleWizardNextStep1to2()"/>
             </div>
 
         </div>
@@ -169,7 +143,7 @@
         </div>
         <div class="col-sm-4"></div>
         <div class="col-md-4 column" style="text-align: right">
-            <input class="btn btn-default"  type="button" value="Next" onclick="checkInputParaskevastikis()" />
+            <input class="btn btn-default"  type="button" value="Next" onclick="handleWizardNextStep3To4()" />
         </div>
     </div>
 

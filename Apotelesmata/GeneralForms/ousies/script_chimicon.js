@@ -173,18 +173,9 @@
                     document.getElementById("chemical_weight_type").value = "";
                     document.getElementById("chemical_enarmonismeni").value = 0;
 
+                    document.getElementById("select-P-chem").value="";
+                    document.getElementById("select-H-chem").value="";
 
-                    $('option', $('#select-P-chem')).each(function(element) {
-                        $(this).removeAttr('selected').prop('selected', false);
-                    });
-
-                    $('#select-P-chem').multiselect('refresh');
-
-                    $('option', $('#select-H-chem')).each(function(element) {
-                        $(this).removeAttr('selected').prop('selected', false);
-                    });
-
-                    $('#select-H-chem').multiselect('refresh');
 
                     document.getElementById("icon1chem").checked = false;
                     document.getElementById("icon2chem").checked = false;
