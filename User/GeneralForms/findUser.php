@@ -57,7 +57,7 @@ while ($row){
 
 
           if ($company != NULL){
-              $result=mysql_query("SELECT P.* FROM Company P WHERE P.Company_Name=N'".$company."'" , $con);
+              $result=mysql_query("SELECT P.* FROM Company P WHERE P.Commersial_Name=N'".$company."'" , $con);
               $row = mysql_fetch_array($result);
               while ($row) {
                   $ls = $row['Lequl_State'];

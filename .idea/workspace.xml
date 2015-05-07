@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="086a76e8-4405-4031-9029-b9b0c5448890" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\xampp\htdocs\FinalTEE\AcceptChanges\GeneralForms\anazitisi_xristi.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\FinalTEE\AcceptChanges\GeneralForms\findUser.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\FinalTEE\AcceptChanges\GeneralForms\paraskevastiki\getParaskevastikiEteriaData.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\FinalTEE\AcceptChanges\GeneralForms\stixia_eterias.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\FinalTEE\AcceptChanges\GeneralForms\stixia_xristi.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\FinalTEE\Apotelesmata\GeneralForms\dda\script_dda.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\FinalTEE\Apotelesmata\GeneralForms\dda\sqlQueries.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\FinalTEE\Apotelesmata\GeneralForms\dda\uploadDDA.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\FinalTEE\Apotelesmata\GeneralForms\dda\uploadIMG.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\FinalTEE\User\GeneralForms\paraskevastiki\getParaskevastikiEteriaData.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/GeneralForms/anazitisi_xristi.php" afterPath="$PROJECT_DIR$/User/GeneralForms/anazitisi_xristi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apotelesmata/Paraskevastis/apotelesma.php" afterPath="$PROJECT_DIR$/Apotelesmata/Paraskevastis/apotelesma.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apotelesmata/ParaskevastisPromitheftis/apotelesma.php" afterPath="$PROJECT_DIR$/Apotelesmata/ParaskevastisPromitheftis/apotelesma.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apotelesmata/Promitheftis/apotelesma.php" afterPath="$PROJECT_DIR$/Apotelesmata/Promitheftis/apotelesma.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/logIn.php" afterPath="$PROJECT_DIR$/login/logIn.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/login_php.php" afterPath="$PROJECT_DIR$/login/login_php.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/Paraskevastis/profile.php" afterPath="$PROJECT_DIR$/User/Paraskevastis/profile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/ParaskevastisPromitheftis/profile.php" afterPath="$PROJECT_DIR$/User/ParaskevastisPromitheftis/profile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/Promitheftis/profile.php" afterPath="$PROJECT_DIR$/User/Promitheftis/profile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AcceptChanges/GeneralForms/promitheftiki/promitheftriaEteriaForm.php" afterPath="$PROJECT_DIR$/AcceptChanges/GeneralForms/promitheftiki/promitheftriaEteriaForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AcceptChanges/Paraskevastis/prosthiki.php" afterPath="$PROJECT_DIR$/AcceptChanges/Paraskevastis/prosthiki.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AcceptChanges/ParaskevastisPromitheftis/prosthiki.php" afterPath="$PROJECT_DIR$/AcceptChanges/ParaskevastisPromitheftis/prosthiki.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AcceptChanges/Promitheftis/prosthiki.php" afterPath="$PROJECT_DIR$/AcceptChanges/Promitheftis/prosthiki.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AcceptChanges/GeneralForms/dda/prosthikiDDA.php" afterPath="$PROJECT_DIR$/AcceptChanges/GeneralForms/dda/prosthikiDDA.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apotelesmata/GeneralForms/dda/prosthikiDDA.php" afterPath="$PROJECT_DIR$/Apotelesmata/GeneralForms/dda/prosthikiDDA.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AcceptChanges/Paraskevastis/script_Prosthiki.js" afterPath="$PROJECT_DIR$/AcceptChanges/Paraskevastis/script_Prosthiki.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AcceptChanges/ParaskevastisPromitheftis/script_Prosthiki.js" afterPath="$PROJECT_DIR$/AcceptChanges/ParaskevastisPromitheftis/script_Prosthiki.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AcceptChanges/Promitheftis/script_Prosthiki.js" afterPath="$PROJECT_DIR$/AcceptChanges/Promitheftis/script_Prosthiki.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AcceptChanges/GeneralForms/proion/script_proion.js" afterPath="$PROJECT_DIR$/AcceptChanges/GeneralForms/proion/script_proion.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AcceptChanges/GeneralForms/promitheftiki/script_promitheftria.js" afterPath="$PROJECT_DIR$/AcceptChanges/GeneralForms/promitheftiki/script_promitheftria.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AcceptChanges/GeneralForms/ousies/stixiaChimikonOusion.php" afterPath="$PROJECT_DIR$/AcceptChanges/GeneralForms/ousies/stixiaChimikonOusion.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AcceptChanges/GeneralForms/proion/stixiaProiontosForm.php" afterPath="$PROJECT_DIR$/AcceptChanges/GeneralForms/proion/stixiaProiontosForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AcceptChanges/GeneralForms/dda/uploadDDA.php" afterPath="$PROJECT_DIR$/AcceptChanges/GeneralForms/dda/uploadDDA.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/GeneralForms/findUser.php" afterPath="$PROJECT_DIR$/User/GeneralForms/findUser.php" />
     </list>
     <ignored path="FinalTEE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,14 +27,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DownloadDDA.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DownloadDDA.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DownloadDDA.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32189348" vertical-offset="0" max-vertical-offset="845">
+            <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="374">
               <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
               <folding>
                 <marker date="1431024983450" expanded="true" signature="154:296" placeholder="select * FRO..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="findUser.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/User/GeneralForms/findUser.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.37633136" vertical-offset="685" max-vertical-offset="1530">
+              <caret line="59" column="79" selection-start-line="59" selection-start-column="79" selection-end-line="59" selection-end-column="79" />
+              <folding>
+                <marker date="1431031013517" expanded="true" signature="458:511" placeholder="SELECT U.* F..Users..." />
+                <marker date="1431031013517" expanded="true" signature="704:765" placeholder="SELECT C.* F..Comperson..." />
+                <marker date="1431031013517" expanded="true" signature="1186:1251" placeholder="SELECT P.* F..Company..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stixia_eterias.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/User/GeneralForms/stixia_eterias.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="38.76923" vertical-offset="1008" max-vertical-offset="1853">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -80,7 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/User/GeneralForms/ousies/stixiaChimikonOusion.php" />
         <option value="$PROJECT_DIR$/User/GeneralForms/proion/stixiaProiontosForm.php" />
         <option value="$PROJECT_DIR$/User/GeneralForms/promitheftiki/promitheftriaEteriaForm.php" />
         <option value="$PROJECT_DIR$/User/GeneralForms/paraskevastiki/script_paraskevastikis.js" />
@@ -131,6 +121,7 @@
         <option value="$PROJECT_DIR$/AcceptChanges/GeneralForms/dda/prosthikiDDA.php" />
         <option value="$PROJECT_DIR$/AcceptChanges/GeneralForms/dda/uploadDDA.php" />
         <option value="$PROJECT_DIR$/AcceptChanges/GeneralForms/proion/script_proion.js" />
+        <option value="$PROJECT_DIR$/User/GeneralForms/findUser.php" />
       </list>
     </option>
   </component>
@@ -195,7 +186,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AcceptChanges" />
+              <option name="myItemId" value="User" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -209,7 +200,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AcceptChanges" />
+              <option name="myItemId" value="User" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -228,14 +219,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="AcceptChanges" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeneralForms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proion" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -354,24 +337,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Apotelesmata/GeneralForms/proion/stixiaProiontosForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4507211" vertical-offset="0" max-vertical-offset="2448">
-          <caret line="71" column="61" selection-start-line="71" selection-start-column="61" selection-end-line="71" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apotelesmata/GeneralForms/promitheftiki/promitheftriaEteriaForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5" vertical-offset="255" max-vertical-offset="5814">
-          <caret line="28" column="47" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="47" />
-          <folding>
-            <marker date="1431007368320" expanded="true" signature="-1:-1" placeholder="SELECT Disti..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/User/GeneralForms/dda/sqlQueries.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="4148">
@@ -812,10 +777,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DownloadDDA.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32189348" vertical-offset="0" max-vertical-offset="845">
+        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="374">
           <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
           <folding>
             <marker date="1431024983450" expanded="true" signature="154:296" placeholder="select * FRO..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/GeneralForms/stixia_eterias.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="38.76923" vertical-offset="1008" max-vertical-offset="1853">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/GeneralForms/findUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37633136" vertical-offset="685" max-vertical-offset="1530">
+          <caret line="59" column="79" selection-start-line="59" selection-start-column="79" selection-end-line="59" selection-end-column="79" />
+          <folding>
+            <marker date="1431031013517" expanded="true" signature="458:511" placeholder="SELECT U.* F..Users..." />
+            <marker date="1431031013517" expanded="true" signature="704:765" placeholder="SELECT C.* F..Comperson..." />
+            <marker date="1431031013517" expanded="true" signature="1186:1251" placeholder="SELECT P.* F..Company..." />
           </folding>
         </state>
       </provider>
