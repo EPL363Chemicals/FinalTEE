@@ -1,28 +1,13 @@
-<?php 
 
-    $db = 'teedb';
-    $username = 'root';
-    $password = '261994akk';
-
-    // Create connection
-    $conn = new mysqli('localhost', $username, $password, $db);
-
-    // Check connection
-    if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
-    } 
-   
-?>
 <?php
-    $sql = "SELECT * FROM `product` ";
-    $sql .="inner Join `Company`";
-    $sql .="On product.Constructor = Company.Company_Name ";
-$result = $conn->query($sql);
+    include "../connectToDBforRead.php";
+    $sql =mysql_query("SELECT * FROM `product`inner Join `comperson`On product.Constructor = comperson.Telephone ");
+ $row= mysql_fetch_array($sql);
 
 ?>
 
 
- 
+ <br><br>
 <table id="example" class="display" cellspacing="0" width="100%">
     <thead>
         <tr>
@@ -36,10 +21,9 @@ $result = $conn->query($sql);
     </tfoot>
     <tbody>
         <?php
-            if ($result->num_rows > 0) {
-            // output data of each row
+           
                 $i=1;
-                while($row = $result->fetch_assoc()) {
+                while($row ) {
         ?>
         <tr id="row<?php echo $i?>" class="click">
             <td id="c1" class="c1"><?php echo $row["SavingDate"]?></td>
@@ -58,13 +42,10 @@ $result = $conn->query($sql);
                     </script>
         </tr>
         <?php 
-               $i=$i+1; 
+                $row= mysql_fetch_array($sql);
                }
-            } 
-            else {
-                echo "0 results";
-            }
-            $conn->close();     
+            
+              
         ?>
    </tbody>
 </table>       

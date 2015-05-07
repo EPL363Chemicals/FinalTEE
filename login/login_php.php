@@ -12,12 +12,12 @@ if($_POST){
                 mysql_query ("set character_set_results='utf8'");
         }
  
-     //$user="epapak02";
-    //$pass="IrenePak";
+   // $user="akkous01";
+//$pass="123123";
 	$type="";
     $typeOfCompany="";
 	$user	= filter_var($_POST["user"], FILTER_SANITIZE_STRING);
-    $pass	= filter_var($_POST["pass"], FILTER_SANITIZE_STRING);
+ $pass	= filter_var($_POST["pass"], FILTER_SANITIZE_STRING);
      session_start();
     $_SESSION['Username']=$user;
 	$message=true;

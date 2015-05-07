@@ -27,6 +27,7 @@
                         'pass'      :pass,
                         };
                 $.post('login_php.php', post_data, function(response){
+                    alert(response.message);
                             if(response.message ==true){
                                 if(response.user==0){
                                     window.location="../Profile_Leitourgou2/Profile_LeitourgouKentriko.php";
