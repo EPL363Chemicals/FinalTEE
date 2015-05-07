@@ -86,7 +86,7 @@ include "ddaQuery.php";
 
                         <div class="row" id="uploadedPDF" >
                            <div class="col-sm-5"> <h6 style="color: #195f91">Έχετε Ανεβάσει ΔΔΑ</h6> </div>
-                            <div class="col-sm-4"><img src="../../images/pdf-icon.png" ></div>
+                            <div class="col-sm-4"><a href="../../DownloadDDA.php?product=<?php echo $product;?>&date=<?php echo $date;?>"><img src="../../images/pdf-icon.png" ></a></div>
                          </div>
 
                         <div id="nouploadedPDF" ><h6 style="color: #195f91">Δεν Έχετε Ανεβάσει ΔΔΑ</h6> </div>
@@ -99,7 +99,7 @@ include "ddaQuery.php";
                         <h4>Ετικέτας Προϊόντος</h4>
                     <div class="row" id="uploadedIMG" >
                         <div class="col-sm-5"> <h6 style="color: #195f91">Έχετε Ανεβάσει Ετικέτα</h6> </div>
-                        <div class="col-sm-4"><img src="../../images/pdf-icon.png" ></div>
+                        <div class="col-sm-4"><a href="../../DownloadIMG.php?product=<?php echo $product;?>&date=<?php echo $date;?>"><img src="../../images/pdf-icon.png" ></a></div>
                     </div>
 
                     <div id="nouploadedIMG" ><h6 style="color: #195f91">Δεν Έχετε Ανεβάσει Ετικέτα</h6> </div>

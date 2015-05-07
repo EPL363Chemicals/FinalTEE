@@ -22,7 +22,7 @@
             <div class="form-group">
                 <label class="control-label col-sm-2" for="company-comm-name">Εμπορική Επωνυμία Εταιρίας:</label>
                 <div class="col-sm-4">
-                    <input type="text" class="form-control" name="company-comm-name" id="company-comm-name"" value="<?php echo $company_comm?>"/>
+                    <input type="text" disabled="disabled" class="form-control" name="company-comm-name" id="company-comm-name"" value="<?php echo $company_comm?>"/>
                 </div>
             </div>
 

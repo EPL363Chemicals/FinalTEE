@@ -33,7 +33,7 @@
                             <div class="form-group">
                                 <label class="control-label col-sm-1" for="user-username">Username:</label>
                                 <div class="col-sm-4">
-                                    <input type="text" class="form-control" name="user-username" id="user-username" value="<?php echo $user?>" />
+                                    <input type="text" class="form-control" disabled="disabled" name="user-username" id="user-username" value="<?php echo $user?>" />
                                 </div>
                             </div>
 
@@ -75,7 +75,7 @@
                             <div class="form-group">
                                 <label class="control-label col-sm-1" for="user-phone">Τηλέφωνο:</label>
                                 <div class="col-sm-4">
-                                    <input type="number" class="form-control" name="user-phone" id="user-phone" value="<?php echo $user_tel ?>" />
+                                    <input type="number"disabled="disabled" class="form-control" name="user-phone" id="user-phone" value="<?php echo $user_tel ?>" />
                                 </div>
                             </div>
 
@@ -92,7 +92,7 @@
                     <div class="row">
                         <div class="form-group">
                             <div class="col-sm-offset-1">
-                                <button type="submit" name="submit" class="btn btn-primary" >Τροποποίηση</button>
+                                <button type="submit" name="submit" class="btn btn-primary"  >Τροποποίηση</button>
                             </div>
                         </div>
                     </div>
