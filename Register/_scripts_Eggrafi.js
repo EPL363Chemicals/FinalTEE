@@ -1,4 +1,15 @@
+function requaredFieldXristi(){
 
+    var proceed = true;
+    $("#xristis_form input[required=true]").each(function() {
+        $(this).css('border-color', '');
+        if (!$.trim($(this).val())) {
+            $(this).css('border-color', 'red');
+            proceed = false;
+        }
+    });
+    return proceed;
+}
 function checkUsername(){
     var x= document.forms["user-register"]["userName"].value;
     var reg = /^[a-zA-Z][a-zA-Z0-9-_\.]{5,20}$/;
@@ -14,8 +25,6 @@ function checkUsername(){
         });
         return true;
     }
-    
-    
 }      
 
 function checkPass(){
@@ -55,7 +64,7 @@ function checkPassMatch(){
 }
 
 function handleWizardNext() {
-   
+
             if (document.getElementById('ButtonNext').name == 'Step2') { 
                 if(checkPass() && checkPassMatch() && checkUsername()){
                     var p = document.forms["user-register"]["userName"].value;
@@ -98,24 +107,30 @@ function handleWizardNext() {
 
             else if (document.getElementById('ButtonNext').name == 'Step3'){
 
-                // Change the button name - we use this to keep track of which step to display on a click
-                document.getElementById('ButtonNext').name = '';
-                document.getElementById('ButtonPrevious').name = 'Step2';
-                document.getElementById('Step2').style.display = 'none';
-                document.getElementById('Step3').style.display = '';
-                document.getElementById('ButtonNext').disabled = 'disabled';
-                
-                // Change background color on header to highlight new step
-                document.getElementById('HeaderTableStep3').style.color= '#66CCFF';
-                document.getElementById('HeaderTableStep2').style.color = '#9DA1A3';
+                if (requaredFieldXristi() == true) {
+                    console.log("ok xristis");
+                    // Change the button name - we use this to keep track of which step to display on a click
+                    document.getElementById('ButtonNext').name = '';
+                    document.getElementById('ButtonPrevious').name = 'Step2';
+                    document.getElementById('Step2').style.display = 'none';
+                    document.getElementById('Step3').style.display = '';
+                    document.getElementById('ButtonNext').disabled = 'disabled';
+
+                    // Change background color on header to highlight new step
+                    document.getElementById('HeaderTableStep3').style.color = '#66CCFF';
+                    document.getElementById('HeaderTableStep2').style.color = '#9DA1A3';
+                }
 
             }
 
-    }
+
+
+}
 
         
         // This function handles style and display changes for each previous button click
         function handleWizardPrevious(){
+
 
             if (document.getElementById('ButtonPrevious').name == 'Step1'){
 
@@ -153,16 +168,4 @@ function handleWizardNext() {
                 document.getElementById('HeaderTableStep3').style.color = '#000000';
             }
 
-        }
-
-
-        
-
-        // This function handles loading the review table innerHTML for the user to review before final submission
-
-        function loadStep5Review()
-
-        {
-
-           
         }

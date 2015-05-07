@@ -147,7 +147,7 @@ include "../../connectToDBforRead.php";
                 <div class="form-group">
                     <label class="control-label col-sm-4" for="chemicalProduct_CommName">Εμπορική Ονομασία Προϊόντος:<label style="color:red;">*</label></label>
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" required=true name="chemicalProduct_CommName" id="chemicalProduct_CommName" />
+                        <input type="text" disabled="disabled" class="form-control" required=true name="chemicalProduct_CommName" id="chemicalProduct_CommName" />
                     </div>
                 </div>
                    

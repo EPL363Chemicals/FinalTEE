@@ -89,7 +89,7 @@ $(document).ready(function(){
                         <div class="alert alert-danger" id="wrongUsername" role="alert" style="display:none;">
                           <span class="glyphicon glyphicon-exclamation-sign"  aria-hidden="true"></span>
                           <span class="sr-only">Error:</span>
-                            Wrong
+                            Change Username. Valid: 5-20 charachters
                         </div>
                     </div>
                 </div>
@@ -108,7 +108,7 @@ $(document).ready(function(){
                        <div class="alert alert-danger" id="wrongPass" role="alert" style="display:none;">
                           <span class="glyphicon glyphicon-exclamation-sign"  aria-hidden="true"></span>
                           <span class="sr-only">Error:</span>
-                            Wrong
+                            Valid Password: minimun 5 charachters
                         </div>
                    </div>
                 </div>
@@ -127,7 +127,7 @@ $(document).ready(function(){
                        <div class="alert alert-danger" id="wrongPassM" role="alert" style="display:none;">
                           <span class="glyphicon glyphicon-exclamation-sign"  aria-hidden="true"></span>
                           <span class="sr-only">Error:</span>
-                            Wrong
+                            Passwords don't mach
                         </div>
                         <div class="alert alert-success" id="rightPassM" role="alert" style="display:none;">
                             <span id="inputSuccess2Status" class="sr-only">(success)</span>
@@ -143,19 +143,23 @@ $(document).ready(function(){
        
             <span id="Step2" style="display:none">
 
+                <div id="xristis_form">
                 <br />
 
                 <div class="col-sm-12">
                     <div class="col-sm-3"></div>
                     <div class="col-sm-2">
-                        <label for="comName"> Όνομα:</label>
+                        <label for="comName"> Όνομα:<label id="wrongcomName" style="color:red;">*</label></label>
                     </div>
                     <div class="col-sm-3">
-                        <input id ="comName" name="comName" class="form-control input-lg" type="text" >
+                        <input required=true id ="comName" name="comName" class="form-control input-lg" type="text" >
                     </div>
                     <div class="col-sm-3">
-                        <label id="wrongcomName" style="color:red;">*</label>
-                        
+
+                        <div class="alert alert-danger" class="requared" role="alert" style="display:none;">
+                            <span class="glyphicon glyphicon-exclamation-sign"  aria-hidden="true"></span>
+                            <span class="sr-only">Requared</span>
+                        </div>
                     </div>
                 </div>
 
@@ -164,13 +168,17 @@ $(document).ready(function(){
                 <div class="col-sm-12">
                     <div class="col-sm-3"></div>
                     <div class="col-sm-2">	
-                        <label for="comSName"> Επώνυμο:</label>
+                        <label for="comSName"> Επώνυμο:<label id="wrongcomSName" style="color:red;">*</label></label>
                     </div>
                     <div class="col-sm-3">	
-                        <input  id ="comSName" name="comSName" class="form-control input-lg" type="text" >
+                        <input  id ="comSName" required=true name="comSName" class="form-control input-lg" type="text" >
                     </div>
                     <div class="col-sm-3">	
-                        <label id="wrongcomSName" style="color:red;">*</label>
+
+                        <div class="alert alert-danger" class="requared" role="alert" style="display:none;">
+                            <span class="glyphicon glyphicon-exclamation-sign"  aria-hidden="true"></span>
+                            <span class="sr-only">Requared</span>
+                        </div>
                     </div>
                 </div>
                 
@@ -179,13 +187,16 @@ $(document).ready(function(){
                 <div class="col-sm-12">
                     <div class="col-sm-3"></div>
                     <div class="col-sm-2">									
-                        <label for="comEmail"> Email:</label>
+                        <label for="comEmail"> Email:<label id="wrongcomSName" style="color:red;">*</label></label>
                     </div>
                     <div class="col-sm-3">	
-                        <input id ="comEmail" name ="comEmail" maxlength="50" class="form-control input-lg" type="text" >
+                        <input id ="comEmail" name ="comEmail" required=true maxlength="50" class="form-control input-lg" type="text" >
                     </div>
-                    <div class="col-sm-3">	
-                        <label id="wrongcomEmail" style="color:red;">*</label>
+                    <div class="col-sm-3">
+                        <div class="alert alert-danger" class="requared" role="alert" style="display:none;">
+                            <span class="glyphicon glyphicon-exclamation-sign"  aria-hidden="true"></span>
+                            <span class="sr-only">Requared</span>
+                        </div>
                     </div>
                 </div>
 
@@ -197,10 +208,10 @@ $(document).ready(function(){
                         <label for="comAddress">Διεύθυνση:</label>
                     </div>
                     <div class="col-sm-3">	
-                        <input id ="comAddress" name ="comAddress" class="form-control input-lg" type="text" >
+                        <input id ="comAddress" required=true name ="comAddress" class="form-control input-lg" type="text" >
                     </div>
                     <div class="col-sm-3">	
-                        <label id="wrongcomAddress" style="color:red;">*</label>
+
                     </div>
                 </div>
 
@@ -214,8 +225,7 @@ $(document).ready(function(){
                     <div class="col-sm-3">	
                         <input id ="comPoli" name ="comPoli" class="form-control input-lg" type="text" >
                     </div>
-                    <div class="col-sm-3">	
-                        <label id="wrongcomPoli" style="color:red;">*</label>
+                    <div class="col-sm-3">
                     </div>
                 </div>
 
@@ -229,8 +239,7 @@ $(document).ready(function(){
                     <div class="col-sm-3">	
                         <input id ="comPC" name ="comPC" class="form-control input-lg" type="number" >
                     </div>
-                    <div class="col-sm-3">	
-                        <label id="wrongcomPC" style="color:red;">*</label>
+                    <div class="col-sm-3">
                     </div>
                 </div>
 
@@ -239,13 +248,17 @@ $(document).ready(function(){
                 <div class="col-sm-12">
                     <div class="col-sm-3"> </div>
                     <div class="col-sm-2">	
-                        <label for="comTel"> Τηλέφωνο:</label>
+                        <label for="comTel"> Τηλέφωνο: <label id="wrongcomTel" style="color:red;">*</label></label>
                     </div>
                     <div class="col-sm-3">	
-                        <input id ="comTel" name ="comTel" class="form-control input-lg" type="number" >
+                        <input id ="comTel" name ="comTel" required=true class="form-control input-lg" type="number" >
                     </div>
                     <div class="col-sm-3">	
-                        <label id="wrongcomTel" style="color:red;">*</label>
+
+                        <div class="alert alert-danger" class="requared" role="alert" style="display:none;">
+                            <span class="glyphicon glyphicon-exclamation-sign"  aria-hidden="true"></span>
+                            <span class="sr-only">Requared</span>
+                        </div>
                     </div>
                 </div>
 
@@ -259,9 +272,9 @@ $(document).ready(function(){
                     <div class="col-sm-3">	
                         <input id ="comFax" name ="comFax" class="form-control input-lg" type="number" >
                     </div>
-                    <div class="col-sm-3">	
-                        <label id="wrongcomFax" style="color:red;">*</label>
+                    <div class="col-sm-3">
                     </div>
+                </div>
                 </div>
                 
             </span>
@@ -273,7 +286,7 @@ $(document).ready(function(){
 
                  <div class="col-sm-12">
                      <div class="col-sm-3"></div>
-                     <div class="col-sm-3"><label>Τύπος Χρήστη</label></div>
+                     <div class="col-sm-3"><label>Τύπος Χρήστη<label id="wrongcomTel" style="color:red;">*</label></label></div>
                      <div class="col-sm-3">
                          <select class="form-control" name="typeOfUser" id="typeOfUser">
                              <option value="0">Προμηθετής</option>
@@ -287,7 +300,7 @@ $(document).ready(function(){
 
                 <div class="col-sm-12">
                     <div class="col-sm-3"></div>
-                    <div class="col-sm-3"><label>Φυσικό Πρόσωπο</label></div>
+                    <div class="col-sm-3"><label>Φυσικό Πρόσωπο<label id="wrongcomTel" style="color:red;">*</label></label></div>
                     <div class="col-sm-3">
                         <select class="form-control" name="isPerson" id="isPerson">
                             <option value="0">Όχι</option>
@@ -310,7 +323,6 @@ $(document).ready(function(){
                         <input id ="CompName" name ="CompName" class="form-control input-lg" type="text"  >
                     </div>
                     <div class="col-sm-3">
-                        <label id="wrongCompName" style="color:red;">*</label>
                     </div>
                 </div>
 
@@ -319,13 +331,16 @@ $(document).ready(function(){
                 <div class="col-sm-12">
                     <div class="col-sm-3"></div>
                     <div class="col-sm-3">
-                        <label for="CompCommer">Εμπορική Επωνυμία Εταιρίας:</label>
+                        <label for="CompCommer">Εμπορική Επωνυμία Εταιρίας:<label id="wrongCompCommer" style="color:red;">*</label></label>
                     </div>
                     <div class="col-sm-3">   
-                        <input id ="CompCommer" name ="CompCommer" class="form-control input-lg" type="text"  >
+                        <input id ="CompCommer" name ="CompCommer" required=true class="form-control input-lg" type="text"  >
                     </div>
                     <div class="col-sm-3">
-                        <label id="wrongCompCommer" style="color:red;">*</label>
+                        <div class="alert alert-danger" class="requared" role="alert" style="display:none;">
+                            <span class="glyphicon glyphicon-exclamation-sign"  aria-hidden="true"></span>
+                            <span class="sr-only">Requared</span>
+                        </div>
                     </div>
                 </div>
 
@@ -341,7 +356,7 @@ $(document).ready(function(){
                         <input id ="CompOtherN" name ="CompOtherN" class="form-control input-lg" type="text"  >
                     </div>
                     <div class="col-sm-3">
-                        <label id="wrongCompOtherN" style="color:red;">*</label>
+
                     </div>
                 </div>
 
@@ -356,7 +371,6 @@ $(document).ready(function(){
                         <input id ="CompLF" name ="CompLF" class="form-control input-lg" type="text"  >
                     </div>
                     <div class="col-sm-3">
-                        <label id="wrongCompLF" style="color:red;">*</label>
                     </div>
                 </div>
             
@@ -365,13 +379,16 @@ $(document).ready(function(){
                 <div class="col-sm-12">
                     <div class="col-sm-3"></div>
                     <div class="col-sm-3">
-                        <label for="CompCEO">Όνομα Διευθυντή:</label>
+                        <label for="CompCEO">Όνομα Διευθυντή:<label id="wrongCompCEO" style="color:red;">*</label></label>
                     </div>
                     <div class="col-sm-3">   
-                        <input id ="CompCEO" name ="CompCEO" class="form-control input-lg" type="text"  >
+                        <input id ="CompCEO" name ="CompCEO" class="form-control input-lg"  required=true type="text"  >
                     </div>
                     <div class="col-sm-3">
-                        <label id="wrongCompCEO" style="color:red;">*</label>
+                        <div class="alert alert-danger" class="requared" role="alert" style="display:none;">
+                            <span class="glyphicon glyphicon-exclamation-sign"  aria-hidden="true"></span>
+                            <span class="sr-only">Requared</span>
+                        </div>
                     </div>
                 </div>
 
@@ -381,28 +398,16 @@ $(document).ready(function(){
                 <div class="col-sm-12">
                     <div class="col-sm-3"></div>
                     <div class="col-sm-3">
-                        <label for="CompEmail"> Email:</label>
+                        <label for="CompEmail"> Email:<label id="wrongCompCEO" style="color:red;">*</label></label>
                     </div>
                     <div class="col-sm-3">								
-                        <input id ="CompEmail" name ="CompEmail" class="form-control input-lg" type="text" >
+                        <input id ="CompEmail" name ="CompEmail" class="form-control input-lg" required=true type="text" >
                     </div>
                     <div class="col-sm-3">
-                        <label id="wrongCompEmail" style="color:red;">*</label>
-                    </div>
-                </div>
-
-                <br /><br /><br />
-
-                <div class="col-sm-12">
-                    <div class="col-sm-3"></div>
-                    <div class="col-sm-3">
-                        <label for="CompAddres"> Διεύθυνση:</label>
-                    </div>
-                    <div class="col-sm-3">
-                        <input id ="CompAddres" name ="CompAddres" class="form-control input-lg" type="text" >
-                    </div>
-                    <div class="col-sm-3">
-                        <label id="wrongCompAddres" style="color:red;">*</label>
+                        <div class="alert alert-danger" class="requared" role="alert" style="display:none;">
+                            <span class="glyphicon glyphicon-exclamation-sign"  aria-hidden="true"></span>
+                            <span class="sr-only">Requared</span>
+                        </div>
                     </div>
                 </div>
 
@@ -411,13 +416,17 @@ $(document).ready(function(){
                 <div class="col-sm-12">
                     <div class="col-sm-3"></div>
                     <div class="col-sm-3">
-                        <label for="CompCity"> Πόλη:</label>
+                        <label for="CompAddres"> Διεύθυνση:<label id="wrongCompAddres" style="color:red;">*</label></label>
                     </div>
                     <div class="col-sm-3">
-                        <input id ="CompCity" name ="CompCity" class="form-control input-lg" type="text" >
+                        <input id ="CompAddres" name ="CompAddres" class="form-control input-lg" required=true type="text" >
                     </div>
                     <div class="col-sm-3">
-                        <label id="wrongCompCity" style="color:red;">*</label>
+
+                        <div class="alert alert-danger" class="requared" role="alert" style="display:none;">
+                            <span class="glyphicon glyphicon-exclamation-sign"  aria-hidden="true"></span>
+                            <span class="sr-only">Requared</span>
+                        </div>
                     </div>
                 </div>
 
@@ -426,13 +435,16 @@ $(document).ready(function(){
                 <div class="col-sm-12">
                     <div class="col-sm-3"></div>
                     <div class="col-sm-3">
-                        <label for="CompPC">Τ.Κ.:</label>
+                        <label for="CompCity"> Πόλη:<label id="wrongCompAddres" style="color:red;">*</label></label>
                     </div>
                     <div class="col-sm-3">
-                        <input id ="CompPC" name ="CompPC" class="form-control input-lg" type="number" >
+                        <input id ="CompCity" name ="CompCity" class="form-control input-lg" required=true type="text" >
                     </div>
                     <div class="col-sm-3">
-                        <label id="wrongCompPC" style="color:red;">*</label>
+                        <div class="alert alert-danger" class="requared" role="alert" style="display:none;">
+                            <span class="glyphicon glyphicon-exclamation-sign"  aria-hidden="true"></span>
+                            <span class="sr-only">Requared</span>
+                        </div>
                     </div>
                 </div>
 
@@ -441,7 +453,26 @@ $(document).ready(function(){
                 <div class="col-sm-12">
                     <div class="col-sm-3"></div>
                     <div class="col-sm-3">
-                        <label for="CompCountry">Χώρα:</label>
+                        <label for="CompPC">Τ.Κ.:<label id="wrongCompPC" style="color:red;">*</label></label>
+                    </div>
+                    <div class="col-sm-3">
+                        <input id ="CompPC" name ="CompPC" class="form-control input-lg" required=true type="number" >
+                    </div>
+                    <div class="col-sm-3">
+
+                        <div class="alert alert-danger" class="requared" role="alert" style="display:none;">
+                            <span class="glyphicon glyphicon-exclamation-sign"  aria-hidden="true"></span>
+                            <span class="sr-only">Requared</span>
+                        </div>
+                    </div>
+                </div>
+
+                <br /><br /><br />
+
+                <div class="col-sm-12">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3">
+                        <label for="CompCountry">Χώρα:<label id="wrongCompPC" style="color:red;">*</label></label>
                     </div>
                     <div class="col-sm-3">
                             <select class="form-control" id="CompCountry" name="CompCountry" form="user-register">
@@ -693,7 +724,6 @@ $(document).ready(function(){
                             </select>
                         </div>
                          <div class="col-sm-3">
-                            <label id="wrongCompCountry" style="color:red;">*</label>
                         </div>
                 </div>
 
@@ -702,13 +732,16 @@ $(document).ready(function(){
                  <div class="col-sm-12">
                     <div class="col-sm-3"></div>
                     <div class="col-sm-3">
-                        <label for="CompTel"> Τηλέφωνο:</label>
+                        <label for="CompTel"> Τηλέφωνο:<label id="wrongCompTel" style="color:red;">*</label></label>
                     </div>
                     <div class="col-sm-3">
-                        <input id ="CompTel" name ="CompTel" class="form-control input-lg" type="number" >
+                        <input id ="CompTel" name ="CompTel" class="form-control input-lg" required=true type="number" >
                     </div>
                     <div class="col-sm-3">
-                        <label id="wrongCompTel" style="color:red;">*</label>
+                        <div class="alert alert-danger" class="requared" role="alert" style="display:none;">
+                            <span class="glyphicon glyphicon-exclamation-sign"  aria-hidden="true"></span>
+                            <span class="sr-only">Requared</span>
+                        </div>
                     </div>
                 </div>
 
@@ -724,7 +757,6 @@ $(document).ready(function(){
                         <input id ="CompFax" name ="CompFax" class="form-control input-lg" type="number" >
                     </DIV>
                     <div class="col-sm-3">
-                        <label id="wrongCompFax" style="color:red;">*</label>
                     </div>
                 </div>
 
