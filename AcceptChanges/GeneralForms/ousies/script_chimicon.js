@@ -20,7 +20,7 @@
  
                         if(proceed) {
                             post_data = {
-                                'num'		: num,
+                                'num'		: num
                                 };
                            
                        
@@ -94,7 +94,7 @@
                    
                     }; 
 
-                function checkInputOusias(strPchem,strHchem){
+                function checkInputOusias(i,strPchem,strHchem){
                     var proceed = true;
                     $("#chemicalForm input[required=true]").each(function() {
                         $(this).css('border-color', '');
@@ -106,7 +106,7 @@
                         }
                     });
                     if(proceed) {
-                        addElement(strPchem,strHchem);
+                        addElement(i,strPchem,strHchem);
                         $('#chemicalModal').modal('hide');
                     }else{
                         return;
@@ -114,6 +114,12 @@
                 }
                 //FUNCTION TO ADD TEXT BOX ELEMENT
                 function addElement(i,strPchem,strHchem){
+
+                    if(intChemicals==0){
+                        choiseCount=i;
+                        intTextBox=i;
+                        intChemicals=i;
+                    }
                     if (choiceCount < 100 && intChemicals < 200) {
                         
                         intChemicals = intChemicals + 1;
@@ -158,12 +164,13 @@
                             }
                         }
                     }
+                    console.log(flag);
                      if(flag){
-                var countChemical = newIntex;
-                
-            }else{
-                var countChemical = intChemicals;
-            }
+                    var countChemical = newIntex;
+
+                }else{
+                    var countChemical = newIntex;
+                }
               
         flag=false;
                     // 2. Define what to do when xhrProm feed you the response from the server - Start

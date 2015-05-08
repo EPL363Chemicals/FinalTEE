@@ -27,6 +27,8 @@ if($_POST){
         $_SESSION['Telephone']=$row['Comperson'];
         $_SESSION['Company-Name']=$row3['Company'];
         $_SESSION['Company-Type']= $typeOfCompany;
+        $_SESSION['chemicalsCount']= 0;
+        $_SESSION['suplCount']= 0;
         $type=1;
 
     }else $message=false;

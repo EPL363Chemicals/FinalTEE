@@ -70,7 +70,7 @@ $date=$_GET["date"];
 
     <div class="row clearfix">
         <div class="col-md-4 column">
-            <h3><?php echo $_SESSION["username"]; ?></h3>
+            <a href="../../User/Paraskevastis/profile.php"> <h3><?php echo $_SESSION["username"]; ?></h3></a>
         </div>
         <div class="col-md-8 column" style="text-align: right"><h3></h3><button type="button" class="btn btn-link" onclick="location.href='../../login/login.php'">Log Out</button></div>
     </div>
@@ -105,7 +105,7 @@ $date=$_GET["date"];
             </div>
             <div class="col-sm-4"></div>
             <div class="col-md-4 column" style="text-align: right">
-                <input class="btn btn-default"  type="button" value="Next" name="Step2" onclick="handleWizardNextStep1to2()"/>
+                <input class="btn btn-default"  type="button" value="Next" onclick="handleWizardNextStep1to2()"/>
             </div>
 
         </div>

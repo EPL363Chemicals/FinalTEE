@@ -229,7 +229,8 @@
 
     $username=$_SESSION["username"];
     $UserCompany=$_SESSION["UserCompany"];
-    $t = $_SESSION["Company_Type"];
+    $t = $_SESSION["Company-Type"];
+    $n = $_SESSION['Company-Name'];
     $tel = $_SESSION["Telephone"];
     session_unset ();
     $_SESSION["username"] = $username;
@@ -237,5 +238,6 @@
     $_SESSION["chemicalsCount"]=0;
     $_SESSION["UserCompany"]=$UserCompany;
     $_SESSION["Telephone"] = $tel;
-    $_SESSION["Company_Type"]=$t;
+    $_SESSION["Company-Type"]=$t;
+$_SESSION['Company-Name']=$n;
 ?>

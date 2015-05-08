@@ -3,6 +3,9 @@
 session_start();
 $product=$_GET['product'];
 $date=$_GET['date'];
+$append = $_GET['append'];
+$_SESSION['chemicalsCount']= 0;
+$_SESSION['suplCount']= 0;
 ?>
 <!DOCTYPE html>
 <html>
@@ -81,7 +84,7 @@ $date=$_GET['date'];
 
     <div class="row clearfix">
         <div class="col-md-4 column">
-            <h3><?php echo $_SESSION["username"]; ?></h3>
+            <a href="../../User/ParaskevastisPromitheftis/profile.php"> <h3><?php echo $_SESSION["username"]; ?></h3></a>
         </div>
         <div class="col-md-8 column" style="text-align: right"><h3></h3><button type="button" class="btn btn-link" onclick="location.href='../../login/login.php'">Log Out</button></div>
     </div>

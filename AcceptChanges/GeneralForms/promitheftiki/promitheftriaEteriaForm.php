@@ -60,6 +60,7 @@ $sql2 = mysql_query("SELECT Distinct Comperson.* FROM `Comperson`,`Supply` WHERE
                             $row2 = mysql_fetch_array($sql2);
                             }
                             $i=$i-1;
+                         $_SESSION['suplCount']=$i;
                          ?>
                         </tbody>
                     </table>

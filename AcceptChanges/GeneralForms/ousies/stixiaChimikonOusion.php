@@ -66,7 +66,7 @@
                             <th>Διαγραφή</th>
                         </tr>
                         <?php
-                    $k=0;
+                    $k=1;
                      while ($row3){
                             
                 ?>
@@ -97,6 +97,7 @@
                    $row3 = mysql_fetch_array($sql3);
                     }
                     $k=$k-1;
+                        $_SESSION['chemicalsCount']=$k;
                 ?>
                         </tbody>
                     </table>
@@ -413,7 +414,7 @@
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal" onclick="clearInputsChimikon()">Close</button>
-                    <button type="button"  id="Save" class="btn btn-primary" data-dismiss="modal" onclick="addElement(<?php echo $k;?>,strPchem,strHchem);" name="addentry">Save changes</button>
+                    <button type="button"  id="Save" class="btn btn-primary" data-dismiss="modal" onclick="checkInputOusias(<?php echo $k;?>,strPchem,strHchem);" name="addentry">Save changes</button>
                       <button type="button"  id="change" class="btn btn-primary" data-dismiss="modal" onclick="PostDataXimikonOusion(strPchem,strHchem);" name="addentry">Τροποποίηση</button> 
                   </div>
                 </div>

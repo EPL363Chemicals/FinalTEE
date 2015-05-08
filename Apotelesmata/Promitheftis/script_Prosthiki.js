@@ -12,6 +12,7 @@ function handleWizardNextStep2To3() {
 }
 
 function handleWizardNextStep3To4(){
+    console.log("here");
     document.getElementById('Step1').style.display = 'none';
     document.getElementById('Step2').style.display = 'none';
     document.getElementById('Step4').style.display = '';

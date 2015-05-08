@@ -82,6 +82,15 @@ mysql_close($con);
             $('#uploadedIMG').show();
             $('#nouploadedIMG').hide();
         }
+
+        var ap = <?php echo $append;?>;
+        if(ap == 0){
+            $('#noAppend').show();
+            $('#append').hide();
+        }else{
+            $('#noAppend').hide();
+            $('#append').show();
+        }
     });
     </script>
 <script>
@@ -131,9 +140,12 @@ mysql_close($con);
     <br>
     <br>
     <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-4" id="noAppend">
             <button type="button" class="btn btn-info" id="temp_save" onclick="addToDB(1);">Προσορηνή Αποθήκευση</button>
             <button type="button" class="btn btn-danger" id="final_save" onclick="addToDB(2);">Τελική Αποθήκευση</button>
+        </div>
+        <div class="col-sm-4" id="append">
+            <button type="button" class="btn btn-danger" id="final_save" onclick="addToDB(3);">Τελική Αποθήκευση</button>
         </div>
     </div>
     <br><br>
