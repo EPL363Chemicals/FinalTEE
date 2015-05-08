@@ -9,7 +9,7 @@
                                 <td id="HeaderTableStep1" style="color:#66CCFF">1. Στοιχεία Χημικού Μείγματος</td>
                                 <td id="HeaderTableStep2">2. Σύνθεση Χημικού Μείγματος</td>
                                 <td id="HeaderTableStep3" >3. Στοιχεία Προμηθευτή στην Κυπριακή Αγορά</td>
-                                <td id="HeaderTableStep4" >4..Επισύναψη ΔΔΑ και Ετικέτα</td>
+                                <td id="HeaderTableStep4" >4. Επισύναψη ΔΔΑ και Ετικέτα</td>
                             </tr>
                         </table>
                     </form>

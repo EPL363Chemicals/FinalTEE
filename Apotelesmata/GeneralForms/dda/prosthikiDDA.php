@@ -28,6 +28,13 @@ include "ddaQuery.php";
 
 <script>
     $(document).ready(function(){
+        var l='<?php echo $_SESSION["Company-Type"];?>';
+        if(l==4){
+            $('#buttons').hide();
+        }else{
+            $('#buttons').show();
+        }
+
         var pdf = <?php echo $pdf; ?>;
         console.log(pdf);
         if(pdf <= 0) {
@@ -152,7 +159,7 @@ include "ddaQuery.php";
 
             <br>
             <br>
-            <div class="row">
+            <div class="row" id="buttons">
                 <div class="col-sm-4">
                 <button type="button" class="btn btn-info" id="tropopoiisi" >Τροποποίηση</button>
                 <button type="button" class="btn btn-info" id="epikeropoiisi" data-toggle="modal" data-target="#info-modal" >Επικαιροποίηση</button>

@@ -94,7 +94,7 @@
         <div class="col-sm-4"  ></div>
 </div>
         <div class="form-group">
-            <div id="Right" class="col-sm-7" ><a href="fpassword.html">Έχεται ξεχάσει τον κωδικό σας?</a></div>
+            <div id="Right" class="col-sm-7" ><a href="../fpassword/fpassword.php">Έχεται ξεχάσει τον κωδικό σας?</a></div>
             
         </div>
        <br>

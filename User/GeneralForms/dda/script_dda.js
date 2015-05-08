@@ -38,6 +38,8 @@
                 if (xhrProm.readyState === 4) {
                     if (xhrProm.status == 200 && xhrProm.status < 300) {
                         document.getElementById('asdf').innerHTML = xhrProm.responseText;
+                        alert("You have insert a new Product!");
+                        location.reload();
                     }
                 }
             }

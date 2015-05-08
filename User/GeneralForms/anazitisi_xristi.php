@@ -19,7 +19,7 @@ $row1 = mysql_fetch_array($sql);
         <tr class="no">
             <th>Ημερομηνία Καταχώρησης</th>
             <th>Χειμικό Προιόν</th>
-            <th>ΔΔΑ</th>
+            <th>Κατάσταση</th>
                     
         </tr>
     </thead>
@@ -27,14 +27,13 @@ $row1 = mysql_fetch_array($sql);
     </tfoot>
     <tbody>
         <?php
-            
                 $i=1;
                 while($row1) {
         ?>
         <tr class="yes" id="row<?php echo $i?>" >
             <td id="c1" class="c1"><?php echo $row1["SavingDate"]?></td>
             <td id="c2"  class="c2"><?php echo $row1["Commercial_Name"]?></td>
-            <td id="c3"  class="c3"><a href="../../DownloadDDA.php"><img src="../../images/pdf-icon.png"></a></td>
+            <td id="c3"  class="c3"><?php if($row1["Temp"]==1){echo "Προσωρινή Αποθήκευση";}elseif ($row1["Final"]==1){echo "Τελική Αποθήκευση";}else{echo "Επικαιροποίημένη Έκδοση";}?></td>
                     <script>
                       tr = $('.display').find('tr.yes');
                         var type='<?php echo $_SESSION["Company-Type"];?>'

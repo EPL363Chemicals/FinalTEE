@@ -20,6 +20,7 @@ if($_POST){
 
     if($row1){
         $type=0;
+        $_SESSION['Company-Type']= 4;
     }else if($row){
         $sql3=mysql_query("SELECT * FROM `comperson` WHERE  comperson.telephone='".$row['Comperson']."'");
         $row3 = mysql_fetch_array($sql3);

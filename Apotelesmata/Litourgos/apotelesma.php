@@ -1,7 +1,6 @@
 <?php
 // Start the session
 session_start();
-
 $product=$_GET["product"];
 $date=$_GET["date"];
 ?>
@@ -11,7 +10,7 @@ $date=$_GET["date"];
 
 <head>
     <meta charset="utf-8">
-    <title>Προφίλ Χρήστη</title>
+    <title>Αποτελέσμα</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="description" content="">
@@ -24,7 +23,6 @@ $date=$_GET["date"];
     <script src="script_Prosthiki.js"></script>
 
     <script src="../GeneralForms/promitheftiki/script_promitheftria.js"></script>
-    <script src="../GeneralForms/paraskevastiki/script_paraskevastikis.js"></script>
     <script src="../GeneralForms/ousies/script_chimicon.js"></script>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -59,38 +57,41 @@ $date=$_GET["date"];
 <body style="overflow:visible;height:100%;">
 
 <div class="container">
-
-    <div class="row clearfix">
-        <div class="col-md-12 column">
-            <img src="../../images/banner_gr_Laa.png" width="100%" height="98">
+    <div class="col-md-12 column">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <img src="../../images/banner_gr_Laa.png" width="100%" height="98">
+            </div>
         </div>
-    </div>
 
-    <div class="row clearfix">
-        <div class="col-md-4 column">
-            <a href="../../User/ParaskevastisPromitheftis/profile.php"> <h3><?php echo $_SESSION["username"]; ?></h3></a>
+        <div class="row clearfix">
+            <div class="col-md-4 column">
+                <a href="../../Profile_Leitourgou/Profile_LeitourgouKentriko.php"> <h3><?php echo $_SESSION["username"]; ?></h3></a>
+            </div>
+            <div class="col-md-8 column" style="text-align: right"><h3></h3><button type="button" class="btn btn-link" onclick="location.href='../../login/login.php'">Log Out</button></div>
         </div>
-        <div class="col-md-8 column" style="text-align: right"><h3></h3><button type="button" class="btn btn-link" onclick="location.href='../../login/login.php'">Log Out</button></div>
-    </div>
 
-    <div class="col-md-12">
-    <div class="tab-pane" id="Prosthiki">
-        <div class="container">
-            <div class="row clearfix">
-                <div class="col-md-12 column">
-                    <form id="SubscriptionWizard" action="" method="post">
-                        <table class="table table-hover" cellpadding="5" cellspacing="0" id="HeaderTable">
-                            <tr>
-                                <td id="HeaderTableStep1" style="color:#66CCFF">1. Στοιχεία Χημικού Μείγματος</td>
-                                <td id="HeaderTableStep2">2. Σύνθεση Χημικού Μείγματος</td>
-                                <td id="HeaderTableStep3" >3. ΔΔΑ και Ετικέτα</td>
-                            </tr>
-                        </table>
-                    </form>
+
+        <div class="col-md-12">
+            <div class="tab-pane" id="Prosthiki">
+                <div class="container">
+                    <div class="row clearfix">
+                        <div class="col-md-12 column">
+                            <form id="SubscriptionWizard" action="" method="post">
+                                <table class="table table-hover" cellpadding="5" cellspacing="0" id="HeaderTable">
+                                    <tr>
+                                        <td id="HeaderTableStep1" style="color:#66CCFF">1. Στοιχεία Χημικού Μείγματος</td>
+                                        <td id="HeaderTableStep2">2. Σύνθεση Χημικού Μείγματος</td>
+                                        <td id="HeaderTableStep3" >3. Στοιχεία Παρασκευάστριας Εταιρίας</td>
+                                        <td id="HeaderTableStep4" >4. Στοιχεία Προμηθευτή στην Κυπριακή Αγορά</td>
+                                        <td id="HeaderTableStep5" >5. ΔΔΑ και Ετικέτα</td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </div >
+                    </div>
                 </div >
             </div>
-        </div >
-    </div>
 
     <span id="Step1">
         <?php include '../GeneralForms/proion/stixiaProiontosForm.php';?>
@@ -124,13 +125,45 @@ $date=$_GET["date"];
         <br>
     </span>
 
+            <span id="Step3" style="display:none">
+        <?php include '../GeneralForms/paraskevastiki/paraskevastikiEteriaForm.php';?>
 
-    <span id="Step3" style="display:none">
+
+                <div class="row">
+                    <div class="col-md-4 column"  style="text-align: left">
+                        <input class="btn btn-default" type="button" value="Previous"  onclick="handleWizardPreviousStep3to2()" />
+                    </div>
+                    <div class="col-sm-4"></div>
+                    <div class="col-md-4 column" style="text-align: right">
+                        <input class="btn btn-default"  type="button" value="Next" onclick="handleWizardNextStep3To4()" />
+                    </div>
+                </div>
+
+
+    </span>
+
+    <span id="Step4" style="display:none">
+        <?php include '../GeneralForms/promitheftiki/promitheftriaEteriaForm.php';?>
+
+        <div class="row">
+            <div class="col-md-4 column"  style="text-align: left">
+                <input class="btn btn-default" type="button" value="Previous" onclick="handleWizardPreviousStep4to3()" />
+            </div>
+            <div class="col-sm-4"></div>
+            <div class="col-md-4 column" style="text-align: right">
+                <input  class="btn btn-default" type="button" value="Next" onClick="handleWizardNextStep4To5()" />
+            </div>
+
+        </div>
+
+    </span>
+
+    <span id="Step5" style="display:none">
         <?php include '../GeneralForms/dda/prosthikiDDA.php';?>
 
         <div class="row">
             <div class="col-md-4 column"  style="text-align: left">
-                <input class="btn btn-default" type="button" value="Previous" onclick="handleWizardPreviousStep3to2()" />
+                <input class="btn btn-default" type="button" value="Previous" onclick="handleWizardPreviousStep5to4()" />
             </div>
             <div class="col-sm-4"></div>
             <div class="col-md-4 column" style="text-align: right">
@@ -140,12 +173,11 @@ $date=$_GET["date"];
     </span>
 
 
-    <br><br>
+            <br><br>
 
 
 
-
+        </div>
     </div>
 </div>
-</body>
-</html>
+</body></html>

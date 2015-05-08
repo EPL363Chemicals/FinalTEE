@@ -19,56 +19,56 @@
                             <div class="form-group">
                                 <label class="control-label col-sm-1" for="user-name">Όνομα:</label>
                                 <div class="col-sm-4">
-                                    <input type="text" class="form-control" name="user-name" id="user-name" value="<?php echo $user_name?>" />
+                                    <input type="text" class="form-control" disabled="disabled" name="user-name" id="user-name" value="<?php echo $user_name?>" />
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label class="control-label col-sm-1" for="user-surname">Επώνυμο:</label>
                                 <div class="col-sm-4">
-                                    <input type="text" class="form-control" name="user-surname" id="user-surname" value="<?php echo $user_surname?>"/>
+                                    <input type="text" class="form-control" disabled="disabled" name="user-surname" id="user-surname" value="<?php echo $user_surname?>"/>
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label class="control-label col-sm-1" for="user-username">Username:</label>
                                 <div class="col-sm-4">
-                                    <input type="text" class="form-control" disabled="disabled" name="user-username" id="user-username" value="<?php echo $user?>" />
+                                    <input type="text" class="form-control"  disabled="disabled" disabled="disabled" name="user-username" id="user-username" value="<?php echo $user?>" />
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label class="control-label col-sm-1" for="user-password">Κωδικός:</label>
                                 <div class="col-sm-4">
-                                    <input type="password" class="form-control" name="user-password" id="user-password" value="<?php echo $user_pass?>"/>
+                                    <input type="password" disabled="disabled" class="form-control" name="user-password" id="user-password" value="<?php echo $user_pass?>"/>
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label class="control-label col-sm-1" for="user-email">Email:</label>
                                 <div class="col-sm-4">
-                                    <input type="email" class="form-control" name="user-email" id="user-email" value="<?php echo $user_email?>" />
+                                    <input type="email" disabled="disabled" class="form-control" name="user-email" id="user-email" value="<?php echo $user_email?>" />
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label class="control-label col-sm-1" for="user-address">Διεύθυνση:</label>
                                 <div class="col-sm-4">
-                                    <input type="text" class="form-control" name="user-address" id="user-address" value="<?php echo $user_address ?>"  />
+                                    <input type="text" disabled="disabled" class="form-control" name="user-address" id="user-address" value="<?php echo $user_address ?>"  />
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label class="control-label col-sm-1" for="user-city">Πόλη:</label>
                                 <div class="col-sm-4">
-                                    <input type="text" class="form-control" name="user-city" id="user-city" value="<?php echo $user_city ?>"/>
+                                    <input type="text" disabled="disabled" class="form-control" name="user-city" id="user-city" value="<?php echo $user_city ?>"/>
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label class="control-label col-sm-1" for="user-pc">Τ.Κ:</label>
                                 <div class="col-sm-3">
-                                    <input type="number" class="form-control" name="user-pc" id="user-pc" value="<?php echo $user_pc ?>" />
+                                    <input type="number" disabled="disabled" class="form-control" name="user-pc" id="user-pc" value="<?php echo $user_pc ?>" />
                                 </div>
                             </div>
 
@@ -82,20 +82,14 @@
                             <div class="form-group">
                                 <label class="control-label col-sm-1" for="user-fax">Φάξ:</label>
                                 <div class="col-sm-4">
-                                    <input type="number" class="form-control" name="user-fax" id="user-fax" value="<?php echo $user_fax ?>" />
+                                    <input type="number" disabled="disabled" class="form-control" name="user-fax" id="user-fax" value="<?php echo $user_fax ?>" />
                                 </div>
                             </div>
 
                         </form>
 
                     </div>
-                    <div class="row">
-                        <div class="form-group">
-                            <div class="col-sm-offset-1">
-                                <button type="submit" name="submit" class="btn btn-primary"  >Τροποποίηση</button>
-                            </div>
-                        </div>
-                    </div>
+
 
 
                 </div>

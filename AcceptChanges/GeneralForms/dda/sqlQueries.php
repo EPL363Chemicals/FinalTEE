@@ -6,7 +6,7 @@
 
     session_start();
     $constEmpl_phone=0;
-    if($_SESSION["Company_Type"] == 0) {
+    if($_SESSION["Company-Type"] == 0) {
         $constCompany_Name = $_SESSION["constCompany_Name"];
         $constCompany_CommercialName = $_SESSION["constCompany_CommercialName"];
         $constCompany_OtherName = $_SESSION["constCompany_OtherName"];
@@ -120,7 +120,7 @@
 
 /********************* PROMITHEFTIKES + PROIO/PROMITHEFTIK  *************************/
 
-    if($_SESSION["Company_Type"] == 0 || $_SESSION["Company_Type"] == 2 ){
+    if($_SESSION["Company-Type"] == 0 || $_SESSION["Company-Type"] == 2 ){
         $suplEmpl_phone = $_SESSION["Telephone"];
         $sqlSupplyProduct = "INSERT INTO supply (Supplier,Product,Address,Saving_Date)
                                 VALUE (N'$suplEmpl_phone',N'$chemicalProduct_CommName',NULL, '$date');";

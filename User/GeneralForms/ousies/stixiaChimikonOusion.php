@@ -368,7 +368,7 @@
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal" onclick="clearInputsChimikon()">Close</button>
-                    <button type="button"  class="btn btn-primary" id="addentry" name="addentry">Save changes</button>
+                    <button type="button"  class="btn btn-primary" data-dismiss="modal" id="addentry" name="addentry">Save changes</button>
                   </div>
                 </div>
               </div>

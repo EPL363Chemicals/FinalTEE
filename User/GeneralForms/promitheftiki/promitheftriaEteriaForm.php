@@ -242,7 +242,7 @@
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal" onclick="clearInputsEterias()">Close</button>
-                    <button type="button" id="save_supplier_company" class="btn btn-primary" onclick="checkInputPromitheftikis();" name="addentry">Save changes</button>
+                    <button type="button" id="save_supplier_company" class="btn btn-primary" data-dismiss="modal" onclick="checkInputPromitheftikis();" name="addentry">Save changes</button>
                   </div>
                 </div>
               </div>
