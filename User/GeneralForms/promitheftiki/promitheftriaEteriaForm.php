@@ -7,7 +7,7 @@
                     <table class="table table-hover" id="entrycol">
                         <tr>
                             <th>#</th>
-                            <th>Επωνυμία Προμηθεύτριας Εταιρίας</th>
+                            <th>Επωνυμία Προμηθεύτριας Εταιρείας</th>
                             <th>Επεξεργασία</th>
                             <th>Διαγραφή</th>
                         </tr>
@@ -17,7 +17,7 @@
             </div>
             <br><br><br>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#suplCompanyModal">Καταχώριση Εταιρίας</button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#suplCompanyModal">Καταχώριση Εταιρείας</button>
 
             <!-- Modal -->
             
@@ -26,7 +26,7 @@
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h4 class="modal-title" id="suplCompanyModalLabel">Στοιχεία Προμηθεύτριας Εραιρίας</h4>
+                    <h4 class="modal-title" id="suplCompanyModalLabel">Στοιχεία Προμηθεύτριας Εραιερίας</h4>
                   </div>
                   <div class="modal-body">
                     <!-------------------------------------------------------------------------------------------------------------------->
@@ -35,7 +35,7 @@
                                 <div class="col-md-9 column"> 
 
                                     <div class="row">
-                                        <h4>Στοιχεία Εταιρίας</h4>
+                                        <h4>Στοιχεία Εταιρείας</h4>
                                         
                                         <br>
                                         <div class="form-group">

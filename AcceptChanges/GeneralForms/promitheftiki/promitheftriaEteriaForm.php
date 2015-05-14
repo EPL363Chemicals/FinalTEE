@@ -14,7 +14,7 @@ $sql2 = mysql_query("SELECT Distinct Comperson.* FROM `Comperson`,`Supply` WHERE
                         <tbody id="entrycol">
                         <tr>
                             <th>#</th>
-                            <th>Επωνυμία Προμηθεύτριας Εταιρίας</th>
+                            <th>Επωνυμία Προμηθεύτριας Εταιρείας</th>
                             <th>Επεξεργασία</th>
                             <th>Διαγραφή</th>
                         </tr>
@@ -69,7 +69,7 @@ $sql2 = mysql_query("SELECT Distinct Comperson.* FROM `Comperson`,`Supply` WHERE
             </div>
             <br><br><br>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" onclick="changeButtons();" data-toggle="modal" data-target="#suplCompanyModal">Καταχώριση Εταιρίας</button>
+            <button type="button" class="btn btn-primary" onclick="changeButtons();" data-toggle="modal" data-target="#suplCompanyModal">Καταχώρηση Εταιρείας</button>
 
             <!-- Modal -->
             
@@ -78,7 +78,7 @@ $sql2 = mysql_query("SELECT Distinct Comperson.* FROM `Comperson`,`Supply` WHERE
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h4 class="modal-title" id="suplCompanyModalLabel">Στοιχεία Προμηθεύτριας Εραιρίας</h4>
+                    <h4 class="modal-title" id="suplCompanyModalLabel">Στοιχεία Προμηθεύτριας Εταιρείας</h4>
                   </div>
                   <div class="modal-body">
                     <!-------------------------------------------------------------------------------------------------------------------->
@@ -87,7 +87,7 @@ $sql2 = mysql_query("SELECT Distinct Comperson.* FROM `Comperson`,`Supply` WHERE
                                 <div class="col-md-9 column"> 
 
                                     <div class="row">
-                                        <h4>Στοιχεία Εταιρίας</h4>
+                                        <h4>Στοιχεία Εταιρείας</h4>
                                         
                                         <br>
                                         <div class="form-group">

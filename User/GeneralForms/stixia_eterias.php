@@ -6,28 +6,28 @@
     <div class="container">
 
         <div class="panel-heading ">
-            <h2 class="panel-title col-sm-offset-2"><strong>Στοιχεία Εταιρίας</strong></h2>
+            <h2 class="panel-title col-sm-offset-2"><strong>Στοιχεία Εταιρείας</strong></h2>
         </div>
 
         <br>
 
         <form class="form-horizontal" role="company-data-form">
             <div class="form-group">
-                <label class="control-label col-sm-2" for="company-name">Επων. Εταιρίας:</label>
+                <label class="control-label col-sm-2" for="company-name">Επων. Εταιρείας:</label>
                 <div class="col-sm-4">
                     <input type="text" class="form-control" disabled="disabled"  name="company-name" id="company-name" value="<?php echo $company?>"/>
                 </div>
             </div>
 
             <div class="form-group">
-                <label class="control-label col-sm-2" for="company-comm-name">Εμπορική Επωνυμία Εταιρίας:</label>
+                <label class="control-label col-sm-2" for="company-comm-name">Εμπορική Επωνυμία Εταιρείας:</label>
                 <div class="col-sm-4">
                     <input type="text" disabled="disabled" class="form-control" name="company-comm-name" id="company-comm-name"" value="<?php echo $company_comm?>"/>
                 </div>
             </div>
 
             <div class="form-group">
-                <label class="control-label col-sm-2" for="company-other-name">Άλλη Επωνυμία Εταιρίας:</label>
+                <label class="control-label col-sm-2" for="company-other-name">Άλλη Επωνυμία Εταιρείας:</label>
                 <div class="col-sm-4">
                     <input type="text" class="form-control" disabled="disabled" name="company-other-name" id="company-other-name"" value="<?php echo $other_company?>"/>
                 </div>

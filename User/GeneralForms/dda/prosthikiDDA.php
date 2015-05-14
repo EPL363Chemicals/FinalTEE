@@ -97,7 +97,7 @@
             <br>
             <div class="row">
                 <div class="col-sm-4">
-                <button type="button" class="btn btn-info" id="temp_save" onclick="addToDB(1);">Προσορηνή Αποθήκευση</button>
+                <button type="button" class="btn btn-info" id="temp_save" onclick="addToDB(1);">Προσωρινή  Αποθήκευση</button>
                 <button type="button" class="btn btn-danger" id="final_save" onclick="addToDB(2);">Τελική Αποθήκευση</button>
                 </div>
             </div>

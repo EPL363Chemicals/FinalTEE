@@ -96,7 +96,7 @@ $row1 = mysql_fetch_array($sql1);
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h4 class="modal-title" name="" id="chemicalModalLabel">Χημική Σύνθεση Μείγματος</h4>
+                    <h4 class="modal-title" name="" id="chemicalModalLabel">Χημική Σύνθεση Μίγματος</h4>
                   </div>
                   <div class="modal-body">
                     <!-------------------------------------------------------------------------------------------------------------------->
@@ -141,7 +141,7 @@ $row1 = mysql_fetch_array($sql1);
                                     </div>
 
                                     <div class="form-group">
-                                        <label class="control-label col-sm-3" for="chemical_weight">Ακριβής συγκέντρωση χημικής ουσίας στο μείγμα<label style="color:red;">*</label></label>
+                                        <label class="control-label col-sm-3" for="chemical_weight">Ακριβής συγκέντρωση χημικής ουσίας στο μίγμα<label style="color:red;">*</label></label>
                                         <div class="col-sm-2">
                                             <input disabled="disabled" type="number" class="form-control"  name="chemical_weight" id="chemical_weight" />
                                         </div>

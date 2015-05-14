@@ -185,13 +185,13 @@ include "ddaQuery.php";
                     <div class="col-md-9 column">
                         <form class="form-horizontal" role="form">
                             <div class="form-group">
-                                <label class="control-label col-sm-2" for="companyName">Όνομα Προιόντος</label>
+                                <label class="control-label col-sm-2" for="companyName">Όνομα Προϊόντος</label>
                                 <div class="col-sm-4">
                                     <input type="text" class="form-control" disabled="disabled" required="true" name="companyName" id="companyName" value="<?php echo $product;?>" />
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="control-label col-sm-2" for="productName">Όνομα Εταιρίας</label>
+                                <label class="control-label col-sm-2" for="productName">Όνομα Εταιρείας</label>
                                 <div class="col-sm-4">
                                     <input type="text" class="form-control" required="true" name="productName" id="productName" />
                                 </div>

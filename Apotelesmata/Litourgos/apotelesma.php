@@ -10,7 +10,7 @@ $date=$_GET["date"];
 
 <head>
     <meta charset="utf-8">
-    <title>Αποτελέσμα</title>
+    <title>Αποτελέσματα</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="description" content="">
@@ -80,9 +80,9 @@ $date=$_GET["date"];
                             <form id="SubscriptionWizard" action="" method="post">
                                 <table class="table table-hover" cellpadding="5" cellspacing="0" id="HeaderTable">
                                     <tr>
-                                        <td id="HeaderTableStep1" style="color:#66CCFF">1. Στοιχεία Χημικού Μείγματος</td>
-                                        <td id="HeaderTableStep2">2. Σύνθεση Χημικού Μείγματος</td>
-                                        <td id="HeaderTableStep3" >3. Στοιχεία Παρασκευάστριας Εταιρίας</td>
+                                        <td id="HeaderTableStep1" style="color:#66CCFF">1. Στοιχεία Χημικού Μίγματος</td>
+                                        <td id="HeaderTableStep2">2. Σύνθεση Χημικού Μίγματος</td>
+                                        <td id="HeaderTableStep3" >3. Στοιχεία Παρασκευάστριας Εταιρείας</td>
                                         <td id="HeaderTableStep4" >4. Στοιχεία Προμηθευτή στην Κυπριακή Αγορά</td>
                                         <td id="HeaderTableStep5" >5. ΔΔΑ και Ετικέτα</td>
                                     </tr>

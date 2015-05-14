@@ -117,9 +117,9 @@ include "../GeneralForms/findUser.php";
         <div role="tabpanel" >
             <ul class="nav nav-tabs" role="tablist" id="tabsProfile">
                 <li id="stixiaLi" role="presentation" class="active"><a id="stixiaTab" href="#stixia" aria-controls="stixia" role="tab" data-toggle="tab">Στοιχεία Χρήστη</a></li>
-                <li id="stixiaEteriasLi" role="presentation" style="display: block"><a id="stixiaEteriasTab" href="#stixiaEterias" aria-controls="stixiaEterias" role="tab" data-toggle="tab">Στοιχεία Εταιρίας</a></li>
-                <li id="prosthikiLi" role="presentation"><a id="prosthikiTab" href="#prosthiki" aria-controls="prosthiki" role="tab" data-toggle="tab">Πληροφορίες Χημικού Προιόντος</a></li>
-                <li id="anazitisiLi"role="presentation"><a id="anazitisiTab" href="#anazitisi" aria-controls="anazitisi" role="tab" data-toggle="tab">Αναζήτηση Προιόντος</a></li>
+                <li id="stixiaEteriasLi" role="presentation" style="display: block"><a id="stixiaEteriasTab" href="#stixiaEterias" aria-controls="stixiaEterias" role="tab" data-toggle="tab">Στοιχεία Εταιρείας</a></li>
+                <li id="prosthikiLi" role="presentation"><a id="prosthikiTab" href="#prosthiki" aria-controls="prosthiki" role="tab" data-toggle="tab">Πληροφορίες Χημικού προϊόντος</a></li>
+                <li id="anazitisiLi"role="presentation"><a id="anazitisiTab" href="#anazitisi" aria-controls="anazitisi" role="tab" data-toggle="tab">Αναζήτηση προϊόντος</a></li>
             </ul>
             <div class="tab-content" style="height:100%">
                 <div role="tabpanel" class="tab-pane active" id="stixia"><?php include '../GeneralForms/stixia_xristi.php';?></div>

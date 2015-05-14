@@ -4,12 +4,12 @@
 
         <div class="col-md-12 column" name="paraskevastiki_form"> 
             
-                <h3>Στοιχεία Παρασκευάστριας Εραιρίας</h3>
+                <h3>Στοιχεία Παρασκευάστριας Εταιρείας</h3>
                 <br>
          
             
             <div class="row">
-                <h4>Στποχεία Εταιρίας</h4>
+                <h4>Στοιχεία Εταιρείας</h4>
                 <hr>
                 <br>
                 <div class="form-group">

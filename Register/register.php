@@ -62,9 +62,9 @@ $(document).ready(function(){
                         <form id="SubscriptionWizard" action="" method="post">
                             <table class="table table-hover" cellpadding="5" cellspacing="0" id="HeaderTable">
                                 <tr>
-                                    <td id="HeaderTableStep1" style="color:#66CCFF">1.ΠροσΘήκη Συνθηματικών</td>
+                                    <td id="HeaderTableStep1" style="color:#66CCFF">1.Προσθήκη Συνθηματικών</td>
                                     <td id="HeaderTableStep2">2.Στοιχεία Υπεύθυνου Επικοινωνίας</td>
-                                    <td id="HeaderTableStep3" >3.Στοιχεία Εταιρίας </td>
+                                    <td id="HeaderTableStep3" >3.Στοιχεία Εταιρείας </td>
                                 </tr>
                             </table>
                          </form>
@@ -331,7 +331,7 @@ $(document).ready(function(){
                 <div class="col-sm-12">
                     <div class="col-sm-3"></div>
                     <div class="col-sm-3">
-                        <label for="CompCommer">Εμπορική Επωνυμία Εταιρίας:<label id="wrongCompCommer" style="color:red;">*</label></label>
+                        <label for="CompCommer">Εμπορική Επωνυμία Εταιρείας:<label id="wrongCompCommer" style="color:red;">*</label></label>
                     </div>
                     <div class="col-sm-3">   
                         <input id ="CompCommer" name ="CompCommer" required=true class="form-control input-lg" type="text"  >

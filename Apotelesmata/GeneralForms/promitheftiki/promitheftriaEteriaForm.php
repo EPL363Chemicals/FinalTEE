@@ -73,7 +73,7 @@ $row1 = mysql_fetch_array($sql1);
             <table class="table table-hover" id="display">
                 <tr>
                     <th>#</th>
-                    <th>Επωνυμία Προμηθεύτριας Εταιρίας</th>
+                    <th>Επωνυμία Προμηθεύτριας Εταιρείας</th>
                     <th>Τηλέφωνο Υπεύθηνου Επικοινωνίας</th>
                 </tr>
                 <?php
@@ -113,7 +113,7 @@ $row1 = mysql_fetch_array($sql1);
                             <div class="col-md-9 column">
 
                                 <div class="row">
-                                    <h4>Στοιχεία Εταιρίας</h4>
+                                    <h4>Στοιχεία Εταιρείας</h4>
 
                                     <br>
                                     <div class="form-group">

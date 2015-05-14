@@ -18,7 +18,7 @@ $row1 = mysql_fetch_array($sql);
     <thead>
         <tr class="no">
             <th>Ημερομηνία Καταχώρησης</th>
-            <th>Χειμικό Προιόν</th>
+            <th>Χημικό προϊόν</th>
             <th>Κατάσταση</th>
                     
         </tr>

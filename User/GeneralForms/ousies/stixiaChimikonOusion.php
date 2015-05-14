@@ -69,7 +69,7 @@
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h4 class="modal-title" name="" id="chemicalModalLabel">Χημική Σύνθεση Μείγματος</h4>
+                    <h4 class="modal-title" name="" id="chemicalModalLabel">Χημική Σύνθεση Μίγματος</h4>
                   </div>
                   <div class="modal-body">
                     <!-------------------------------------------------------------------------------------------------------------------->

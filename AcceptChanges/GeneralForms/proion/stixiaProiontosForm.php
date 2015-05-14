@@ -130,7 +130,7 @@ include "../../connectToDBforRead.php";
         	<div class="row">
                 <form id="proionForm">
        	        <div class="panel-heading " >
-                    <h2 class="panel-title col-sm-offset-1"><strong>Στοιχεία Χημικού Μείγματος</strong></h2>
+                    <h2 class="panel-title col-sm-offset-1"><strong>Στοιχεία Χημικού Μίγματος</strong></h2>
                 </div>  
                 <hr>              
                 <br>
