@@ -239,5 +239,5 @@
     $_SESSION["UserCompany"]=$UserCompany;
     $_SESSION["Telephone"] = $tel;
     $_SESSION["Company-Type"]=$t;
-$_SESSION['Company-Name']=$n;
+    $_SESSION['Company-Name']=$n;
 ?>

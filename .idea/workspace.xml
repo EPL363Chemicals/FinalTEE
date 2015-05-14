@@ -2,28 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="086a76e8-4405-4031-9029-b9b0c5448890" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apotelesmata/Litourgos/apotelesma.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fpassword/contact_me.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fpassword/fpassword.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apotelesmata/Litourgos/script_Prosthiki.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Profile_Leitourgou/Profile_Leitourgou.php" afterPath="$PROJECT_DIR$/Profile_Leitourgou/Profile_Leitourgou.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/GeneralForms/anazitisi_xristi.php" afterPath="$PROJECT_DIR$/User/GeneralForms/anazitisi_xristi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apotelesmata/ParaskevastisPromitheftis/apotelesma.php" afterPath="$PROJECT_DIR$/Apotelesmata/ParaskevastisPromitheftis/apotelesma.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apotelesmata/Promitheftis/apotelesma.php" afterPath="$PROJECT_DIR$/Apotelesmata/Promitheftis/apotelesma.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/logIn.php" afterPath="$PROJECT_DIR$/login/logIn.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/login_php.php" afterPath="$PROJECT_DIR$/login/login_php.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/GeneralForms/promitheftiki/promitheftriaEteriaForm.php" afterPath="$PROJECT_DIR$/User/GeneralForms/promitheftiki/promitheftriaEteriaForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/Paraskevastis/prosthiki.php" afterPath="$PROJECT_DIR$/User/Paraskevastis/prosthiki.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apotelesmata/GeneralForms/dda/prosthikiDDA.php" afterPath="$PROJECT_DIR$/Apotelesmata/GeneralForms/dda/prosthikiDDA.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AcceptChanges/GeneralForms/dda/prosthikiDDA.php" afterPath="$PROJECT_DIR$/AcceptChanges/GeneralForms/dda/prosthikiDDA.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AcceptChanges/GeneralForms/dda/script_dda.js" afterPath="$PROJECT_DIR$/AcceptChanges/GeneralForms/dda/script_dda.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/GeneralForms/dda/script_dda.js" afterPath="$PROJECT_DIR$/User/GeneralForms/dda/script_dda.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AcceptChanges/GeneralForms/dda/sqlQueries.php" afterPath="$PROJECT_DIR$/AcceptChanges/GeneralForms/dda/sqlQueries.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/GeneralForms/dda/sqlQueries.php" afterPath="$PROJECT_DIR$/User/GeneralForms/dda/sqlQueries.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/GeneralForms/ousies/stixiaChimikonOusion.php" afterPath="$PROJECT_DIR$/User/GeneralForms/ousies/stixiaChimikonOusion.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AcceptChanges/GeneralForms/proion/stixiaProiontosForm.php" afterPath="$PROJECT_DIR$/AcceptChanges/GeneralForms/proion/stixiaProiontosForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apotelesmata/GeneralForms/proion/stixiaProiontosForm.php" afterPath="$PROJECT_DIR$/Apotelesmata/GeneralForms/proion/stixiaProiontosForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/GeneralForms/proion/stixiaProiontosForm.php" afterPath="$PROJECT_DIR$/User/GeneralForms/proion/stixiaProiontosForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/GeneralForms/stixia_eterias.php" afterPath="$PROJECT_DIR$/User/GeneralForms/stixia_eterias.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/GeneralForms/stixia_xristi.php" afterPath="$PROJECT_DIR$/User/GeneralForms/stixia_xristi.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FinalTEE.iws" />
@@ -49,11 +31,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="logIn.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/login/logIn.php">
+      <file leaf-file-name="prosthikiDDA.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AcceptChanges/GeneralForms/dda/prosthikiDDA.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.5692308" vertical-offset="1127" max-vertical-offset="1972">
-              <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+            <state vertical-scroll-proportion="-1.0461539" vertical-offset="2346" max-vertical-offset="3706">
+              <caret line="86" column="40" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script_dda.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AcceptChanges/GeneralForms/dda/script_dda.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
+              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -67,7 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/User/ParaskevastisPromitheftis/profile.php" />
         <option value="$PROJECT_DIR$/User/Promitheftis/profile.php" />
         <option value="$PROJECT_DIR$/AcceptChanges/Paraskevastis/script_Prosthiki.js" />
         <option value="$PROJECT_DIR$/AcceptChanges/ParaskevastisPromitheftis/script_Prosthiki.js" />
@@ -87,7 +78,6 @@
         <option value="$PROJECT_DIR$/Apotelesmata/GeneralForms/paraskevastiki/paraskevastikiEteriaForm.php" />
         <option value="$PROJECT_DIR$/Apotelesmata/GeneralForms/dda/sentEmail.php" />
         <option value="$PROJECT_DIR$/Apotelesmata/GeneralForms/dda/sendEmail.php" />
-        <option value="$PROJECT_DIR$/AcceptChanges/GeneralForms/dda/prosthikiDDA.php" />
         <option value="$PROJECT_DIR$/AcceptChanges/GeneralForms/ousies/script_chimicon.js" />
         <option value="$PROJECT_DIR$/AcceptChanges/GeneralForms/ousies/getChimikaData.php" />
         <option value="$PROJECT_DIR$/AcceptChanges/GeneralForms/paraskevastiki/paraskevastikiEteriaForm.php" />
@@ -97,9 +87,6 @@
         <option value="$PROJECT_DIR$/AcceptChanges/GeneralForms/ousies/stixiaChimikonOusion.php" />
         <option value="$PROJECT_DIR$/AcceptChanges/GeneralForms/promitheftiki/promitheftriaEteriaForm.php" />
         <option value="$PROJECT_DIR$/Test/prosthikiParaskevastis2.html" />
-        <option value="$PROJECT_DIR$/User/GeneralForms/dda/sqlQueries.php" />
-        <option value="$PROJECT_DIR$/AcceptChanges/GeneralForms/dda/sqlQueries.php" />
-        <option value="$PROJECT_DIR$/User/GeneralForms/dda/script_dda.js" />
         <option value="$PROJECT_DIR$/User/GeneralForms/stixia_xristi.php" />
         <option value="$PROJECT_DIR$/User/GeneralForms/stixia_eterias.php" />
         <option value="$PROJECT_DIR$/User/GeneralForms/anazitisi_xristi.php" />
@@ -118,6 +105,11 @@
         <option value="$PROJECT_DIR$/Apotelesmata/ParaskevastisPromitheftis/apotelesma.php" />
         <option value="$PROJECT_DIR$/Apotelesmata/Promitheftis/apotelesma.php" />
         <option value="$PROJECT_DIR$/fpassword/fpassword.php" />
+        <option value="$PROJECT_DIR$/User/GeneralForms/dda/sqlQueries.php" />
+        <option value="$PROJECT_DIR$/User/GeneralForms/dda/script_dda.js" />
+        <option value="$PROJECT_DIR$/AcceptChanges/GeneralForms/dda/sqlQueries.php" />
+        <option value="$PROJECT_DIR$/AcceptChanges/GeneralForms/dda/prosthikiDDA.php" />
+        <option value="$PROJECT_DIR$/AcceptChanges/GeneralForms/dda/script_dda.js" />
       </list>
     </option>
   </component>
@@ -154,6 +146,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -182,7 +175,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="User" />
+              <option name="myItemId" value="AcceptChanges" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -196,43 +189,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="User" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ParaskevastisPromitheftis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalTEE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalTEE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="User" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Paraskevastis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalTEE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalTEE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="User" />
+              <option name="myItemId" value="AcceptChanges" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -250,7 +207,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="User" />
+              <option name="myItemId" value="AcceptChanges" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -258,41 +215,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="proion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalTEE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalTEE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalTEE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalTEE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fpassword" />
+              <option name="myItemId" value="dda" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,7 +228,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../trial" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="FullScreen" value="false" />
   </component>
@@ -331,6 +259,9 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -338,9 +269,6 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -359,7 +287,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -368,19 +296,19 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2228145" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2249467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -399,9 +327,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22068231" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -427,19 +355,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/User/GeneralForms/findUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.653847" vertical-offset="685" max-vertical-offset="1530">
-          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Apotelesmata/Promitheftis/script_Prosthiki.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445">
           <caret line="13" column="33" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -454,22 +373,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0625" vertical-offset="239" max-vertical-offset="1071">
           <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AcceptChanges/GeneralForms/dda/script_dda.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AcceptChanges/GeneralForms/dda/prosthikiDDA.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.73077" vertical-offset="1824" max-vertical-offset="2669">
-          <caret line="139" column="8" selection-start-line="139" selection-start-column="8" selection-end-line="139" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -513,13 +416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.654546" vertical-offset="0" max-vertical-offset="3876">
           <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/User/Paraskevastis/profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69471157" vertical-offset="0" max-vertical-offset="2465">
-          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -578,27 +474,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apotelesmata/GeneralForms/dda/ddaQuery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30177516" vertical-offset="0" max-vertical-offset="845">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/User/GeneralForms/dda/prosthikiDDA.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1938">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.923077" vertical-offset="0" max-vertical-offset="731">
           <caret line="32" column="5" selection-start-line="13" selection-start-column="0" selection-end-line="32" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -606,25 +485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="8534">
           <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AcceptChanges/GeneralForms/dda/sqlQueries.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-68.0" vertical-offset="306" max-vertical-offset="4216">
-          <caret line="122" column="60" selection-start-line="122" selection-start-column="60" selection-end-line="122" selection-end-column="60" />
-          <folding>
-            <marker date="1431101152099" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1431101152099" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1431101152099" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1431101152099" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1431101152099" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1431101152099" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1431101152099" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1431101152099" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1431101152099" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -632,7 +492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4224852" vertical-offset="0" max-vertical-offset="1853">
           <caret line="21" column="96" selection-start-line="21" selection-start-column="96" selection-end-line="21" selection-end-column="96" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -640,15 +499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.8911242" vertical-offset="0" max-vertical-offset="1853">
           <caret line="94" column="82" selection-start-line="94" selection-start-column="82" selection-end-line="94" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/User/GeneralForms/dda/script_dda.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="952">
-          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -656,18 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="816">
           <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-          <folding>
-            <marker date="1431103449634" expanded="true" signature="-1:-1" placeholder="SELECT Disti..." />
-            <marker date="1431103449634" expanded="true" signature="-1:-1" placeholder="SELECT Disti..." />
-            <marker date="1431103449634" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/User/GeneralForms/dda/sqlQueries.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.115385" vertical-offset="800" max-vertical-offset="4182">
-          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -676,11 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-22.884615" vertical-offset="0" max-vertical-offset="1224">
           <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="184" />
-          <folding>
-            <marker date="1431103185861" expanded="true" signature="-1:-1" placeholder="SELECT Disti..." />
-            <marker date="1431103185861" expanded="true" signature="-1:-1" placeholder="SELECT Disti..." />
-            <marker date="1431103185861" expanded="true" signature="-1:-1" placeholder="SELECT Disti..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -688,7 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1428">
           <caret line="36" column="5" selection-start-line="26" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -696,7 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.66360503" vertical-offset="102" max-vertical-offset="2159">
           <caret line="40" column="70" selection-start-line="40" selection-start-column="70" selection-end-line="40" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -704,9 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.76449704" vertical-offset="0" max-vertical-offset="969">
           <caret line="38" column="114" selection-start-line="38" selection-start-column="114" selection-end-line="38" selection-end-column="114" />
-          <folding>
-            <marker date="1431105296310" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -714,7 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1751">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -722,15 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.57091343" vertical-offset="3673" max-vertical-offset="4505">
           <caret line="244" column="113" selection-start-line="244" selection-start-column="113" selection-end-line="244" selection-end-column="113" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/User/GeneralForms/ousies/stixiaChimikonOusion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7183432" vertical-offset="5683" max-vertical-offset="6528">
-          <caret line="370" column="88" selection-start-line="370" selection-start-column="88" selection-end-line="370" selection-end-column="88" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -738,7 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1326">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -746,7 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.9627404" vertical-offset="1633" max-vertical-offset="2465">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -754,7 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12259615" vertical-offset="0" max-vertical-offset="2448">
           <caret line="6" column="94" selection-start-line="6" selection-start-column="94" selection-end-line="6" selection-end-column="94" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -762,9 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12259615" vertical-offset="2142" max-vertical-offset="7582">
           <caret line="132" column="94" selection-start-line="132" selection-start-column="94" selection-end-line="132" selection-end-column="94" />
-          <folding>
-            <marker date="1431114755938" expanded="true" signature="-1:-1" placeholder="SELECT DISTI..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -772,7 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5516827" vertical-offset="357" max-vertical-offset="6086">
           <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -780,15 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="1598">
           <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apotelesmata/GeneralForms/dda/prosthikiDDA.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3739645" vertical-offset="1977" max-vertical-offset="3961">
-          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -796,7 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.69822484" vertical-offset="889" max-vertical-offset="2958">
           <caret line="87" column="62" selection-start-line="87" selection-start-column="62" selection-end-line="87" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -804,7 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34201184" vertical-offset="1156" max-vertical-offset="2652">
           <caret line="85" column="62" selection-start-line="85" selection-start-column="62" selection-end-line="85" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -812,7 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.6035503" vertical-offset="1093" max-vertical-offset="2958">
           <caret line="144" column="11" selection-start-line="144" selection-start-column="11" selection-end-line="144" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,7 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.58343196" vertical-offset="969" max-vertical-offset="3196">
           <caret line="86" column="70" selection-start-line="86" selection-start-column="70" selection-end-line="86" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,7 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.80473375" vertical-offset="1326" max-vertical-offset="2329">
           <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -836,7 +633,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.24733728" vertical-offset="209" max-vertical-offset="1054">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/Paraskevastis/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.96886677" vertical-offset="1662" max-vertical-offset="2465">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -844,6 +647,107 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.5692308" vertical-offset="1127" max-vertical-offset="1972">
           <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/GeneralForms/ousies/stixiaChimikonOusion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="6528">
+          <caret line="1" column="46" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/GeneralForms/dda/uploadDDA.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1430946778164" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apotelesmata/GeneralForms/dda/ddaQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30177516" vertical-offset="0" max-vertical-offset="845">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/GeneralForms/dda/sqlQueries.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.34735578" vertical-offset="1071" max-vertical-offset="4182">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+          <folding>
+            <marker date="1431460226517" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1431460226517" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1431460226517" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1431460226517" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1431460226517" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1431460226517" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1431460226517" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1431460226517" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1431460226517" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/GeneralForms/dda/script_dda.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76578647" vertical-offset="81" max-vertical-offset="952">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/GeneralForms/dda/prosthikiDDA.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1938">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcceptChanges/GeneralForms/dda/sqlQueries.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.85697114" vertical-offset="3384" max-vertical-offset="4216">
+          <caret line="241" column="4" selection-start-line="241" selection-start-column="4" selection-end-line="241" selection-end-column="4" />
+          <folding>
+            <marker date="1431460302675" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1431460302675" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1431460302675" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1431460302675" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1431460302675" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1431460302675" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1431460302675" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1431460302675" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1431460302675" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apotelesmata/GeneralForms/dda/prosthikiDDA.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54319525" vertical-offset="765" max-vertical-offset="3961">
+          <caret line="72" column="29" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcceptChanges/GeneralForms/dda/script_dda.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcceptChanges/GeneralForms/dda/prosthikiDDA.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0461539" vertical-offset="2346" max-vertical-offset="3706">
+          <caret line="86" column="40" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
           <folding />
         </state>
       </provider>
