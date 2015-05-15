@@ -37,6 +37,7 @@
         
         $userName=$_POST["userName"];
         $pass=$_POST["pass"];
+        $pass = md5($pass);
         
         $comName=$_POST["comName"];
         $comSName=$_POST["comSName"];

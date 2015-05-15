@@ -1,6 +1,10 @@
 
 <?php
 if($_POST){
+
+    include "../connectToDBforRead.php";
+
+
 	$to_email = "akkous01@cs.ucy.ac.cy"; //Recipient email, Replace with own email here
 
 	//check if its an ajax request, exit if not
@@ -33,9 +37,22 @@ if($_POST){
 		$output = json_encode(array('type'=>'error', 'text' => 'Company is too short or empty!'));
 		die($output);
 	}
+
+    $sql = mysql_query("SELECT Distinct * FROM `Users` WHERE Users.Username='".$fname."' ",$con);
+
+    $row = mysql_fetch_array($sql);
+
+    if($row){
+        $pass == $row["Password"];
+         $pass = md5($pass);
+
+    }else {
+        $output = json_encode(array('type'=>'error', 'text' => 'Wrong username'));
+        die($output);
+    }
 	
 	//email body
-	$message_body = "your password is:" ;
+	$message_body = "your password is:"+$pass ;
 	
 	//proceed with PHP email.
 	$headers = 'From: '.$fname.'' . "\r\n" .
