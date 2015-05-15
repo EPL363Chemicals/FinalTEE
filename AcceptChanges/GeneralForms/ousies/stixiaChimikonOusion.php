@@ -14,12 +14,7 @@
     var strPchem = "";
     var strHchem = "";
     $(document).ready(function() {
-            $('#addentry').click(function(){
-                checkInputOusias(strPchem,strHchem);
-                strPchem = "";
-                strHchem = "";
 
-            });
              $('#select-P-chem').multiselect({
             selectAllValue: 'multiselect-all',
             enableCaseInsensitiveFiltering: true,

@@ -12,15 +12,15 @@
                             <th>Διαγραφή</th>
                         </tr>
                     </table>
-                  
-                </div>    
+
+                </div>
             </div>
             <br><br><br>
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#suplCompanyModal">Καταχώριση Εταιρείας</button>
 
             <!-- Modal -->
-            
+
             <form id="promitheftria-form">
             <div class="modal fade bs-example-modal-lg" id="suplCompanyModal" tabindex="-1" role="dialog" aria-labelledby="suplCompanyModalLabel" aria-hidden="true">
               <div class="modal-dialog">
@@ -31,12 +31,12 @@
                   <div class="modal-body">
                     <!-------------------------------------------------------------------------------------------------------------------->
                         <div class="container">
-        
-                                <div class="col-md-9 column"> 
+
+                                <div class="col-md-9 column">
 
                                     <div class="row">
-                                        <h4>Στοιχεία Εταιρείας</h4>
-                                        
+                                        <h4>Στοιχεία Εταιρίας</h4>
+
                                         <br>
                                         <div class="form-group">
                                             <label class="col-sm-3 control-label" for="suplCompany_Name">Επωνυμία Επιχείρησης:</label>
@@ -46,7 +46,7 @@
                                         </div>
 
                                         <br><br>
-                                        
+
                                         <div class="form-group">
                                             <label class="col-sm-3 control-label" for="suplCompany_CommercialName">Εμπορική Επωνυμία Επιχείρηση (Σύμφωνα με τον έφορο εταιριών):<label style="color:red;">*</label></label>
                                             <div class="col-sm-4">
@@ -161,7 +161,7 @@
 
                                     <div class="row">
                                         <h4>Στοιχεία Υπεύθυνου Επικοινωνίας</h4><br>
-                                        
+
                                         <br>
                                         <div class="form-group">
                                             <label class="col-sm-3 control-label" for="suplEmpl_name">Όνομα:<label style="color:red;">*</label></label>
@@ -248,12 +248,12 @@
               </div>
             </div>
                 </form>
-            
 
-           
-         
+
+
+
         <!--------------------------------------------------------------->
         <br><br>
 
- 
-    </div> 
+
+    </div>

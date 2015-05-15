@@ -14,7 +14,7 @@
             $('#change').show();
             var proceed = true;
             var k=x.closest('tr');
-            var num=k.rowIndex-1;
+            var num=k.rowIndex;
             newIntex=num;
             flag=true;
  

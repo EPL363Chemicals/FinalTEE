@@ -208,7 +208,7 @@ $(document).ready(function(){
                         <label for="comAddress">Διεύθυνση:</label>
                     </div>
                     <div class="col-sm-3">	
-                        <input id ="comAddress" required=true name ="comAddress" class="form-control input-lg" type="text" >
+                        <input id ="comAddress"  name ="comAddress" class="form-control input-lg" type="text" >
                     </div>
                     <div class="col-sm-3">	
 
@@ -334,7 +334,7 @@ $(document).ready(function(){
                         <label for="CompCommer">Εμπορική Επωνυμία Εταιρείας:<label id="wrongCompCommer" style="color:red;">*</label></label>
                     </div>
                     <div class="col-sm-3">   
-                        <input id ="CompCommer" name ="CompCommer" required=true class="form-control input-lg" type="text"  >
+                        <input id ="CompCommer" name ="CompCommer" class="form-control input-lg" type="text"  >
                     </div>
                     <div class="col-sm-3">
                         <div class="alert alert-danger" class="requared" role="alert" style="display:none;">
@@ -382,7 +382,7 @@ $(document).ready(function(){
                         <label for="CompCEO">Όνομα Διευθυντή:<label id="wrongCompCEO" style="color:red;">*</label></label>
                     </div>
                     <div class="col-sm-3">   
-                        <input id ="CompCEO" name ="CompCEO" class="form-control input-lg"  required=true type="text"  >
+                        <input id ="CompCEO" name ="CompCEO" class="form-control input-lg"   type="text"  >
                     </div>
                     <div class="col-sm-3">
                         <div class="alert alert-danger" class="requared" role="alert" style="display:none;">
@@ -401,7 +401,7 @@ $(document).ready(function(){
                         <label for="CompEmail"> Email:<label id="wrongCompCEO" style="color:red;">*</label></label>
                     </div>
                     <div class="col-sm-3">								
-                        <input id ="CompEmail" name ="CompEmail" class="form-control input-lg" required=true type="text" >
+                        <input id ="CompEmail" name ="CompEmail" class="form-control input-lg"  type="text" >
                     </div>
                     <div class="col-sm-3">
                         <div class="alert alert-danger" class="requared" role="alert" style="display:none;">
@@ -419,7 +419,7 @@ $(document).ready(function(){
                         <label for="CompAddres"> Διεύθυνση:<label id="wrongCompAddres" style="color:red;">*</label></label>
                     </div>
                     <div class="col-sm-3">
-                        <input id ="CompAddres" name ="CompAddres" class="form-control input-lg" required=true type="text" >
+                        <input id ="CompAddres" name ="CompAddres" class="form-control input-lg" type="text" >
                     </div>
                     <div class="col-sm-3">
 
@@ -438,7 +438,7 @@ $(document).ready(function(){
                         <label for="CompCity"> Πόλη:<label id="wrongCompAddres" style="color:red;">*</label></label>
                     </div>
                     <div class="col-sm-3">
-                        <input id ="CompCity" name ="CompCity" class="form-control input-lg" required=true type="text" >
+                        <input id ="CompCity" name ="CompCity" class="form-control input-lg" type="text" >
                     </div>
                     <div class="col-sm-3">
                         <div class="alert alert-danger" class="requared" role="alert" style="display:none;">
@@ -456,7 +456,7 @@ $(document).ready(function(){
                         <label for="CompPC">Τ.Κ.:<label id="wrongCompPC" style="color:red;">*</label></label>
                     </div>
                     <div class="col-sm-3">
-                        <input id ="CompPC" name ="CompPC" class="form-control input-lg" required=true type="number" >
+                        <input id ="CompPC" name ="CompPC" class="form-control input-lg"  type="number" >
                     </div>
                     <div class="col-sm-3">
 
@@ -735,7 +735,7 @@ $(document).ready(function(){
                         <label for="CompTel"> Τηλέφωνο:<label id="wrongCompTel" style="color:red;">*</label></label>
                     </div>
                     <div class="col-sm-3">
-                        <input id ="CompTel" name ="CompTel" class="form-control input-lg" required=true type="number" >
+                        <input id ="CompTel" name ="CompTel" class="form-control input-lg"   type="number" >
                     </div>
                     <div class="col-sm-3">
                         <div class="alert alert-danger" class="requared" role="alert" style="display:none;">

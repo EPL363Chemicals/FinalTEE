@@ -1,3 +1,4 @@
+
 <link rel="stylesheet" href="../../css/bootstrap-multiselect.css" />
 <script src="../../js/bootstrap-multiselect.js"></script>
 <script>
@@ -5,13 +6,8 @@
     var strPchem = "";
     var strHchem = "";
     $(document).ready(function() {
-            $('#addentry').click(function(){
-                checkInputOusias(strPchem,strHchem);
-                strPchem = "";
-                strHchem = "";
 
-            });
-             $('#select-P-chem').multiselect({
+        $('#select-P-chem').multiselect({
             selectAllValue: 'multiselect-all',
             enableCaseInsensitiveFiltering: true,
             enableFiltering: true,
@@ -23,10 +19,10 @@
                 $(brands).each(function(index, brand){
                     selected.push([$(this).val()]);
                 });
-                 strPchem=selected;   
+                strPchem=selected;
             }
-        }); 
-         $('#select-H-chem').multiselect({
+        });
+        $('#select-H-chem').multiselect({
             selectAllValue: 'multiselect-all',
             enableCaseInsensitiveFiltering: true,
             enableFiltering: true,
@@ -38,122 +34,125 @@
                 $(brands).each(function(index, brand){
                     selected.push([$(this).val()]);
                 });
-                 strHchem=selected;   
-            }  
-        }); 
+                strHchem=selected;
+            }
+        });
     });
 </script>
 
-        <div class="container">
-            
-            <div class="row clearfix" >
-                <div class="col-md-12 column" >
-                    <table class="table table-hover" name="chemicalTable" id="chemicalTable">
-                        <tr>
-                            <th>#</th>
-                            <th>Χημική  Ουσία</th>
-                            <th>Επεξεργασία</th>
-                            <th>Διαγραφή</th>
-                        </tr>
-                    </table>
-                  
-                </div>    
-            </div>
-            <br><br><br>    
-            
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chemicalModal">Καταχώρηση στοιχείου</button>
+<div class="container">
+    <div class="row clearfix" >
+        <div class="col-md-12 column" >
+            <table class="table table-hover" name="chemicalTable" id="display" >
+                <tbody id="chemicalTable">
+                <tr>
+                    <th>#</th>
+                    <th>Χημική  Ουσία</th>
+                    <th>Cas Number</th>
+                    <th>Επεξεργασία</th>
+                    <th>Διαγραφή</th>
+                </tr>
 
-            <!-- Modal -->
-            <form id="chemicalForm" class="form-horizontal">
-            <div class="modal fade bs-example-modal-lg" name="chemicalModal" id="chemicalModal" tabindex="-1" role="dialog" aria-labelledby="chemicalModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+    <br><br><br>
+
+    <button type="button" class="btn btn-primary" data-toggle="modal" onclick="changeOusies();" data-target="#chemicalModal">Καταχώρηση στοιχείου</button>
+
+    <!-- Modal -->
+    <form id="chemicalForm" class="form-horizontal">
+        <div class="modal fade bs-example-modal-lg" name="chemicalModal" id="chemicalModal" tabindex="-1" role="dialog" aria-labelledby="chemicalModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
                 <div class="modal-content">
-                  <div class="modal-header">
-                    <h4 class="modal-title" name="" id="chemicalModalLabel">Χημική Σύνθεση Μίγματος</h4>
-                  </div>
-                  <div class="modal-body">
-                    <!-------------------------------------------------------------------------------------------------------------------->
+                    <div class="modal-header">
+                        <h4 class="modal-title" name="" id="chemicalModalLabel">Χημική Σύνθεση Μίγματος</h4>
+                    </div>
+                    <div class="modal-body">
+                        <!-------------------------------------------------------------------------------------------------------------------->
                         <div class="container">
-                            
+
                             <div class="col-md-9 column">
 
-                                    <div class="form-group" >
-                                        <label class="control-label col-sm-3" for="chemical_Name">Όνομα Χημικής ουσίας<label style="color:red;">*</label></label>
-                                        <div class="col-sm-4">
-                                            <input type="text" class="form-control" required=true name="chemical_Name" id="chemical_Name" />
-                                        </div>
+                                <div class="form-group" >
+                                    <label class="control-label col-sm-3" for="chemical_Name">Όνομα Χημικής ουσίας<label style="color:red;">*</label></label>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control" required=true name="chemical_Name" id="chemical_Name" />
                                     </div>
+                                </div>
 
-                                    <div class="form-group">
-                                        <label class="control-label col-sm-3" for="chemical_CAS" >Αριθμός CAS<label style="color:red;">*</label></label>
-                                        <div class="col-sm-4">
-                                            <input type="text" class="form-control" required=true  name="chemical_CAS" id="chemical_CAS" />
-                                            
-                                        </div>
-                                    </div>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-3" for="chemical_CAS" >Αριθμός CAS<label style="color:red;">*</label></label>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control" required=true  name="chemical_CAS" id="chemical_CAS" />
 
-                                    <div class="form-group">
-                                        <label class="control-label col-sm-3" for="chemical_EINECS">Αριθμός EC/EINECS</label>
-                                        <div class="col-sm-4">
-                                            <input type="text" class="form-control" name="chemical_EINECS" id="chemical_EINECS" />
-                                        </div>
                                     </div>
+                                </div>
 
-                                    <div class="form-group">
-                                        <label class="control-label col-sm-3" for="chemical_IUPAC">Ονοματολογία κατά IUPAC</label>
-                                        <div class="col-sm-4">
-                                            <input type="text" class="form-control" name="chemical_IUPAC" id="chemical_IUPAC" />
-                                        </div>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-3" for="chemical_EINECS">Αριθμός EC/EINECS</label>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control" name="chemical_EINECS" id="chemical_EINECS" />
                                     </div>
+                                </div>
 
-                                    <div class="form-group">
-                                        <label class="control-label col-sm-3" for="chemical_otherName">Άλλη Ονοματολογία</label>
-                                        <div class="col-sm-4">
-                                            <input type="text" class="form-control" name="chemical_otherName" id="chemical_otherName" />
-                                        </div>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-3" for="chemical_IUPAC">Ονοματολογία κατά IUPAC</label>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control" name="chemical_IUPAC" id="chemical_IUPAC" />
                                     </div>
+                                </div>
 
-                                    <div class="form-group">
-                                        <label class="control-label col-sm-3" for="chemical_weight">Ακριβής συγκέντρωση χημικής ουσίας στο μείγμα<label style="color:red;">*</label></label>
-                                        <div class="col-sm-2">
-                                            <input type="number" class="form-control" required=true name="chemical_weight" id="chemical_weight" />
-                                        </div>
-                                        <div class="col-sm-2">
-                                            <select class="form-control" name="chemical_weight_type" id="chemical_weight_type">
-                                                <option value="%">%</option>
-                                                <option value="w/w">w/w</option>
-                                                <option value="v/v">v/v</option>
-                                            </select>
-                                        </div>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-3" for="chemical_otherName">Άλλη Ονοματολογία</label>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control" name="chemical_otherName" id="chemical_otherName" />
                                     </div>
+                                </div>
 
-                                    <div class="form-group">
-                                        <label class="control-label col-sm-3" for="chemical_enarmonismeni">Εναρμονισμένη ταξινόμηση</label>
-                                        <div class="col-sm-4">
-                                            <select class="form-control" name="chemical_enarmonismeni" id="chemical_enarmonismeni">
-                                                <option value="1">Ναι</option>
-                                                <option value="0">Όχι</option>
-                                            </select>
-                                        </div>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-3" for="chemical_weight">Ακριβής συγκέντρωση χημικής ουσίας στο μείγμα<label style="color:red;">*</label></label>
+                                    <div class="col-sm-2">
+                                        <input type="number" class="form-control" required=true name="chemical_weight" id="chemical_weight" />
                                     </div>
+                                    <div class="col-sm-2">
+                                        <select class="form-control" name="chemical_weight_type" id="chemical_weight_type">
+                                            <option value="%">%</option>
+                                            <option value="w/w">w/w</option>
+                                            <option value="v/v">v/v</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="control-label col-sm-3" for="chemical_enarmonismeni">Εναρμονισμένη ταξινόμηση</label>
+                                    <div class="col-sm-4">
+                                        <select class="form-control" name="chemical_enarmonismeni" id="chemical_enarmonismeni">
+                                            <option value="1">Ναι</option>
+                                            <option value="0">Όχι</option>
+                                        </select>
+                                    </div>
+                                </div>
 
                                 <div class="form-group">
                                     <div class="col-sm-1"> </div>
                                     <label class="control-label col-sm-5" for="chemical_CLP">Ταξινόμηση και Επισήμανση σύμφωνα με τον Κανονισμό 1272/2008 (Κανονισμός CLP)</label>
-<!--                                        <input type="text" class="form-control" name="chemical_CLP" id="chemical_CLP" />-->
+                                    <!--                                        <input type="text" class="form-control" name="chemical_CLP" id="chemical_CLP" />-->
                                 </div>
 
                                 <div class="form-group">
 
-                                        <label class="control-label col-sm-2">GHS pictograms</label>
+                                    <label class="control-label col-sm-2">GHS pictograms</label>
 
-                                        <div class="col-md-5">
-                                            <img src="../../DangerIcons/acid_red.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon1" id="icon1chem">
-                                            <img src="../../DangerIcons/Aquatic-pollut-red.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon2" id="icon2chem">
-                                            <img src="../../DangerIcons/bottle.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon3" id="icon3chem">
+                                    <div class="col-md-5">
+                                        <img src="../../DangerIcons/acid_red.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon1" id="icon1chem">
+                                        <img src="../../DangerIcons/Aquatic-pollut-red.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon2" id="icon2chem">
+                                        <img src="../../DangerIcons/bottle.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon3" id="icon3chem">
 
-                                        </div>
                                     </div>
+                                </div>
                                 <div class="form-group">
 
                                     <div class="col-sm-2"></div>
@@ -166,12 +165,12 @@
                                 </div>
                                 <div class="form-group">
 
-                                        <div class="col-sm-2"></div>
-                                        <div class="col-md-5">
-                                            <img src="../../DangerIcons/rondflam.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon7" id="icon7chem">
-                                            <img src="../../DangerIcons/silhouete.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon8" id="icon8chem">
-                                            <img src="../../DangerIcons/skull.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon9" id="icon9chem">
-                                        </div>
+                                    <div class="col-sm-2"></div>
+                                    <div class="col-md-5">
+                                        <img src="../../DangerIcons/rondflam.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon7" id="icon7chem">
+                                        <img src="../../DangerIcons/silhouete.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon8" id="icon8chem">
+                                        <img src="../../DangerIcons/skull.gif" style="height:50px; width:50px ;margin:10px"><input type="checkbox" name="icon9" id="icon9chem">
+                                    </div>
 
                                 </div>
 
@@ -364,16 +363,17 @@
                             </div>
 
                         </div>
-                      <!-------------------------------------------------------------------------------------------------------------------->
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal" onclick="clearInputsChimikon()">Close</button>
-                    <button type="button"  class="btn btn-primary" data-dismiss="modal" id="addentry" name="addentry">Save changes</button>
-                  </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal" onclick="clearInputsChimikon()">Close</button>
+                        <button type="button"  id="Save" class="btn btn-primary" data-dismiss="modal" onclick="checkInputOusias(strPchem,strHchem);" name="addentry">Save changes</button>
+                        <button type="button"  id="change" class="btn btn-primary" data-dismiss="modal" onclick="PostDataXimikonOusion(strPchem,strHchem);" name="addentry">Τροποποίηση</button>
+                    </div>
                 </div>
-              </div>
             </div>
-            </form>
-            <br><br>
+        </div>
+    </form>
+    <br><br>
 
 </div>

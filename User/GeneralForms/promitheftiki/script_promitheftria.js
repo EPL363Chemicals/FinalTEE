@@ -21,7 +21,7 @@
             }
         }
 
-        //FUNCTION TO ADD Company TEXT BOX 
+        //FUNCTION TO ADD Company TEXT BOX
         function addCompany(){
             if (choiceCount < 10 && intSupll < 20) {
                 intSupll = intSupll + 1;
@@ -56,7 +56,9 @@
                 document.getElementById("suplEmpl_phone").value= "";
                 document.getElementById("suplEmpl_fax").value= "";
                 document.getElementById("suplEmpl_email").value= "";
-                    
+
+
+
             } else {
                 alert("Φτάσατε το μέγιστο όριο εισαγωγής στοιχείων προμηθευτών");
             }
