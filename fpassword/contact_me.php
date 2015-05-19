@@ -4,25 +4,25 @@ if($_POST){
 
     include "../connectToDBforRead.php";
 
-
-	$to_email = "akkous01@cs.ucy.ac.cy"; //Recipient email, Replace with own email here
-
 	//check if its an ajax request, exit if not
-    if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
-		
-		$output = json_encode(array( //create JSON data
-			'type'=>'error', 
-			'text' => 'Sorry Request must be Ajax POST'
-		));
-		die($output); //exit script outputting json data
-    } 
+//    if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
+//
+//		$output = json_encode(array( //create JSON data
+//			'type'=>'error',
+//			'text' => 'Sorry Request must be Ajax POST'
+//		));
+//		die($output); //exit script outputting json data
+//    }
 	
 	//Sanitize input data using PHP filter_var().
 	$fname		= filter_var($_POST["fname"], FILTER_SANITIZE_STRING);
 	$femail		= filter_var($_POST["femail"], FILTER_SANITIZE_EMAIL);
 	$fcompany	= filter_var($_POST["fcompany"], FILTER_SANITIZE_STRING);
-   
 
+//$fname		= "akkous01";
+//$femail		= "akkous01@cs.ucy.ac.cy";
+//$fcompany	= "njdnsfjksnk";
+$pass="";
 	
 	//additional php validation
 	if(strlen($fname)<4){ // If length is less than 4 it will output JSON error.
@@ -43,7 +43,7 @@ if($_POST){
     $row = mysql_fetch_array($sql);
 
     if($row){
-        $pass == $row["Password"];
+        $pass = $row["Password"];
          $pass = md5($pass);
 
     }else {

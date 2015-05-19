@@ -43,7 +43,7 @@ $(document).ready(function() {
 				
 			};
 
-            
+            console.log(post_data);
             $.post('contact_me.php', post_data, function(response){
                
 				if(response.type == 'error'){ //load json data from server and output message     
