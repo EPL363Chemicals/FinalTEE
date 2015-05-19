@@ -14,7 +14,7 @@
                     $('#change').show();
                     var proceed = true;
                     var k=x.closest('tr');
-                    var num=k.rowIndex;
+                    var num=$(k).find('td.c0').text();
                     newIntex=num;
                     flag=true;
 
@@ -126,7 +126,7 @@
                         var labelName = $('#chemical_Name').val();
                         var labelCas = $('#chemical_CAS').val();
                         newTBDiv.setAttribute('id','chemicaltexts'+intChemicals);
-                        newTBDiv.innerHTML ='<td><strong>'+intChemicals+'</strong></td><td>'+labelName+'</td><td>'+labelCas+'</td><td><input type="image" src="../../images/Deep_Edit.png" onclick="show(this);" data-toggle="modal" data-target="#chemicalModal"></td><td><input type="image" src="../../images/delete-icon.png" onclick= "removeElementID('+intChemicals+');"></td>';
+                        newTBDiv.innerHTML ='<td class="c0"><strong>'+intChemicals+'</strong></td><td>'+labelName+'</td><td>'+labelCas+'</td><td><input type="image" src="../../images/Deep_Edit.png" onclick="show(this);" data-toggle="modal" data-target="#chemicalModal"></td><td><input type="image" src="../../images/delete-icon.png" onclick= "removeElementID('+intChemicals+');"></td>';
                         contentID.appendChild(newTBDiv);
                         clearInputsChimikon();
 

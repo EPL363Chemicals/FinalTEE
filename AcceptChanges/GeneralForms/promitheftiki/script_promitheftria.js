@@ -15,8 +15,8 @@
             $('#tropopoiisiButton').show();
             
             var proceed = true;
-            var k=x.closest('tr');
-            var num=k.rowIndex-1;
+            var num=$(k).find('td.t0').text();
+        
             newIntex=num;
             flag=true;
             
