@@ -9,6 +9,7 @@ $row1 = mysql_fetch_array($sql1);
 
 
 <script type="text/javascript">
+
     $(document).ready(function() {
         tr = $('#display2').find('tr');
 
@@ -23,15 +24,16 @@ $row1 = mysql_fetch_array($sql1);
                     'num'		: number,
                     'Cas'		: Cas,
                     'product'   :"<?php echo $product;?>",
-                    'date'  : <?php echo $date;?>
+                    'date'  : "<?php echo $date;?>"
                 };
                 $.post('../GeneralForms/ousies/ousiesQuery.php', post_data, function(response){
-
+console.log("pppp"+response.OName);
                     $('#chemical_Name').val(response.Name);
                     $('#chemical_CAS').val(response.Cas);
                     $('#chemical_EINECS').val(response.Ec);
                     $('#chemical_IUPAC').val(response.Iupac);
-                    $('#chemical_otherName').val(response.OName);
+                    $('#chemical_otherName').val(response.Oname);
+
                     $('#chemical_weight').val(response.weight);
                     $('#chemical_weight_type').val(response.weightType);
                     $('#chemical_enarmonismeni').val(response.Sort);

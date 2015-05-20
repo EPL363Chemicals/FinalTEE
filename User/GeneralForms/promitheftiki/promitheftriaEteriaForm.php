@@ -1,4 +1,3 @@
-<script src="../GeneralForms/promitheftiki/script_promitheftria.js"></script>
 
 <div class="container">
 

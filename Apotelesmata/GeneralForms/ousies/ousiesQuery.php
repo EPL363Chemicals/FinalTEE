@@ -85,11 +85,11 @@ if($_POST) {
     }
 
 
-    $sql2 = mysql_query("SELECT Distinct containschemical.* FROM `containschemical` WHERE  containschemical.Cas=N'$Cas' and containschemical.Name=N'$product' and containschemical.Saving_Date='$date'", $con);
+    $sql2 = mysql_query("SELECT Distinct containschemical.* FROM `containschemical` WHERE  containschemical.Cas=N'".$Cas."' and containschemical.Name=N'".$product."' and containschemical.Saving_Date='$date'", $con);
     $row2 = mysql_fetch_array($sql2);
 
-$weight="";
-$weight_type="";
+    $weight="";
+    $weight_type="";
     if ($row2) {
         $weight = $row2["Quantity"];
         $weight_type = $row2["QuantityType"];

@@ -5,7 +5,7 @@
     var newIntex=0;
     
         //FUNCTION TO ADD Company TEXT BOX 
-    function changeButtons(){ 
+    function changeButtons(){
         $('#saveSupplierCompany').show();
         $('#tropopoiisiButton').hide();
 

@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
     
@@ -69,29 +70,23 @@
                <div class="col-md-12 column">
                    <img src="../images/banner_gr_Laa.png" width="100%" height="98">
                </div>
+               <div class="row clearfix">
+                   <div class="col-md-4 column">
+                       <h3><?php echo $_SESSION["username"]; ?></h3>
+                   </div>
+                   <div class="col-md-8 column" style="text-align: right"><h3></h3><button type="button" class="btn btn-link" onclick="location.href='../login/login.php'">Log Out</button></div>
+               </div>
             </div>
+            <hr>
             <div class="col-md-12 column">
                 <div class="col-md-12 column">
-                    <div role="tabpanel"><!-- Nav tabs -->
-                      <ul class="nav nav-tabs" role="tablist">
-                          <li role="presentation">
-                              <a href="#prosthiki" aria-controls="prosthiki" role="tab" data-toggle="tab">
-                                  <h4 style="text-align:center; color: #2CA4B0; font-family: 'Helvetica Neue', sans-serif;  font-weight: 100; letter-spacing: 1px; padding: 0 0 5px;" >Αναζήτηση</h4>
-                              </a>
-                          </li>
-                        </ul><!-- Tab panes -->
-                        <div class="tab-content" style="height:100%">
+
                             <div role="tabpanel" class="tab-pane active" id="profile">
                                 <?php include 'Profile_Leitourgou.php';?>
                             </div>
                         </div>
-                    </div>
-                </div>
-                 <div class="col-md-12 column" style="text-align: right">
-                    <button type="button" class="btn btn-link" onclick="location.href='logIn.html'">
-                        Log Out
-                    </button>
-                </div>
+
+
             </div>  
          </div>
     </body>
