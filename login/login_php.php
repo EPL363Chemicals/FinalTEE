@@ -8,6 +8,8 @@ if($_POST){
     $typeOfCompany="";
     $user	= filter_var($_POST["user"], FILTER_SANITIZE_STRING);
     $pass	= filter_var($_POST["pass"], FILTER_SANITIZE_STRING);
+//    $user = "userTee";
+//    $pass = "123123";
 
     $pass = md5($pass);
 
@@ -24,11 +26,14 @@ if($_POST){
     $row1 = mysql_fetch_array($sql1);
     $row = mysql_fetch_array($sql);
 
+
+
     if($row1){
-        if ($pass == $row1["Password"]) {
+        if ($pass == $row1["password"]) {
             $type = 0;
             $_SESSION['Company-Type'] = 4;
-        }else{
+        }
+        else{
             $message=false;
         }
     }else if($row){

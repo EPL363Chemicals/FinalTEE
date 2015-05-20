@@ -21,7 +21,7 @@ $(document).ready(function(){
       $("#isPerson").change(function () {
           var end = this.value;
           if(end == 0){
-              $('#companyForm').fadeInt('slow');
+              $('#companyForm').fadeIn('slow');
           }
           if (end == 1){
               $('#companyForm').fadeOut('slow');

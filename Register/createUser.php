@@ -74,7 +74,7 @@
 
 
             if ($conn->query($sql) === TRUE and $conn->query($sql2) === TRUE and $conn->query($sql3) === TRUE) {
-
+                echo "ok";
             } else {
                 echo "Error: " . $sql . "<br>" . $conn->error;
                 echo "Error: " . $sql2 . "<br>" . $conn->error;
@@ -93,7 +93,7 @@
 
 
             if ($conn->query($sql) === TRUE  and $conn->query($sql3) === TRUE) {
-
+                echo "ok";
             } else {
                 echo "Error: " . $sql . "<br>" . $conn->error;
                 echo "Error: " . $sql3 . "<br>" . $conn->error;
@@ -102,16 +102,6 @@
             $conn->close();
         }
 
-        
-
-        // Start the session
-        session_start();
-
-
-
-        // Set session variables
-        $_SESSION["username"] = $userName;
- 
 
         header( "location: ../login/login.php");
     }
