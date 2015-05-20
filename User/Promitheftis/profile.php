@@ -129,7 +129,7 @@ include "../GeneralForms/findUser.php";
             </div>
         </div>
     </div>
-    <div id="asdf"></div>
+    <div id="asdf" style="display: none"></div>
 
 </div>
 </body>

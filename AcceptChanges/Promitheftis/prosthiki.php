@@ -176,6 +176,6 @@ $_SESSION['suplCount']= 0;
 
     </div>
 </div>
-    <div id="asdf"></div>
+    <div id="asdf" style="display: none"></div>
     </body>
 </html>
